@@ -1,0 +1,551 @@
+{
+  "hypothesis": "H1",
+  "papers": [
+    {
+      "doi": "10.1523/jneurosci.1400-19.2019",
+      "pmid": "31641056",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In primary astrocytes from APOE-targeted replacement mice, plasma-membrane ABCA1 protein was significantly lower in ApoE4 astrocytes than ApoE3 astrocytes, while ABCA1 mRNA and total ABCA1 protein did not differ; ApoE4 raised ARF6, trapping ABCA1 in late endosomes and impairing its recycling to the membrane.",
+          "quote": "membrane ABCA1 levels were significantly lower in ApoE4 primary astrocytes compared with ApoE3",
+          "summary": "(APOE3 -> APOE4) -> (less ABCA1 protein at the astrocyte plasma membrane)",
+          "relevance": 0.9,
+          "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement (knock-in) mice; cell-surface biotinylation and Western blot",
+          "location": "Fig 1E-F",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "<0.001",
+          "p_prov": "visual_only",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "1 very strong"
+        },
+        {
+          "desc": "ApoE4 primary astrocytes showed lower ABCA1-mediated cholesterol efflux than ApoE3 astrocytes at 4 h and 24 h, and recombinant ApoE4-treated ABCA1-expressing BHK cells also effluxed less cholesterol than ApoE3-treated cells.",
+          "quote": "As expected, lower plasma membrane ABCA1 expression and recycling observed in ApoE4 primary astrocytes were associated with lower cholesterol efflux at 4 h (Fig. 3A) and 24 h (Fig. 3B) compared with that of ApoE3.",
+          "summary": "(APOE3 -> APOE4) -> (lower ABCA1-mediated cholesterol efflux from astrocytes)",
+          "relevance": 0.9,
+          "exp_system": "Primary astrocytes from APOE3- and APOE4-TR mice labelled with 3H-cholesterol; ABCA1-inducible BHK cells treated with recombinant ApoE3 or ApoE4",
+          "location": "Fig 3A-B",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "In humans, CSF from non-demented APOE ε4/ε4 carriers (n = 3) had a significantly lower capacity to drive ABCA1-mediated cholesterol efflux than CSF from ε3/ε3 carriers (n = 9), in an ABCA1-expressing BHK cell assay.",
+          "quote": "Mifepristone induced ABCA1 expressing BHK cells incubated with CSF from non-demented APOE ε4/ε4 carriers (n = 3) showed significantly lower cholesterol efflux capacity compared with cells incubated with CSF from ε3/ε3 carriers (n = 9) (Fig. 3G).",
+          "summary": "(APOE ε3/ε3 -> ε4/ε4 human CSF) -> (lower ABCA1-mediated cholesterol efflux capacity)",
+          "relevance": 0.85,
+          "exp_system": "Human CSF from non-demented APOE ε3/ε3, ε3/ε4 and ε4/ε4 carriers applied to mifepristone-induced ABCA1-expressing BHK cells; 3H-cholesterol efflux",
+          "location": "Fig 3G",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3-9",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/hmg/ddx155",
+      "pmid": "28444230",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "Human iPSC-derived astrocytes with APOE ε4/ε4 secreted apoE particles carrying substantially less cholesterol per apoE than ε3/ε3 astrocytes (cholesterol/apoE 6.208 ± 0.5718 vs 9.161 ± 0.7859 mg/mg), i.e. apoE4 particles are hypolipidated in a human astrocyte system.",
+          "quote": "We found that apoE4 particles from human iPSC-derived astrocytes were associated with less amount of cholesterol (cholesterol/apoE; 6.208 ± 0.5718 mg/mg) than apoE3 particles (9.161 ± 0.7859 mg/mg) (Fig. 3E).",
+          "summary": "(APOE3 -> APOE4) -> (less cholesterol carried per apoE particle secreted by astrocytes)",
+          "relevance": 0.9,
+          "exp_system": "Human iPSC-derived astrocytes from APOE ε3/ε3 and ε4/ε4 donors; apoE immunoprecipitation from conditioned medium and cholesterol quantification",
+          "location": "Fig 3E",
+          "effect_size": "32%",
+          "effect_prov": "printed_in_text",
+          "p_value": "<0.01",
+          "p_prov": "visual_only",
+          "sample_size": "8",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "1 very strong"
+        },
+        {
+          "desc": "ApoE particles secreted by APOE ε4/ε4 iPSC-derived astrocytes were shifted toward smaller, less lipidated sizes: less abundant in the medium (440-669 kDa) category and more abundant in the small (<440 kDa) category than particles from ε3/ε3 astrocytes.",
+          "quote": "apoE particles from astrocytes with APOE ε4/ε4 were less abundant in the middle size category (Fig. 3C), but more abundant in the small size category (Fig. 3D), compared to those from the astrocytes with APOE ε3/ε3",
+          "summary": "(APOE3 -> APOE4) -> (apoE particles shift from medium to small, less lipidated sizes)",
+          "relevance": 0.85,
+          "exp_system": "Human iPSC-derived astrocytes from APOE ε3/ε3 and ε4/ε4 donors; Native-PAGE and Western blot of conditioned-medium apoE particles",
+          "location": "Fig 3C-D",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "8",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        }
+      ]
+    },
+    {
+      "doi": "10.1002/jnr.22073",
+      "pmid": "19326444",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "ApoE isoform-dependent lipid efflux from cultured neural cells: cholesterol released from neurons by ApoE4 was only 25% of that released by ApoE3, and overall ApoE3 induced lipid efflux 2.5- to 3.9-fold more than ApoE4 in neurons and ApoE-deficient astrocytes.",
+          "quote": "The level of cholesterol released by ApoE4 was 25% of that released by ApoE3.",
+          "summary": "(APOE3 -> APOE4) -> (cholesterol efflux from neurons falls to 25% of the APOE3 level)",
+          "relevance": 0.85,
+          "exp_system": "Cultured rat neurons and ApoE-deficient mouse astrocytes treated with 0.3 µM recombinant ApoE3 or ApoE4; [14C]acetate-labelled cholesterol and phosphatidylcholine efflux",
+          "location": "Fig 1A",
+          "effect_size": "25%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "The ApoE-induced lipid efflux is ABCA1-mediated: ABCA1 knockdown by siRNA significantly reduced lipid efflux induced by 22-kDa-ApoE3 in neurons, and the ABCA1 inhibitor glyburide likewise decreased ApoE-mediated cholesterol efflux.",
+          "quote": "The knockdown of ABCA1 in neurons significantly reduced lipid efflux induced by 22-kDa-ApoE3 dimers ( Fig. 7 ).",
+          "summary": "(ABCA1 knockdown) -> (reduced ApoE-mediated lipid efflux from neurons)",
+          "relevance": 0.65,
+          "exp_system": "Cultured neurons treated with 22-kDa-ApoE fragments with ABCA1 siRNA knockdown or glyburide; lipid efflux assay",
+          "location": "Fig 7",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.stemcr.2021.11.007",
+      "pmid": "34919811",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In isogenic human iPSC-derived astrocytes, ABCA1 protein levels were allele-dependently regulated, highest in APOE2 and lowest in APOE4 (KO = E2 > E3 > E4), so APOE4 astrocytes carry the least of the transporter that lipidates apoE.",
+          "quote": "Western blot analysis confirmed that these proteins were allele-dependently regulated (KO = E2 > E3 > E4)",
+          "summary": "(APOE3 -> APOE4) -> (lower ABCA1 protein levels in astrocytes)",
+          "relevance": 0.9,
+          "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, E3, E4 and APOE-KO); proteomics and Western blot",
+          "location": "Fig 3B-C",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "Cholesterol efflux was reduced in APOE4 iPSC-derived astrocytes relative to APOE3 and APOE2 (efflux ordering E2 = E3 = KO > E4), while cholesterol accumulated in lysosomes, consistent with impaired ABCA1-mediated lipid export.",
+          "quote": "Cholesterol efflux and biosynthesis were reduced in APOE4 iAstrocytes, while subcellular localization of cholesterol in lysosomes was elevated.",
+          "summary": "(APOE3 -> APOE4) -> (reduced cholesterol efflux from astrocytes)",
+          "relevance": 0.9,
+          "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, E3, E4 and APOE-KO); HPTLC quantification of cellular and secreted cholesterol",
+          "location": "Fig 3D, Fig S2A-B",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.celrep.2022.110435",
+      "pmid": "35235798",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "CONTRADICTING: In astrocytes, formation of HDL-like, cholesterol-rich ApoE particles via ABCA1 was largely unaffected by ApoE isoform, arguing against an isoform effect on the ABCA1 lipidation pathway itself in this system (abstract-level extraction; full text not obtained).",
+          "quote": "ApoE forms high-density lipoprotein (HDL)-like, cholesterol-rich particles via the ATP-binding cassette transporter 1 (ABCA1), a mechanism largely unaffected by ApoE polymorphism.",
+          "summary": "(APOE3 -> APOE4) -> (no change in ABCA1-mediated HDL-like particle formation) [CONTRADICTS]",
+          "relevance": 0.85,
+          "exp_system": "Astrocytes (iPSC-derived and primary), ApoE isoform comparison; ABCA1-mediated HDL-like particle formation",
+          "location": "Abstract",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "Under lipid-loading (fat accumulation) stress, astrocyte ApoE is redirected toward assembly and secretion of triacylglycerol-rich lipoproteins, a process boosted by the APOE4 variant (abstract-level extraction; full text not obtained).",
+          "quote": "Alternatively, ectopic accumulation of fat in astrocytes, a stress-associated condition, redirects ApoE toward the assembly and secretion of triacylglycerol-rich lipoproteins, a process boosted by the APOE4 variant.",
+          "summary": "(APOE3 -> APOE4) -> (increased assembly/secretion of triacylglycerol-rich apoE particles under lipid stress)",
+          "relevance": 0.6,
+          "exp_system": "Astrocytes under ectopic fat accumulation; ApoE lipoprotein assembly and secretion assays",
+          "location": "Abstract",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1523/jneurosci.5198-13.2014",
+      "pmid": "24849361",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In hippocampus of young apoE-targeted replacement mice, apoE4 is less lipidated than apoE3: native-gel apoE reactivity was significantly lower in control apoE4 mice, and the deficit in native (lipidated) apoE was more pronounced than the deficit in total apoE levels.",
+          "quote": "the decreased levels of native apoE4 mice compared with native apoE3 mice is markedly more pronounced than the corresponding decrease in total apoE levels between these mouse groups (cf. Figs. 2, 1B), suggesting that, in the control mice, apoE4 is indeed less lipidated than apoE3",
+          "summary": "(APOE3 -> APOE4) -> (less lipidated apoE in hippocampus)",
+          "relevance": 0.85,
+          "exp_system": "Hippocampal homogenates from young apoE3- and apoE4-targeted replacement mice; nondenaturing (native) gel electrophoresis and anti-apoE immunoblot",
+          "location": "Fig 2",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "The RXR agonist bexarotene increased ABCA1 and ABCG1 mRNA and protein levels in hippocampus (treatment effect on ABCA1 protein p = 0.0001) without changing apoE levels, and this was associated with reversal of the apoE4 lipidation deficiency.",
+          "quote": "bexarotene increases the mRNA and protein levels of ABCA1 and ABCG1 in hippocampal neurons, but has no effect on the corresponding levels of apoE",
+          "summary": "(bexarotene/RXR activation) -> (increased ABCA1 and ABCG1 protein in hippocampus)",
+          "relevance": 0.7,
+          "exp_system": "ApoE3- and apoE4-targeted replacement mice treated with bexarotene (100 mg/kg/day, 10 days) or vehicle; hippocampal qRT-PCR and immunoblot",
+          "location": "Fig 1B",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "0.0001",
+          "p_prov": "printed_in_text",
+          "sample_size": "10",
+          "n_prov": "printed_in_text",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0172161",
+      "pmid": "28241068",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "On an Abca1 haplo-deficient APP-transgenic background, brain APOE lipidation was significantly lower in APP/E4/Abca1+/- mice than in APP/E3/Abca1+/- mice, showing the apoE4 lipidation deficit persists when ABCA1 capacity is halved.",
+          "quote": "Interestingly, APOE lipidation in APP/E4/Abca1 +/- was significantly lower than in APP/E3/Abca1 +/- mice.",
+          "summary": "(APOE3 -> APOE4) -> (lower brain APOE lipidation on an Abca1 haplo-deficient background)",
+          "relevance": 0.8,
+          "exp_system": "APP-transgenic Abca1 haplo-deficient mice expressing human APOE3 or APOE4; native PAGE of cortical APOE lipidation",
+          "location": "Fig 4C-D",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "4",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "The LXR agonist T0901317 significantly increased ABCA1 protein level in both APOE genotypes (main effect of treatment F(1, 34) = 26.12, p < 0.0001) and increased APOE lipidation, linking ABCA1 abundance to apoE lipidation in vivo.",
+          "quote": "As visible from Fig 4A, T0 treatment increased ABCA1 protein level in both genotypes.",
+          "summary": "(LXR agonist T0901317) -> (increased ABCA1 protein and APOE lipidation)",
+          "relevance": 0.65,
+          "exp_system": "APP/E3/Abca1+/- and APP/E4/Abca1+/- mice treated with LXR agonist T0901317 or vehicle; cortical Western blot and native PAGE",
+          "location": "Fig 4A",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "<0.0001",
+          "p_prov": "printed_in_text",
+          "sample_size": "8-10",
+          "n_prov": "printed_in_text",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s13024-015-0001-3",
+      "pmid": "25871773",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "Increasing apoE4 expression in the brain of apoE4-targeted replacement mice (astrocyte-specific AAV8-GFAP-apoE4) shifted apoE toward poorly lipidated particles: large apoE/lipoprotein particles were reduced and small particles increased relative to GFP control.",
+          "quote": "Importantly, we found that the amounts of large apoE/lipoprotein particles were reduced and the small particles were increased in apoE4-TR mice transduced with AAV8-GFAP-apoE4 viruses compared with those transduced with GFP control",
+          "summary": "(increased apoE4 expression in apoE4-TR brain) -> (fewer large, more small poorly-lipidated apoE particles)",
+          "relevance": 0.7,
+          "exp_system": "ApoE4-targeted replacement mice with astrocyte-specific AAV8-GFAP-apoE isoform expression; non-denaturing gel electrophoresis of cortical apoE particles",
+          "location": "Fig 3B",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "The cholesterol-to-apoE ratio in brain was decreased in apoE4-TR mice transduced with apoE4 (and increased by apoE2), confirming that added apoE4 is carried on cholesterol-poor particles.",
+          "quote": "In addition, the cholesterol-to-apoE ratio was significantly increased in apoE4-TR mice transduced with apoE2, while it was decreased among apoE4-TR mice transduced with apoE4",
+          "summary": "(increased apoE4 expression in apoE4-TR brain) -> (lower cholesterol-to-apoE ratio)",
+          "relevance": 0.7,
+          "exp_system": "ApoE3- and apoE4-targeted replacement mice transduced with AAV8-GFAP-apoE isoforms; apoE immunoprecipitation and cholesterol quantification from brain soluble fractions",
+          "location": "Fig 4C",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1074/jbc.m114.600833",
+      "pmid": "25217640",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In EFAD mice (5xFAD x human APOE-TR), detergent-soluble lipoprotein-associated apoE (TBSX-apoE, the lipidated pool) was lowest in the APOE4 hippocampus, the region with the highest amyloid pathology, indicating apoE4 is the least lipoprotein-associated/lipidated isoform in brain.",
+          "quote": "TBSX-apoE levels were lowest in E4FAD-HP (Fig. 4C).",
+          "summary": "(APOE3 -> APOE4) -> (lowest lipoprotein-associated/lipidated apoE in hippocampus)",
+          "relevance": 0.8,
+          "exp_system": "EFAD mice (5xFAD crossed with APOE3- or APOE4-targeted replacement); sequential TBS/TBSX/formic-acid extraction of hippocampus and cortex, apoE ELISA",
+          "location": "Fig 4C",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "<0.05",
+          "p_prov": "visual_only",
+          "sample_size": "6",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Short-term RXR agonist treatment (bexarotene or LG100268) increased lipoprotein-associated apoE4 (TBSX-apoE4) in the E4FAD hippocampus by ~80% with gavage delivery (~140% by hydrogel) while decreasing soluble non-lipidated apoE4 by ~40%, showing the apoE4 lipidation deficit is reversible via ABCA1/ABCG1 induction.",
+          "quote": "Bex and LG increased TBSX-apoE4 levels in the E4FAD-HP by ∼80% by gavage (T1) (Fig. 2D) and by ∼140% using hydrogel (T2) (Fig. 2E) compared with the VC.",
+          "summary": "(RXR agonist treatment) -> (~80% increase in lipoprotein-associated apoE4 in hippocampus)",
+          "relevance": 0.7,
+          "exp_system": "E4FAD mice treated 7 days with bexarotene or LG100268 by gavage or hydrogel; sequential extraction and apoE ELISA of hippocampus",
+          "location": "Fig 2D",
+          "effect_size": "80%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.neuron.2023.10.023",
+      "pmid": "37995685",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In P301S tauopathy mice, ApoE4 (vs ApoE3) drove marked glial lipid accumulation: large BODIPY+ neutral-lipid inclusions within microglial phagolysosomes and elevated cholesteryl esters in forebrain and microglia of TE4 mice, consistent with impaired glial lipid export/turnover in the presence of ApoE4.",
+          "quote": "Together, these results demonstrate that ApoE4 induces significant glial accumulation of lipids in TE4 mice.",
+          "summary": "(APOE3 -> APOE4) -> (glial neutral lipid/cholesteryl ester accumulation in tauopathy brain)",
+          "relevance": 0.7,
+          "exp_system": "P301S tau transgenic mice with human ApoE3 (TE3) or ApoE4 (TE4) targeted replacement, 9.5 months old; BODIPY staining of microglia and forebrain lipidomics",
+          "location": "Fig 2B",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "12",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Promoting cholesterol efflux in ApoE4 tauopathy mice with the LXR agonist GW3965 reduced microglial neutral lipid (BODIPY) signal by ~50% and reduced forebrain cholesteryl ester accumulation, and Abca1 overexpression recapitulated the protection, tying the ApoE4 lipid phenotype to ABCA1-mediated efflux capacity.",
+          "quote": "we performed BODIPY staining in TE4 mice on control vs. LXR agonist diet and observed a ~50% reduction in BODIPY signal in microglia of TE4-LXR vs. TE4-Ctrl mice ( Fig. 7H and I )",
+          "summary": "(LXR agonist / increased cholesterol efflux) -> (~50% less microglial lipid accumulation in ApoE4 tauopathy mice)",
+          "relevance": 0.6,
+          "exp_system": "P301S/ApoE4 (TE4) mice fed GW3965-supplemented chow from 6 to 9.5 months; BODIPY staining of hippocampal microglia",
+          "location": "Fig 7H-I",
+          "effect_size": "50%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0166195",
+      "pmid": "27824936",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In plasma of targeted replacement mice, apoE4 levels were lower than apoE3 and apoE4 eluted faster on FPLC, i.e. apoE4 circulates in smaller, less lipidated particles than apoE3.",
+          "quote": "This revealed that plasma levels of apoE4 were lower and eluted faster following FPLC than plasma apoE3.",
+          "summary": "(APOE3 -> APOE4) -> (lower plasma apoE levels in smaller, faster-eluting particles)",
+          "relevance": 0.55,
+          "exp_system": "Plasma from apoE3- and apoE4-targeted replacement mice; FPLC lipoprotein fractionation and apoE immunoblot",
+          "location": "Fig 1",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Treatment with the ABCA1 agonist peptide CS-6253 increased plasma apoE4 levels and rendered the FPLC elution profile of apoE4 similar to that of apoE3, showing the apoE4 particle/lipidation deficit can be corrected by activating ABCA1.",
+          "quote": "Treatment with CS-6253 increased the levels of plasma apoE4 and rendered the elution profile of apoE4 similar to that of apoE3.",
+          "summary": "(ABCA1 agonist CS-6253) -> (plasma apoE4 levels and particle profile normalized toward apoE3)",
+          "relevance": 0.55,
+          "exp_system": "ApoE3- and apoE4-targeted replacement mice injected i.p. with ABCA1 agonist peptide CS-6253; plasma FPLC and apoE immunoblot",
+          "location": "Fig 1",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.jlr.2023.100350",
+      "pmid": "36849076",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "The microglial oxysterol 25-hydroxycholesterol (25HC) raised extracellular ApoE from astrocytes far more effectively for ApoE3 than ApoE4: extracellular ApoE3 rose 2-fold (2 µM) and 3-fold (4 µM), whereas ApoE4 rose only marginally at 2 µM and ~1.4-fold at 4 µM, showing a blunted efflux/secretion response of ApoE4 astrocytes.",
+          "quote": "Extracellular human ApoE quantified by ELISA (Fig. 3H) indicated that 25HC strongly promoted an increase of extracellular ApoE3 by 2-fold and 3-fold at 2 μM and 4 μM 25HC, respectively. On the other hand, 25HC had a much weaker influence on extracellular ApoE4.",
+          "summary": "(25HC treatment) -> (extracellular ApoE3 rises 2-3-fold but ApoE4 only ~1.4-fold)",
+          "relevance": 0.65,
+          "exp_system": "Primary mouse astrocytes from human APOE3- or APOE4-knockin mice treated with 25HC for 48 h; human ApoE ELISA of conditioned medium",
+          "location": "Fig 3H",
+          "effect_size": "3x",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "The 25HC-driven increase in extracellular ApoE was mechanistically due to elevated efflux from increased Abca1 expression via LXR activation (plus decreased lipoprotein reuptake from suppressed Ldlr), placing ABCA1-mediated efflux at the centre of astrocyte ApoE release.",
+          "quote": "Increased extracellular ApoE was due to elevated efflux from increased Abca1 expression via LXRs as well as decreased lipoprotein reuptake from suppressed Ldlr expression via inhibition of SREBP.",
+          "summary": "(25HC) -> (increased Abca1 expression and ApoE efflux from astrocytes)",
+          "relevance": 0.55,
+          "exp_system": "Primary mouse astrocytes treated with 25HC with/without LXR antagonist; Abca1 and Ldlr expression and ApoE efflux measurements",
+          "location": "Abstract",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s13024-016-0138-8",
+      "pmid": "27931262",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "CSF-derived (choroid plexus, blood-CSF barrier) apoE is delivered into brain parenchyma via the glymphatic periarterial route in an isoform-specific manner: the radial distribution distance of apoE2 was 1.75-fold greater than apoE3, which in turn was 2-fold greater than apoE4, so apoE4 is the least effectively distributed from CSF to neurons and glia.",
+          "quote": "The distribution radius of apoE2 was 1.75-fold greater than apoE3, which in turn was 2-fold greater than apoE4.",
+          "summary": "(APOE3 -> APOE4) -> (CSF-derived apoE distributes half as far into brain parenchyma)",
+          "relevance": 0.7,
+          "exp_system": "Mice given intracisternal fluorescently labelled lipidated human apoE isoforms; immunohistochemical mapping of periarterial distribution in brain",
+          "location": "Fig 5d",
+          "effect_size": "2x",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "5-9",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0044430",
+      "pmid": "22984509",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In macrophages (peripheral, non-CNS), both lipid-associated and lipid-free apoE4 induced ~30% lower levels of ABCA1 protein and mRNA than apoE3, via weaker activation of the PI3K-PKCζ-Sp1 signalling pathway; the same deficit was confirmed in human THP-1 macrophages.",
+          "quote": "Both lipid-associated and lipid-free apoE4 forms induced ∼30% lower levels of ABCA1 protein and mRNA than apoE3 forms.",
+          "summary": "(APOE3 -> APOE4) -> (~30% lower ABCA1 protein and mRNA induction in macrophages)",
+          "relevance": 0.5,
+          "exp_system": "RAW 264.7 mouse macrophages and human THP-1 monocytes/macrophages treated with lipid-associated or lipid-free apoE3 or apoE4; ABCA1 Western blot and mRNA",
+          "location": "Fig 2A-B, Fig 3A-B",
+          "effect_size": "30%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Cholesterol efflux from lipid-laden macrophages was ~24% lower (and cholesterol ester removal ~50% lower) in apoE4-treated than apoE3-treated cells, paralleling the weaker ABCA1 induction by apoE4.",
+          "quote": "However, the cholesterol esters and cholesterol efflux in apoE4-treated cells were ∼50% and ∼24% lower, respectively, compared to apoE3-treated cells.",
+          "summary": "(APOE3 -> APOE4) -> (~24% lower cholesterol efflux from macrophages)",
+          "relevance": 0.5,
+          "exp_system": "Lipid-laden RAW 264.7 macrophages treated with apoE3 or apoE4; apoA-I-mediated cholesterol efflux assay",
+          "location": "Fig 4",
+          "effect_size": "24%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    }
+  ]
+}
