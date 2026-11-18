@@ -1,99 +1,99 @@
 {
-  "hypothesis": "H1",
-  "papers": [
+ "hypothesis": "H1",
+ "papers": [
+  {
+   "doi": "10.1073/pnas.1801612115",
+   "pmid": "29946028",
+   "source_type": "PubMed published",
+   "findings": [
     {
-      "doi": "10.1073/pnas.1801612115",
-      "pmid": "29946028",
-      "source_type": "PubMed published",
-      "findings": [
-        {
-          "desc": "In astrocytes from human APOE knock-in mice, endosomal pH measured with compartment-specific ratiometric pH-sensitive fluorescence reporters was strongly reduced in ApoE4 astrocytes compared with ApoE3 astrocytes (by ~0.84 pH unit); a similar endosomal acidification was observed in ApoE4/4 patient fibroblasts compared with an ApoE3/3 control, while lysosomal pH was elevated by >1 pH unit and cytoplasmic pH did not differ between isoforms.",
-          "quote": "Endosomal pH in ApoE4 astrocytes was strongly reduced by ∼0.84 pH unit, relative to ApoE3 (Fig. 3B).",
-          "summary": "(APOE3 -> APOE4) -> (endosomal pH reduced by ~0.84 pH unit in astrocytes)",
-          "relevance": 0.95,
-          "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement (knock-in) mice; compartment-specific ratiometric pH-sensitive reporters (TFN-FITC/TFN-633) for endosomal pH",
-          "location": "Fig 3B",
-          "effect_size": "0.84 pH units",
-          "effect_prov": "printed_in_text",
-          "p_value": "0.0037",
-          "p_prov": "printed_in_text",
-          "sample_size": "3",
-          "n_prov": "printed_in_text",
-          "directness_class": 1,
-          "directness_strength": "1 very strong"
-        },
-        {
-          "desc": "The ApoE4 endosomal over-acidification was mechanistically linked to isoform-selective loss of the endosomal proton-leak exchanger NHE6: NHE6 transcript was ~56% reduced and NHE6 protein ~45% lower in ApoE4 astrocytes than in ApoE3 astrocytes.",
-          "quote": "NHE6 protein was concomitantly decreased by ∼45% in ApoE4 astrocytes, compared with ApoE3 (Fig. 4C).",
-          "summary": "(APOE3 -> APOE4) -> (reduced NHE6 expression in astrocytes, loss of endosomal proton leak)",
-          "relevance": 0.85,
-          "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement (knock-in) mice; Western blot densitometry of NHE6 protein and transcript quantification",
-          "location": "Fig 4C",
-          "effect_size": "45%",
-          "effect_prov": "printed_in_text",
-          "p_value": "0.0009",
-          "p_prov": "printed_in_text",
-          "sample_size": "4",
-          "n_prov": "printed_in_text",
-          "directness_class": 3,
-          "directness_strength": "3 moderate"
-        },
-        {
-          "desc": "HDAC inhibition with trichostatin A (TSA), which restored NHE6 expression, corrected the hyperacidic endosomal pH of ApoE4 astrocytes relative to DMSO control, showing the ApoE4-specific endosomal pH defect is reversible when NHE6 is restored.",
-          "quote": "HDAC inhibition by TSA treatment (5 μM for 12 h) corrected hyperacidic endosomal pH in ApoE4 astrocytes, relative to DMSO treatment",
-          "summary": "(HDAC inhibition / restored NHE6 in APOE4 astrocytes) -> (hyperacidic endosomal pH corrected)",
-          "relevance": 0.85,
-          "exp_system": "Primary astrocytes from human APOE4-targeted-replacement (knock-in) mice treated with trichostatin A (5 μM, 12 h) vs DMSO; ratiometric endosomal pH measurement",
-          "location": "Fig 5D",
-          "effect_size": "qualitative",
-          "effect_prov": "printed_in_text",
-          "p_value": "0.0014",
-          "p_prov": "printed_in_text",
-          "sample_size": "3",
-          "n_prov": "printed_in_text",
-          "directness_class": 2,
-          "directness_strength": "2 strong"
-        }
-      ]
+     "desc": "In astrocytes from human APOE knock-in mice, endosomal pH measured with compartment-specific ratiometric pH-sensitive fluorescence reporters was strongly reduced in ApoE4 astrocytes compared with ApoE3 astrocytes (by ~0.84 pH unit); a similar endosomal acidification was observed in ApoE4/4 patient fibroblasts compared with an ApoE3/3 control, while lysosomal pH was elevated by >1 pH unit and cytoplasmic pH did not differ between isoforms.",
+     "quote": "Endosomal pH in ApoE4 astrocytes was strongly reduced by \u223c0.84 pH unit, relative to ApoE3 (Fig. 3B).",
+     "summary": "(APOE3 -> APOE4) -> (endosomal pH reduced by ~0.84 pH unit in astrocytes)",
+     "relevance": 0.95,
+     "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement (knock-in) mice; compartment-specific ratiometric pH-sensitive reporters (TFN-FITC/TFN-633) for endosomal pH",
+     "location": "Fig 3B",
+     "effect_size": "qualitative",
+     "effect_prov": "printed_in_text",
+     "p_value": "0.0037",
+     "p_prov": "printed_in_text",
+     "sample_size": "3",
+     "n_prov": "printed_in_text",
+     "directness_class": 1,
+     "directness_strength": "1 very strong"
     },
     {
-      "doi": "10.7554/elife.40048",
-      "pmid": "30375977",
-      "source_type": "PubMed published",
-      "findings": [
-        {
-          "desc": "This paper made NO direct APOE4-vs-APOE3 endosomal pH measurement; instead, endosomal acidification was manipulated within an ApoE4-vs-ApoE3 framework. The NHE inhibitor EMD87580, which lowers vesicular pH by blocking the NHE6 proton leak, dose-dependently restored the Apoer2 recycling that ApoE4 blocks in primary neurons, and raising endosomal pH with the v-ATPase inhibitor bafilomycin reversed that rescue, identifying vesicular pH as the driver of the ApoE4 trafficking block. Note the directional tension with Prasad 2018: here further acidification (NHE6 inhibition) rescues the ApoE4 defect, whereas Prasad attributes the ApoE4 defect to over-acidification caused by NHE6 loss.",
-          "quote": "Taken together, these data show that vesicular pH is the primary driving factor that determines to what extent ApoE4 alters endosomal trafficking.",
-          "summary": "(NHE inhibition -> lower endosomal pH) -> (ApoE4-induced Apoer2 recycling block reversed)",
-          "relevance": 0.6,
-          "exp_system": "Primary rat cortical neurons treated with cell-derived ApoE3 or ApoE4 particles; NHE inhibitor EMD87580 with/without bafilomycin; Apoer2 surface biotinylation and recycling immunoblot",
-          "location": "Fig 4B-I",
-          "effect_size": "qualitative",
-          "effect_prov": "printed_in_text",
-          "p_value": "N/A",
-          "p_prov": "ambiguous_panel",
-          "sample_size": "3",
-          "n_prov": "printed_in_text",
-          "directness_class": 4,
-          "directness_strength": "4 weak"
-        },
-        {
-          "desc": "Genetic inhibition gave the same result: of shRNAs targeting the vesicular NHE isoforms 1 and 5-9, only NHE6-specific shRNAs completely restored Apoer2 expression at the plasma membrane in the presence of ApoE4, confirming that NHE6 inhibition (enhanced endosomal acidification) is sufficient to reverse the ApoE4 recycling block. As with the pharmacological experiments, this is a manipulation of endosomal acidification, not a measurement of an APOE isoform difference in endosome pH.",
-          "quote": "only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4",
-          "summary": "(NHE6 knockdown -> increased endosomal acidification) -> (ApoE4-impaired Apoer2 recycling restored)",
-          "relevance": 0.6,
-          "exp_system": "Primary rat cortical neurons with lentiviral shRNA knockdown of NHE isoforms (1, 5-9), treated with ApoE4-conditioned media and Reelin; cell-surface biotinylation and immunoblot of Apoer2",
-          "location": "Fig 5A-D",
-          "effect_size": "qualitative",
-          "effect_prov": "printed_in_text",
-          "p_value": "<0.001",
-          "p_prov": "visual_only",
-          "sample_size": "3",
-          "n_prov": "printed_in_text",
-          "directness_class": 4,
-          "directness_strength": "4 weak"
-        }
-      ]
+     "desc": "The ApoE4 endosomal over-acidification was mechanistically linked to isoform-selective loss of the endosomal proton-leak exchanger NHE6: NHE6 transcript was ~56% reduced and NHE6 protein ~45% lower in ApoE4 astrocytes than in ApoE3 astrocytes.",
+     "quote": "NHE6 protein was concomitantly decreased by \u223c45% in ApoE4 astrocytes, compared with ApoE3 (Fig. 4C).",
+     "summary": "(APOE3 -> APOE4) -> (reduced NHE6 expression in astrocytes, loss of endosomal proton leak)",
+     "relevance": 0.85,
+     "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement (knock-in) mice; Western blot densitometry of NHE6 protein and transcript quantification",
+     "location": "Fig 4C",
+     "effect_size": "45%",
+     "effect_prov": "printed_in_text",
+     "p_value": "0.0009",
+     "p_prov": "printed_in_text",
+     "sample_size": "4",
+     "n_prov": "printed_in_text",
+     "directness_class": 3,
+     "directness_strength": "3 moderate"
+    },
+    {
+     "desc": "HDAC inhibition with trichostatin A (TSA), which restored NHE6 expression, corrected the hyperacidic endosomal pH of ApoE4 astrocytes relative to DMSO control, showing the ApoE4-specific endosomal pH defect is reversible when NHE6 is restored.",
+     "quote": "HDAC inhibition by TSA treatment (5 \u03bcM for 12 h) corrected hyperacidic endosomal pH in ApoE4 astrocytes, relative to DMSO treatment",
+     "summary": "(HDAC inhibition / restored NHE6 in APOE4 astrocytes) -> (hyperacidic endosomal pH corrected)",
+     "relevance": 0.85,
+     "exp_system": "Primary astrocytes from human APOE4-targeted-replacement (knock-in) mice treated with trichostatin A (5 \u03bcM, 12 h) vs DMSO; ratiometric endosomal pH measurement",
+     "location": "Fig 5D",
+     "effect_size": "qualitative",
+     "effect_prov": "printed_in_text",
+     "p_value": "0.0014",
+     "p_prov": "printed_in_text",
+     "sample_size": "3",
+     "n_prov": "printed_in_text",
+     "directness_class": 2,
+     "directness_strength": "2 strong"
     }
-  ]
+   ]
+  },
+  {
+   "doi": "10.7554/elife.40048",
+   "pmid": "30375977",
+   "source_type": "PubMed published",
+   "findings": [
+    {
+     "desc": "This paper made NO direct APOE4-vs-APOE3 endosomal pH measurement; instead, endosomal acidification was manipulated within an ApoE4-vs-ApoE3 framework. The NHE inhibitor EMD87580, which lowers vesicular pH by blocking the NHE6 proton leak, dose-dependently restored the Apoer2 recycling that ApoE4 blocks in primary neurons, and raising endosomal pH with the v-ATPase inhibitor bafilomycin reversed that rescue, identifying vesicular pH as the driver of the ApoE4 trafficking block. Note the directional tension with Prasad 2018: here further acidification (NHE6 inhibition) rescues the ApoE4 defect, whereas Prasad attributes the ApoE4 defect to over-acidification caused by NHE6 loss.",
+     "quote": "Taken together, these data show that vesicular pH is the primary driving factor that determines to what extent ApoE4 alters endosomal trafficking.",
+     "summary": "(NHE inhibition -> lower endosomal pH) -> (ApoE4-induced Apoer2 recycling block reversed)",
+     "relevance": 0.6,
+     "exp_system": "Primary rat cortical neurons treated with cell-derived ApoE3 or ApoE4 particles; NHE inhibitor EMD87580 with/without bafilomycin; Apoer2 surface biotinylation and recycling immunoblot",
+     "location": "Fig 4B-I",
+     "effect_size": "qualitative",
+     "effect_prov": "printed_in_text",
+     "p_value": "N/A",
+     "p_prov": "ambiguous_panel",
+     "sample_size": "3",
+     "n_prov": "printed_in_text",
+     "directness_class": 4,
+     "directness_strength": "4 weak"
+    },
+    {
+     "desc": "Genetic inhibition gave the same result: of shRNAs targeting the vesicular NHE isoforms 1 and 5-9, only NHE6-specific shRNAs completely restored Apoer2 expression at the plasma membrane in the presence of ApoE4, confirming that NHE6 inhibition (enhanced endosomal acidification) is sufficient to reverse the ApoE4 recycling block. As with the pharmacological experiments, this is a manipulation of endosomal acidification, not a measurement of an APOE isoform difference in endosome pH.",
+     "quote": "only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4",
+     "summary": "(NHE6 knockdown -> increased endosomal acidification) -> (ApoE4-impaired Apoer2 recycling restored)",
+     "relevance": 0.6,
+     "exp_system": "Primary rat cortical neurons with lentiviral shRNA knockdown of NHE isoforms (1, 5-9), treated with ApoE4-conditioned media and Reelin; cell-surface biotinylation and immunoblot of Apoer2",
+     "location": "Fig 5A-D",
+     "effect_size": "qualitative",
+     "effect_prov": "printed_in_text",
+     "p_value": "<0.001",
+     "p_prov": "visual_only",
+     "sample_size": "3",
+     "n_prov": "printed_in_text",
+     "directness_class": 4,
+     "directness_strength": "4 weak"
+    }
+   ]
+  }
+ ]
 }
