@@ -11,6 +11,10 @@ This repository is the public method record for the entry. The method combines t
 
 Per-hypothesis method files (`methods/H1.md` … `methods/H5.md`), search logs (`search-logs/`), and the validated submission spreadsheets (`submissions/`) are committed here as each hypothesis is worked, so the record of what was actually done sits next to this description of the method.
 
+## Why a multi-agent system — the appeal of this method
+
+The point of this entry is the method as much as the findings. A conventional review, human or AI-assisted, is one pipeline checked, if at all, by the same process that produced it. This entry composes two separate multi-agent systems against each other: the review system produces the evidence, and the peer review system — which does no production work — attacks it, with a dedicated sceptic arguing against each finding's direction and a final integrity gate verifying every verbatim quote and every statistic's provenance against its source. Agent roles work in isolated sessions so verification is structurally independent, disagreements are settled by re-reading the source rather than by vote, papers the screeners cannot reconcile are held out publicly instead of forced through, and every number in the submission carries a machine-checkable provenance code stating exactly where it came from — or that it could not be found. The full methodology, including the pipeline, the agent role table, and the known limitations, is in **[METHODOLOGY.md](METHODOLOGY.md)**.
+
 ---
 
 # Method
