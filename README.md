@@ -2,7 +2,7 @@
 
 **Team:** Malikian Evidence Review (Raphael Malikian, solo entrant and team leader)
 **Challenge:** [MecCog Challenge](https://huggingface.co/spaces/MecCog/meccog-challenge) — Papers and Findings, Step 1: connect five hypotheses about APOE4 and Alzheimer's disease risk to experimental evidence in published papers.
-**Hypotheses covered:** H1 (APOE4 → ABCA1), H2 (APOE4 → amyloid β), H3 (APOE4 → tau), H4 (APOE4 → lipid accumulation and cell stress), H5 (APOE4 → synaptic and neuronal function).
+**Hypotheses covered:** the challenge's five official Step 1 statements, all endosome mechanisms: H1 (reduced endosome pH), H2 (impaired ARF6-related receptor recycling), H3 (APOE4 aggregation in the endo-lysosome), H4 (APOE4 adhesion to recycling receptors), H5 (lipid metabolism and late endosome function). The verbatim statements are in each submission spreadsheet (cell A2) and each `methods/` note.
 
 This repository is the public method record for the entry. The method combines two open protocols by the same author, used together:
 
@@ -37,7 +37,7 @@ All agent passes ran on Muse Spark (Meta), driven through the Muse personal-agen
 
 ## 3. How papers were found
 
-PubMed and Europe PMC, searched per hypothesis with strings built from the hypothesis's own mechanism terms (APOE4 / apolipoprotein E4 plus the pathway terms: ABCA1 and lipid transport for H1; amyloid beta production and clearance for H2; tau phosphorylation and propagation for H3; lipid accumulation, lipid turnover and lysosomal function in astrocytes, microglia and neurons for H4; calcium handling and synaptic gene expression for H5), limited to experimental studies. The reference list of the Moult and Darden preprint, "Critical Assessment of Disease Mechanisms: APOE4 and Alzheimer's Disease" (2025), was citation-chased for each hypothesis. The exact string, date, source, and hit count for every search — including searches that returned nothing usable — are recorded per hypothesis in `search-logs/`.
+Europe PMC, searched per hypothesis with strings built from the official statement's own mechanism terms (endosomal pH and acidification for H1; ARF6 and receptor recycling for H2; aggregation in the endo-lysosomal system for H3; recycling receptors, retromer and sortilin for H4; cholesterol, lipid metabolism and lysosomal function for H5), limited to experimental studies, in two runs (the second excluding reviews, syntheses and editorials). The challenge's five starting references were fetched explicitly by PMID; one of them (Kaji 2024, H3) was absent from both search runs and was resolved by full-text adjudication. A supplementary looser search for H3 found no new candidates. The exact string, date, source, and hit count for every search are recorded per hypothesis in `search-logs/`. Note: an earlier build of this entry used incorrect hypothesis statements and was replaced before submission — see `CORRECTION-2026-11-18.md`.
 
 ## 4. How full text was obtained
 
@@ -49,7 +49,7 @@ The Gate 6 integrity pass (an agent pass under the peer review protocol) verifie
 
 ## 6. Anything else
 
-Directness (F2) is scored using the challenge's own document, John Moult's *Directness of Evidence* (v02), including its ABCA1 worked examples. Strength scores (S1–S5) were assigned in two independent agent passes; disagreements were settled by re-reading the paper. Cross-hypothesis links (X1–X2) are recorded where a paper's finding bears directly on a second hypothesis, not merely where topics are adjacent. Known weaknesses: a single human author; agent extraction can misread context in dense results sections, which the dual-extraction and verbatim-quote requirements are there to catch; and the evidence base for some hypothesis sub-claims (notably barrier-specific ABCA1 effects in H1) is thin, which the submissions state rather than paper over.
+Directness class and strength are scored using the challenge's own document, John Moult's *Directness of Evidence* (v02). Known weaknesses: a single human author; agent extraction can misread context in dense results sections, which the dual-extraction and verbatim-quote requirements are there to catch; and the evidence base for the narrowest statements is thin — H3 confirms a single paper, whose isoform contrast and endo-lysosomal localization come from different experimental arms, which the submission records rather than papers over.
 
 ## Code and prompts
 

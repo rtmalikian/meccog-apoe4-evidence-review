@@ -44,9 +44,9 @@ Hypothesis text (verbatim, as supplied by the challenge)
         |
 [6] GATE 6        Integrity gate: every verbatim quote checked against its source;
                   provenance-consistency rules checked across every row; DOIs checked
-                  against their records (two wrong DOIs in first-pass records were
-                  caught and corrected at this stage; one paper with no verifiable
-                  DOI anywhere is recorded as N/A rather than assigned a guessed DOI).
+                  against their records (in this run every confirmed DOI verified
+                  clean; the H3 starting reference, absent from both search runs,
+                  was resolved by explicit fetch and full-text adjudication).
         |
 [7] HUMAN         The author re-reads flagged quotes and a sample of unflagged rows,
     SIGN-OFF      adjudicates what remains, and signs off each spreadsheet.
@@ -62,7 +62,7 @@ All roles run on one model (Muse Spark, Meta) driven through the Muse personal-a
 |---|---|---|
 | Information specialist | Review process | Builds per-hypothesis search strings from the mechanism terms; keeps the search log, including searches that returned nothing usable |
 | Screener A | Review process | First inclusion pass over titles/abstracts against the eligibility criterion |
-| Screener B | Review process | Independent verification pass; checks Screener A's inclusions and exclusions without seeing its reasoning; caught two wrong DOIs and three non-isoform-specific inclusions in this run |
+| Screener B | Review process | Independent verification pass; checks Screener A's inclusions and exclusions without seeing its reasoning; in this run it overturned a borderline H3 inclusion and held out the arguable endosomal-trapping papers in H2 that report no recycling assay |
 | Adjudicator | Review process | Settles screening disagreements by re-reading the source; holds out papers that cannot be reconciled |
 | Extractor | Review process | Builds the finding rows: quote, summary, statistics with provenance, directness scoring |
 | Sceptic reviewer | Peer review system | Argues against each finding's stated direction; responsible for contradicting/null findings being recorded as such |
@@ -77,10 +77,11 @@ Directness follows the challenge's own document (Moult, *Directness of Evidence*
 
 ## What this run produced
 
-- 82 papers and 152 findings across the five hypotheses (H1: 14 papers / 28 findings; H2: 24 / 34; H3: 11 / 24; H4: 17 / 33; H5: 16 / 33).
-- 17 papers were abstract-only; every statistic that could not be verified from the reachable text carries the `full_text_unavailable` provenance rather than an invented value.
-- Contradicting and null findings are included and labelled (among them: no isoform effect on amyloid-β synthesis in one included study; no production effect in mouse neurons in another; no significant APOE4 effect on synaptic markers in human organoids, recorded with its P value).
-- 9 papers on which the two screening passes disagreed irreconcilably were held out and are listed, with reasons, in the public screening files — a candidate list for a later full-text adjudication pass.
+- 20 papers and 50 findings across the five official hypotheses (H1: 2 papers / 5 findings; H2: 4 / 12; H3: 1 / 3; H4: 5 / 12; H5: 8 / 18), from 1,774 deduped records screened.
+- 2 papers were abstract-only; every statistic that could not be verified from the reachable text carries the `full_text_unavailable` provenance rather than an invented value.
+- Contradicting and null findings are included and labelled (among them: no APOE4-vs-APOE3 difference in LDLR recycling in Guo 2025, and APOE3/APOE4 binding ApoER2 with similar affinity in Xian 2018's own data).
+- 14 papers on which the two screening passes disagreed were held out as disputed and are listed, with reasons, in the public screening files. Three H3 disputes went to full-text adjudication: the challenge's H3 starting reference (Kaji 2024) was confirmed on its full text, while Rawat 2019 and Zhao 2017 remain held out — both measure apoE aggregation with isoform comparisons but never localize the aggregates to the endo-lysosome.
+- No DOI corrections were needed in this run; every confirmed paper's DOI was verified against its Europe PMC record, and no DOI was guessed anywhere.
 
 ## Reproducibility
 
@@ -95,7 +96,8 @@ Everything needed to audit or rerun this method is public:
 - A single human author adjudicates and signs off; there is no second human reviewer.
 - All agent roles run on one underlying model. Diversity between roles comes from prompts, personas, and session isolation; whether persona diversity outperforms repeated single-persona review is an open question the author has pre-registered an evaluation for in the peer review system's repository, and it is not claimed as proven here.
 - Abstract-only papers limit what can be verified; the provenance codes make that limit visible row by row rather than hiding it.
-- The evidence base for some sub-claims is thin (notably barrier-specific ABCA1 transport in H1); the submissions state this rather than filling the gap with weaker, off-mechanism papers.
+- The evidence base for the narrowest statements is thin: H3 confirms a single paper, and in that paper the isoform contrast and the endo-lysosomal localization come from different experimental arms — recorded in the extraction's directness scoring rather than hidden.
+- An earlier build of this entry was prepared against incorrect hypothesis statements; it was caught by the submission system's word-for-word check before anything was submitted, and the entry was re-run from the searches up. The episode is documented in `CORRECTION-2026-11-18.md` in this repository.
 
 ---
 

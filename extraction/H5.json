@@ -1,1 +1,349 @@
-{"hypothesis":"H5","papers":[{"doi":"10.1016/j.neuron.2016.04.009","findings":[{"desc":"Aged human apoE4 knock-in mice generated fewer hippocampal sharp-wave ripples (SWRs) during rest than apoE3-KI mice, across SWR detection thresholds.","directness_class":1,"directness_strength":"1 very strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"In vivo hippocampal LFP recordings (32-channel silicon probes) in aged (12-18 month) female human apoE3-KI vs apoE4-KI mice","location":"Fig 2B","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.01","quote":"However, across a range of detection thresholds, SWRs were substantially less abundant in apoE4-KI mice during rest (Figure 2B).","relevance":0.95,"sample_size":"13-14","summary":"(APOE3 -> APOE4) -> (fewer hippocampal sharp-wave ripples during rest)"},{"desc":"Slow gamma power during SWRs was significantly lower in aged apoE4-KI mice than apoE3-KI mice, most prominently in CA1 stratum radiatum, where it averaged nearly 50% lower.","directness_class":1,"directness_strength":"1 very strong","effect_prov":"printed_in_text","effect_size":"50%","exp_system":"In vivo hippocampal LFP recordings in aged female human apoE3-KI vs apoE4-KI mice; SWR-triggered slow gamma (20-50 Hz) power","location":"Fig 4D","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.001","quote":"We found that SWR-associated slow gamma power was significantly lower in aged apoE4-KI mice than in apoE3-KI mice (Figure 4A and 4B).","relevance":0.95,"sample_size":"13-14","summary":"(APOE3 -> APOE4) -> (~50% lower slow gamma power during sharp-wave ripples)"},{"desc":"Deleting apoE4 specifically from forebrain GABAergic interneurons completely rescued SWR-associated slow gamma power in aged mice, although SWR abundance remained reduced.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Aged female apoE4-KI mice with apoE4 deleted from forebrain GABAergic interneurons (Dlx-Cre) vs apoE4-KI and apoE3-KI; in vivo hippocampal LFP recordings","location":"Fig 5D","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.05","quote":"In contrast, the power of slow gamma activity during SWRs was completely rescued in all three subregions of the hippocampus in aged apoE4-KI/Dlx-Cre mice (Figure 5B and 5D).","relevance":0.85,"sample_size":"8","summary":"(APOE4 removed from GABAergic interneurons) -> (SWR slow gamma power restored to APOE3 levels; SWR abundance not rescued)"}],"pmid":"27161522","source_type":"PubMed published"},{"doi":"10.1016/j.stem.2022.07.005","findings":[{"desc":"APOE4 iPSC-derived microglia co-cultured with APOE3 neurons decreased the overall number of neuronal calcium transients and disrupted coordinated neuronal ensemble events; no differences in synapse size or number were detected at the same time point.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"CRISPR-isogenic APOE3 vs APOE4 iPSC-derived microglia-like cells co-cultured with APOE3 forebrain spheroid neurons; GCaMP6f calcium imaging","location":"Fig 4H","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.05","quote":"By quantifying spontaneous calcium events of APOE3 neurons in co-culture for 1 week with either APOE3 (Figure 4F) or APOE4 iMGLs (Figure 4G), we found that APOE4 iMGLs decreased the overall number of calcium transients in APOE3 spheroid cultures (Figure 4H).","relevance":0.9,"sample_size":"50-106","summary":"(APOE3 -> APOE4 microglia) -> (fewer neuronal calcium transients and disrupted coordinated ensemble activity)"},{"desc":"Conditioned media from APOE4 microglia alone was sufficient to robustly decrease neuronal calcium transients in APOE3 spheroid cultures, an effect also confirmed by multielectrode array recordings.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"APOE3 forebrain spheroid neurons exposed to conditioned media from isogenic APOE3 vs APOE4 iPSC-derived microglia; GCaMP6f calcium imaging and MEA","location":"Fig 5B-C","n_prov":"not_found_in_source","p_prov":"not_found_in_source","p_value":"N/A","quote":"We observed a robust decrease in neuronal calcium transients in cultures that were exposed to APOE4 iMGL CM, while cultures treated with APOE3 iMGL CM continued to display highly synchronized calcium transients (Figures 5B and 5C and Video S3).","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4 microglia secreted factors) -> (reduced neuronal calcium transients and synchrony)"},{"desc":"APOE4 microglia conditioned media upregulated the lipid-gated potassium channel GIRK3 (KCNJ9) in neurons, and CRISPRi knockdown of GIRK3 prevented the repression of neuronal bursts by APOE4 conditioned media, implicating cholesterol-driven GIRK potentiation in the network suppression.","directness_class":2,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"iPSC-derived neurons on multielectrode arrays exposed to APOE4 microglia conditioned media, with CRISPRi knockdown of KCNJ9/GIRK3","location":"Fig 5M","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.05","quote":"Interestingly, we observed that GIRK3 knockdown prevented the repression of neuronal bursts by APOE4 iMGL condition media (Figure 5M).","relevance":0.75,"sample_size":"5-8","summary":"(APOE4 microglia factors -> neuronal GIRK3 upregulation) -> (suppressed neuronal bursting; blocked by GIRK3 knockdown)"}],"pmid":"35931030","source_type":"PubMed published"},{"doi":"10.1016/j.neuron.2018.05.008","findings":[{"desc":"In isogenic iPSC-derived neurons, APOE4-regulated genes were concordant with APOE4 effects in human brain, and synaptic-function regulators were the most affected category, predominantly negatively associated with APOE4.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"CRISPR-isogenic APOE3 vs APOE4 human iPSC-derived neurons; RNA-seq compared with APOE-genotype eQTL effects in 880 human brain samples","location":"Fig 1F","n_prov":"not_found_in_source","p_prov":"printed_in_text","p_value":"2.59E-10","quote":"Among these coordinately regulated genes, more than half of them are known regulators of synaptic function (7 out of 12 genes, p=2.59E-10), and most were negatively associated with APOE4 (Figure 1F).","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (dysregulated synaptic gene expression in neurons, mostly down-regulated)"},{"desc":"APOE4 neurons showed increased miniature excitatory postsynaptic current (mEPSC) frequency with unchanged amplitude and an increased number of synapses, indicating synaptic dysregulation in the direction of supernumerary synapses and elevated transmission rather than synapse loss.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"CRISPR-isogenic APOE3 vs APOE4 human iPSC-derived neurons; whole-cell recording of mEPSCs and synaptophysin/PSD-95 immunostaining","location":"Fig 2C-D","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.01","quote":"We observed increased miniature excitatory postsynaptic current (mEPSC) frequencies with indistinguishable mEPSC amplitudes in APOE4 neurons compared to APOE3 controls (Figure 2C), suggesting increased release of neurotransmitter or elevated synaptic density in APOE4 neurons.","relevance":0.8,"sample_size":"7-9","summary":"(APOE3 -> APOE4) -> (increased synapse number and increased mEPSC frequency)"}],"pmid":"29861287","source_type":"PubMed published"},{"doi":"10.1016/j.neuron.2021.03.024","findings":[{"desc":"Removing astrocytic APOE4 in P301S tau mice increased PSD-95 puncta coverage, i.e. decreased tau-induced synaptic loss, whereas the synaptic loss proceeded when astrocytic APOE4 remained.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"P301S tau transgenic mice with tamoxifen-inducible astrocyte-specific APOE4 deletion (TAFE4) vs controls; PSD-95 immunostaining in entorhinal/piriform cortex","location":"Fig 8B","n_prov":"printed_in_text","p_prov":"visual_only","p_value":"<0.05","quote":"Immunofluorescent staining of PSD-95 revealed increased PSD-95 puncta in TAFE4 mice after knocking down astrocytic APOE4 (Figure 8A and 8B).","relevance":0.9,"sample_size":"14-17","summary":"(Astrocytic APOE4 removed) -> (reduced tau-induced synaptic loss; APOE4 present -> synaptic loss)"},{"desc":"Removal of astrocytic APOE4 significantly reduced microglial engulfment of synaptic elements, measured as PSD-95 puncta inside CD68-positive microglial lysosomes.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"P301S tau mice with astrocyte-specific APOE4 deletion; confocal quantification of PSD-95 puncta within microglial CD68+ vesicles in hippocampus","location":"Fig 8I","n_prov":"not_found_in_source","p_prov":"visual_only","p_value":"<0.05","quote":"Furthermore, in TAM-treated TAFE4 mice, the volume of CD68 positive lysosomal vesicles (Figure 8G and 8H) containing PSD-95 puncta (Figure 8G and 8I) was significantly reduced compared to oil-treated controls.","relevance":0.85,"sample_size":"N/A","summary":"(Astrocytic APOE4 removed) -> (less microglial phagocytosis of synapses)"}],"pmid":"33831349","source_type":"PubMed published"},{"doi":"10.1038/s43587-023-00368-3","findings":[{"desc":"PS19 tauopathy mice expressing neuronal APOE4 showed CA3-CA1 network hyperexcitability compared with APOE3 mice, and selective removal of neuronal APOE4 eliminated the hyperexcitability.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"PS19 tauopathy mice with floxed human APOE3 or APOE4, with or without neuron-specific (Syn1-Cre) APOE removal; Schaffer collateral input-output fPSP recordings in hippocampal CA1","location":"Fig 4b","n_prov":"printed_in_text","p_prov":"not_found_in_source","p_value":"N/A","quote":"PS19-fE4 mice had notable CA3-CA1 network hyperexcitability as compared to PS19-fE3 mice (Fig. 4b). Removing neuronal APOE4 eliminated neuronal network hyperexcitability (Fig. 4b), indicating that neuronal APOE4 drives neuronal dysfunction in the context of tauopathy.","relevance":0.9,"sample_size":"13-25","summary":"(APOE3 -> neuronal APOE4) -> (hippocampal network hyperexcitability; eliminated by APOE4 removal)"},{"desc":"PS19-fE4 mice had extensive neuron loss in hippocampal CA1 and dentate gyrus, and removal of neuronal APOE4 significantly reduced this neuronal loss and the proportion of neurons undergoing apoptosis.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"PS19 tauopathy mice with floxed human APOE4, with or without neuron-specific APOE4 removal; NeuN immunostaining and neuronal layer thickness in hippocampus","location":"Fig 2d-g","n_prov":"printed_in_text","p_prov":"not_found_in_source","p_value":"N/A","quote":"Quantification of neuronal cell loss within the various subfields of the hippocampus revealed that PS19-fE4 mice had extensive neuron loss in the hippocampal cornu ammonis 1 (CA1) region and the dentate gyrus and this was significantly reduced in PS19-fE4/Syn1-Cre mice (Fig. 2d–g).","relevance":0.8,"sample_size":"15-25","summary":"(Neuronal APOE4 present) -> (greater hippocampal neuron loss; APOE4 removal protects)"}],"pmid":"37118426","source_type":"PubMed published"},{"doi":"10.1016/j.stem.2009.10.015","findings":[{"desc":"GABAergic miniature synaptic currents (mSSCs) in newborn hippocampal granule cells were about 50% lower in frequency in apoE4-KI mice than apoE3-KI mice, with identical amplitudes, indicating reduced functional presynaptic GABAergic input.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"50%","exp_system":"Whole-cell patch-clamp recording from retrovirus-GFP-labeled newborn granule cells in acute hippocampal slices from human apoE3-KI vs apoE4-KI mice","location":"Fig 6E","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"<0.05","quote":"mSSCs were detected in almost 90% of GFP+ neurons in apoE3-KI and apoE4-KI mice, and the mean amplitudes of mSSCs were almost identical (Figure S14D); however, the mSSC frequency was ~50% lower in apoE4-KI mice (Figure 6E), consistent with the ~50% decrease in basal GABA release in apoE4-KI mice (Figure 4H), suggesting a significant reduction of functional presynaptic GABAergic inputs on newborn neurons in apoE4-KI mice.","relevance":0.9,"sample_size":"21-28","summary":"(APOE3 -> APOE4) -> (~50% lower GABAergic miniature synaptic current frequency onto newborn neurons)"},{"desc":"Evoked GABAergic postsynaptic current (ePSC) peak amplitude was about 40% lower in newborn neurons of apoE4-KI mice than apoE3-KI mice, consistent with fewer presynaptic GABAergic inputs available for activation.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"40%","exp_system":"Whole-cell patch-clamp recording of evoked GABAergic currents in newborn granule cells in hippocampal slices from apoE3-KI vs apoE4-KI mice","location":"Fig 6F","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"<0.05","quote":"However, the ePSC peak amplitude was ~40% lower in apoE4-KI mice (Figures 6C, 6D, 6F).","relevance":0.85,"sample_size":"21-28","summary":"(APOE3 -> APOE4) -> (~40% lower evoked GABAergic postsynaptic current amplitude)"},{"desc":"ApoE4-KI mice had about 30% fewer GAD67-positive GABAergic interneurons in the hippocampal hilus at 6-7 months of age than wildtype, apoE-KO and apoE3-KI mice.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"30%","exp_system":"GAD67 immunostaining in hippocampal hilus of human apoE4-KI vs apoE3-KI, apoE-KO and wildtype mice","location":"Fig 4E","n_prov":"not_found_in_source","p_prov":"not_found_in_source","p_value":"N/A","quote":"At 6–7 months of age, apoE4-KI mice had ~30% fewer GAD67-positive interneurons in the hilus than wildtype, apoE-KO, and apoE3-KI mice (Figure 4E).","relevance":0.8,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (~30% fewer hilar GABAergic interneurons)"}],"pmid":"19951691","source_type":"PubMed published"},{"doi":"10.1073/pnas.1609896113","findings":[{"desc":"APOE isoform controls the rate at which astrocytes phagocytose synapses: APOE2 enhances astrocytic synapse pruning while APOE4 decreases it relative to APOE3.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human APOE2/APOE3/APOE4 knock-in mice and astrocyte cultures; astrocytic phagocytosis of synapses (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"Here, we report a novel role for APOE in controlling the phagocytic capacity of astrocytes that is highly dependent on APOE isoform. APOE2 enhances the rate of phagocytosis of synapses by astrocytes, whereas APO4 decreases it.","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (reduced astrocytic phagocytosis/pruning of synapses)"},{"desc":"C1q protein accumulation in hippocampus, marking senescent synapses vulnerable to complement-mediated degeneration, was significantly increased in APOE4 knock-in animals compared with APOE3 knock-in animals.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human APOE2/APOE3/APOE4 knock-in mouse hippocampus; C1q protein accumulation (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"C1q accumulation was significantly reduced in APOE2 knock-in (KI) animals and was significantly increased in APOE4 KI animals compared with APOE3 KI animals.","relevance":0.8,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (increased C1q accumulation on hippocampal synapses)"}],"pmid":"27559087","source_type":"PubMed published"},{"doi":"10.1038/s41467-020-19264-0","findings":[{"desc":"CONTRADICTING: In week-12 cerebral organoids, presynaptic synaptophysin and postsynaptic PSD95 were decreased in AD-patient organoids compared with healthy controls, but no significant APOE4 effect on either synaptic protein was observed (APOE4 main effect p = 0.5841 for synaptophysin).","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human iPSC-derived cerebral organoids from APOE ε3/ε3 vs ε4/ε4 healthy and AD donors; western blotting of synaptophysin and PSD95 at week 12","location":"Fig 2e","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"0.5841","quote":"Presynaptic synaptophysin and postsynaptic PSD95 were decreased in AD organoids groups compared to healthy subject-derived cerebral organoids, whereas no significant APOE4 effect was observed (Fig. 2c, e, and f).","relevance":0.75,"sample_size":"5","summary":"(APOE3 -> APOE4) -> (no significant change in synaptophysin or PSD95 levels in cerebral organoids) [CONTRADICTS]"},{"desc":"APOE4 and AD status interacted to exacerbate neuronal apoptosis in cerebral organoids: cleaved CASP3 immunoreactivity was highest in AD-E4 organoids (APOE4 x AD interaction p = 0.018).","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human iPSC-derived cerebral organoids from APOE ε3/ε3 vs ε4/ε4 healthy and AD donors; cleaved CASP3 immunostaining at week 12","location":"Fig 2b","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"0.018","quote":"We found the increased cleaved CASP3 immunoreactivity in the AD-E4 organoids compared to other groups with an interactive effect between APOE4 and AD status (Fig. 2b).","relevance":0.7,"sample_size":"5","summary":"(APOE4 + AD status) -> (synergistically increased neuronal apoptosis in cerebral organoids)"},{"desc":"Isogenic conversion of APOE4 to APOE3 in an AD patient's iPSC line reduced apoptosis in cerebral organoids, shown by a lower cleaved CASP3/CASP3 ratio in converted (Iso-E3/3) versus parental (Par-E4/4) organoids (p = 0.0043).","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Cerebral organoids from a sporadic AD patient iPSC line (APOE ε4/ε4) and its isogenic APOE ε3/ε3 converted line; cleaved CASP3 western blotting at week 12","location":"Fig 7c","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"0.0043","quote":"Western blotting also showed a lower cleaved CASP3/CASP3 ratio in Iso-E3/3 organoids than Par-E4/4 organoids (Fig. 7c).","relevance":0.75,"sample_size":"6","summary":"(APOE4 -> APOE3 isogenic conversion) -> (reduced organoid neuronal apoptosis)"}],"pmid":"33139712","source_type":"PubMed published"},{"doi":"10.1093/hmg/ddx155","findings":[{"desc":"Human iPSC-derived astrocytes with APOE ε4/ε4 genotype were less effective than ε3/ε3 astrocytes at promoting neuronal survival and synaptogenesis when co-cultured with iPSC-derived neurons.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human iPSC-derived astrocytes (APOE ε4/ε4 vs ε3/ε3) co-cultured with iPSC-derived neurons; neuronal survival and synaptogenesis readouts (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"More importantly, human iPSC-derived astrocytes were capable of promoting neuronal survival and synaptogenesis when co-cultured with iPSC-derived neurons with APOE ε4/ε4 astrocytes less effective in supporting these neurotrophic functions than those with APOE ε3/ε3 genotype.","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4 astrocytes) -> (reduced astrocytic support of neuronal survival and synaptogenesis)"}],"pmid":"28444230","source_type":"PubMed published"},{"doi":"10.1002/glia.22289","findings":[{"desc":"Under basal (vehicle) conditions, hippocampal PSD-95 and drebrin levels were already significantly lower in APOE4 targeted-replacement mice than APOE3 mice (PSD-95 15% lower).","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"15%","exp_system":"Human APOE targeted-replacement mice (E2/E3/E4, KO); western blotting of hippocampal synaptic proteins","location":"Fig 7A","n_prov":"printed_in_text","p_prov":"not_found_in_source","p_value":"N/A","quote":"However, levels of PSD95 and Drebin were significantly less in the APOE4 (15% and16%, respectively) and APOE knock-out (24% and 13%, respectively) mice compared to APOE3 mice, suggesting that there may be underlying basal differences in post synaptic densities among the genotypes.","relevance":0.8,"sample_size":"3-4","summary":"(APOE3 -> APOE4) -> (lower basal hippocampal PSD-95 and drebrin levels)"},{"desc":"After intracerebroventricular LPS challenge, loss of the synaptic protein PSD-95 at 72 hours was significantly greater in APOE4 mice (33% decrease) than in APOE3 (16%) or APOE2 (10%) mice (p<0.01).","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"33%","exp_system":"Human APOE targeted-replacement mice (E2/E3/E4, KO) given intracerebroventricular LPS; western blotting of hippocampal PSD-95 at 72 h","location":"Fig 7A","n_prov":"printed_in_text","p_prov":"printed_in_text","p_value":"<0.01","quote":"When comparing LPS to vehicle, for PSD-95 (Fig 7A), we observed a 33% decrease in the APOE4 mice and a 39% decrease in the APOE knock-out mice, significantly greater reductions than seen in APOE2 (10%) and APOE3 (16%) mice at 72 hours.","relevance":0.75,"sample_size":"3-4","summary":"(APOE3 -> APOE4) -> (greater LPS-induced loss of synaptic proteins)"}],"pmid":"22228589","source_type":"PubMed published"},{"doi":"10.1523/jneurosci.2994-18.2019","findings":[{"desc":"In glia-free human neurons, ApoE stimulated synapse formation with a potency rank order of ApoE4 > ApoE3 > ApoE2, paralleling AD risk; the APOE4 effect on synaptogenesis is therefore an increase, i.e. dysregulated signaling rather than loss of synaptogenic capacity.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human embryonic stem cell-derived neurons cultured without glia, treated with ApoE2, ApoE3 or ApoE4; synaptogenesis and signaling readouts (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"Among others, such stimulation enhances APP synthesis and synapse formation with an ApoE4>ApoE3>ApoE2 potency rank order, paralleling the relative risk for AD conferred by these ApoE variants.","relevance":0.8,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (greater ApoE-induced synapse formation in human neurons; potency ApoE4>ApoE3>ApoE2)"}],"pmid":"31331998","source_type":"PubMed published"},{"doi":"10.1523/jneurosci.5471-06.2007","findings":[{"desc":"Glia-derived apoE-containing lipoproteins protected CNS neurons from apoptosis, and the protective effect was greater for apoE3 than for apoE4, indicating reduced neuronal resilience support by APOE4.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"CNS neurons treated with glia-derived apoE3- vs apoE4-containing lipoproteins; apoptosis/survival readout (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"The protective effect was greater for apolipoprotein E3 than for apolipoprotein E4, the expression of which is a risk factor for Alzheimer's disease.","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4 lipoproteins) -> (less protection of neurons from apoptosis)"},{"desc":"The anti-apoptotic protection by apoE lipoproteins required LRP1 signaling: blocking LRP activation with receptor-associated protein, anti-LRP antibodies, or LRP gene silencing reduced the protective effect.","directness_class":2,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"CNS neurons treated with glia-derived apoE lipoproteins plus LRP antagonists, anti-LRP antibodies or LRP silencing (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"We showed that inhibition of LRP activation, by treatment of neurons with receptor-associated protein or anti-LRP antibodies, or by LRP gene-silencing experiments, reduced the protective effect of LPs.","relevance":0.6,"sample_size":"N/A","summary":"(LRP1 blockade) -> (reduced apoE-lipoprotein protection of neurons from apoptosis)"}],"pmid":"17314289","source_type":"PubMed published"},{"doi":"10.1523/jneurosci.5198-13.2014","findings":[{"desc":"ApoE4-targeted replacement mice showed an apoE4-induced reduction in levels of the presynaptic marker VGluT1 in hippocampal neurons compared with apoE3 mice.","directness_class":1,"directness_strength":"2 strong","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Young human apoE3- vs apoE4-targeted replacement mice; hippocampal VGluT1 protein levels (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"Furthermore, bexarotene reversed the apoE4-driven accumulation of Aβ42 and hyperphosphorylated tau in hippocampal neurons, as well as the apoE4-induced reduction in the levels of the presynaptic marker vesicular glutamatergic transporter 1 (VGluT1).","relevance":0.85,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (reduced presynaptic VGluT1 levels in hippocampus)"},{"desc":"Treatment of apoE4 mice with the RXR agonist bexarotene, which raises ABCA1/ABCG1 and apoE lipidation, reversed the apoE4-induced reduction in VGluT1.","directness_class":2,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"ApoE4-targeted replacement mice treated with the RXR agonist bexarotene; hippocampal VGluT1 protein levels (abstract only; full text not accessible)","location":"Abstract","n_prov":"full_text_unavailable","p_prov":"full_text_unavailable","p_value":"N/A","quote":"Furthermore, bexarotene reversed the apoE4-driven accumulation of Aβ42 and hyperphosphorylated tau in hippocampal neurons, as well as the apoE4-induced reduction in the levels of the presynaptic marker vesicular glutamatergic transporter 1 (VGluT1).","relevance":0.65,"sample_size":"N/A","summary":"(RXR agonist bexarotene in APOE4 mice) -> (VGluT1 reduction reversed)"}],"pmid":"24849361","source_type":"PubMed published"},{"doi":"10.1016/j.celrep.2019.01.023","findings":[{"desc":"In isogenic APOE4 versus APOE3 cerebral organoids, gene networks for synaptic transmission were among the most significantly upregulated processes in APOE4; the direction is upregulation entangled with accelerated neuronal differentiation rather than a simple loss of synaptic genes.","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Isogenic APOE4 vs APOE3 human iPSC-derived cerebral organoids at 46 days; RNA-seq with Gene Ontology enrichment","location":"Fig 6B","n_prov":"not_found_in_source","p_prov":"not_found_in_source","p_value":"N/A","quote":"Gene Ontology annotation and enrichment analysis showed that gene networks associated with nervous system development, synaptic transmission, and neurogenesis were the most significantly upregulated biological processes in APOE4 cerebral organoids (Figure 6B; Table S6).","relevance":0.7,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (synaptic transmission gene networks upregulated in cerebral organoids, with accelerated differentiation)"},{"desc":"Droplet digital PCR showed markedly elevated expression of the synaptic markers PSD95 and synaptophysin in APOE4 compared with APOE3 cerebral organoids, again consistent with precocious differentiation rather than synaptic loss in this model.","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Isogenic APOE4 vs APOE3 human iPSC-derived cerebral organoids; droplet digital PCR of synaptic marker mRNA","location":"Figure S6D","n_prov":"not_found_in_source","p_prov":"not_found_in_source","p_value":"N/A","quote":"Droplet digital PCR showed a marked elevation in the expression of the mature neuronal markers NeuN and GDAP1L1, and the synaptic markers PSD95 and synaptophysin (SYP) in APOE4 compared to APOE3 organoids (Figure S6D).","relevance":0.65,"sample_size":"N/A","summary":"(APOE3 -> APOE4) -> (increased PSD95 and synaptophysin mRNA in cerebral organoids)"}],"pmid":"30699343","source_type":"PubMed published"},{"doi":"10.1038/s41593-022-01127-0","findings":[{"desc":"Liver-restricted (peripheral) apoE4, with no detectable apoE in brain, significantly suppressed hippocampal synaptic plasticity measured by long-term potentiation, whereas peripheral apoE3 increased it; the effect is mediated indirectly through compromised cerebrovascular function.","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Conditional mice expressing human APOE3 or APOE4 only in liver (no detectable brain apoE); hippocampal LTP by extracellular field recording","location":"Fig 1J-K","n_prov":"not_found_in_source","p_prov":"not_found_in_source","p_value":"N/A","quote":"Consistently, peripheral apoE4 significantly suppressed synaptic plasticity measured by long-term potentiation (LTP); in contrast, peripheral apoE3 increased it (Fig. 1j, k).","relevance":0.7,"sample_size":"N/A","summary":"(Peripheral APOE3 -> APOE4) -> (suppressed hippocampal LTP, via cerebrovascular compromise)"}],"pmid":"35915180","source_type":"PubMed published"},{"doi":"10.1126/scitranslmed.aay1809","findings":[{"desc":"In an amyloid-free alpha-synucleinopathy model, postsynaptic proteins PSD95, GluR2 and NR2A were lower in alpha-synuclein-overexpressing APOE4 targeted-replacement mice than their controls, an effect not seen in APOE2 or APOE3 mice.","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"qualitative","exp_system":"Human APOE2/APOE3/APOE4 targeted-replacement mice with AAV-mediated human alpha-synuclein overexpression; western blotting of cortical postsynaptic proteins at 9 months","location":"Fig 3D-E","n_prov":"printed_in_text","p_prov":"not_found_in_source","p_value":"N/A","quote":"The expression of PSD95 (Fig. 3D–E), GluR2 (Fig. 3D and F) and NR2A (Fig. 3D and G) was lower in αSyn-APOE4 mice compared to their controls, but this was not observed in αSyn-APOE2 and αSyn-APOE3 mice.","relevance":0.7,"sample_size":"6","summary":"(APOE3 -> APOE4, alpha-synuclein model) -> (reduced postsynaptic PSD95, GluR2 and NR2A)"},{"desc":"Alpha-synuclein-overexpressing APOE4 mice showed about 10% neuronal loss at 9 months of age compared with their controls, while no neuronal loss occurred in APOE2 or APOE3 mice.","directness_class":1,"directness_strength":"3 moderate","effect_prov":"printed_in_text","effect_size":"10%","exp_system":"Human APOE targeted-replacement mice with AAV-mediated human alpha-synuclein overexpression; NeuN immunostaining quantified at 9 months","location":"Fig 3B","n_prov":"printed_in_text","p_prov":"not_found_in_source","p_value":"N/A","quote":"We observed a ~10% neuronal loss in αSyn-APOE4 mice compared with their controls at 9 months of age, but no neuronal loss in αSyn-APOE2 and αSyn-APOE3 mice compared with their controls (Fig. 3A–B).","relevance":0.7,"sample_size":"12-21","summary":"(APOE3 -> APOE4, alpha-synuclein model) -> (~10% neuronal loss)"}],"pmid":"32024798","source_type":"PubMed published"}]}
+{
+  "hypothesis": "H5",
+  "papers": [
+    {
+      "doi": "10.1016/j.celrep.2023.113183",
+      "pmid": "37777962",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In isogenic human iPSC-derived ApoE3 vs ApoE4 astrocytes, ApoE4-induced cholesterol accumulation impaired lysosome-dependent removal of damaged mitochondria on ultrastructural and autophagy-flux analyses, directly linking the ApoE4 lipid defect to failed lysosomal clearance (abstract-level extraction; no PMCID/full text available).",
+          "quote": "Ultrastructural and autophagy flux analyses show that ApoE4-induced cholesterol accumulation impairs lysosome-dependent removal of damaged mitochondria.",
+          "summary": "(APOE3 -> APOE4) -> (lysosomal cholesterol accumulation impairs lysosome-dependent removal of damaged mitochondria / autophagic flux)",
+          "relevance": 0.95,
+          "exp_system": "Isogenic human iPSC-derived ApoE3 and ApoE4 astrocytes; ultrastructure and autophagy-flux analysis of mitophagy",
+          "location": "Abstract",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 1,
+          "directness_strength": "1 very strong"
+        },
+        {
+          "desc": "Acute cholesterol depletion restored autophagic activity, mitochondrial dynamics and associated proteomes in ApoE4 astrocytes, and extended treatment rescued mitochondrial respiration, showing the lysosomal/autophagic defect is caused by the cholesterol accumulation and is reversible (abstract-level extraction).",
+          "quote": "Acute treatment with cholesterol-depleting agents restores autophagic activity, mitochondrial dynamics, and associated proteomes, and extended treatment rescues mitochondrial respiration in ApoE4 astrocytes.",
+          "summary": "(cholesterol depletion in APOE4 astrocytes) -> (autophagic activity restored)",
+          "relevance": 0.9,
+          "exp_system": "Isogenic human iPSC-derived ApoE4 astrocytes treated with cholesterol-depleting agents; autophagy activity and mitochondrial respiration assays",
+          "location": "Abstract",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 2,
+          "directness_strength": "2 strong"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.cell.2024.10.027",
+      "pmid": "39532095",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In human iPSC-derived neurons, ApoE particles carrying the polyunsaturated cholesteryl ester CE(20:4) induced lysosomal lipofuscin accumulation (lipofuscinosis, a lysosomal pathology from lipid peroxidation) in an isoform-graded manner, ApoE4 > ApoE3 > ApoE2, with lipofuscin localised in LAMP1-positive lysosomes; the ApoE4-ApoE3 difference grew over 14-21 days of exposure.",
+          "quote": "Longitudinal live imaging of CE(20:4)-lipApoE-treated iNeurons revealed both ApoE isoform-dependent and time-dependent accumulation of autofluorescence indicative of lipofuscin (Figure S5E-F, Figure 5A-B).",
+          "summary": "(APOE3 -> APOE4, PUFA-CE cargo) -> (greater lysosomal lipofuscin accumulation / lipofuscinosis in human neurons)",
+          "relevance": 0.85,
+          "exp_system": "Human iPSC-derived NGN2 neurons treated with CE(20:4)/POPC-lipidated ApoE2, ApoE3 or ApoE4 particles; longitudinal live imaging of lipofuscin autofluorescence and LAMP1 co-localisation",
+          "location": "Fig 5A-B",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "Neurons pre-loaded with CE(20:4)-lipApoE showed increased endolysosomal accumulation of internalised pHrodo-labelled tau preformed fibrils, trending ApoE4 > ApoE3 > ApoE2 and most pronounced in lipofuscin-positive neurons, indicating lipofuscin-laden lysosomes clear tau fibrils less effectively.",
+          "quote": "After another 13-14 d incubation, total pHrodo signals from tau pffs that were internalized and accumulated in the endolysosomes demonstrated a trend of ApoE4 > ApoE3 > ApoE2 > K146E ApoE4, with the isoform-dependent difference being more pronounced among lipofuscin-positive neurons (Figure 6H-I)",
+          "summary": "(APOE3 -> APOE4, PUFA-CE cargo) -> (increased endolysosomal accumulation of tau fibrils, i.e. impaired lysosomal clearance)",
+          "relevance": 0.8,
+          "exp_system": "Human iPSC-derived NGN2 neurons pre-treated 14 d with CE(20:4)-lipidated ApoE isoforms, then incubated with pHrodo-labelled tau preformed fibrils; endolysosomal pHrodo quantification",
+          "location": "Fig 6H-I",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s13024-025-00802-7",
+      "pmid": "39901180",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In human postmortem dorsolateral prefrontal cortex (ROSMAP), the cholesterol transporter ABCA1 was more abundant in lysosome-enriched (LAMP2-immunoprecipitated) fractions in AD than in non-cognitively-impaired brain within the APOE3/4 genotype but not the APOE3/3 genotype, i.e. lysosomal trapping of ABCA1 is an APOE4-associated phenotype; lysosomal ABCA1 also correlated with phosphorylated mTOR (R2 = 0.59, p < 0.0001, Fig 2D).",
+          "quote": "ABCA1 was more abundant in lysosome-enriched fractions in the AD group than in the NCI group within the APOE3/4 genotype but not in the APOE3/3 genotype",
+          "summary": "(APOE3/3 -> APOE3/4, AD brain) -> (more ABCA1 trapped in lysosomes)",
+          "relevance": 0.8,
+          "exp_system": "Human postmortem mid-frontal cortex from ROSMAP (NCI vs AD, APOE3/3 vs APOE3/4); LAMP2 immunoprecipitation of lysosome-enriched fractions and Western blot",
+          "location": "Fig 2C",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "10",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Treating APOE4-targeted-replacement mice for 2 months with hydroxypropyl-beta-cyclodextrin lowered brain oxysterols and reduced lysosomal ABCA1 trapping, mTORC1 activation, senescence and neuroinflammation, and increased ABCA1/endo-lysosome recycling, tying the lysosomal defect to the cholesterol (oxysterol) accumulation.",
+          "quote": "Treatment of APOE4-TR mice with cyclodextrin reduced brain oxysterol levels, ABCA1 lysosome trapping, mTORC1 activation, and attenuated senescence and neuroinflammation markers.",
+          "summary": "(oxysterol reduction by cyclodextrin in APOE4-TR mice) -> (less lysosomal ABCA1 trapping and restored endo-lysosome recycling)",
+          "relevance": 0.85,
+          "exp_system": "APOE4-targeted-replacement mice treated with hydroxypropyl-beta-cyclodextrin or PBS for 2 months from 8 months of age (n = 14 PBS, n = 15 HPCD); brain oxysterol mass spectrometry and lysosomal ABCA1/recycling assays",
+          "location": "Fig 5",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "14-15",
+          "n_prov": "printed_in_text",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1523/jneurosci.1400-19.2019",
+      "pmid": "31641056",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In primary astrocytes from APOE-targeted-replacement mice, ApoE4 raised ARF6 expression compared with ApoE3, trapping the cholesterol transporter ABCA1 in late endosomes and impairing its recycling to the cell membrane, which lowered ABCA1-mediated cholesterol efflux (abstract-level extraction; publisher does not release the full text in XML).",
+          "quote": "We found that ApoE4 promoted greater expression of ARF6 compared with ApoE3, trapping ABCA1 in late-endosomes and impairing its recycling to the cell membrane.",
+          "summary": "(APOE3 -> APOE4) -> (ABCA1 trapped in late endosomes, impaired recycling and cholesterol efflux)",
+          "relevance": 0.9,
+          "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement mice; ABCA1 membrane trafficking/recycling and cholesterol efflux assays",
+          "location": "Abstract (full text paywalled)",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "Human CSF from APOE epsilon4/epsilon4 carriers had a lower capacity to drive ABCA1-mediated cholesterol efflux (and more aggregated ApoE) than CSF from epsilon3/epsilon3 carriers, extending the late-endosomal ABCA1 trafficking/egress defect to a human sample (abstract-level extraction).",
+          "quote": "Human CSF from APOE ε4/ε4 carriers showed a lower ability to induce ABCA1-mediated cholesterol efflux activity and greater percentage of aggregated ApoE protein compared with CSF from APOE ε3/ε3 carriers.",
+          "summary": "(APOE epsilon3/epsilon3 -> epsilon4/epsilon4 human CSF) -> (lower ABCA1-mediated cholesterol efflux capacity)",
+          "relevance": 0.75,
+          "exp_system": "Human CSF from APOE epsilon3/epsilon3 and epsilon4/epsilon4 carriers applied to ABCA1-expressing cells; cholesterol efflux capacity assay",
+          "location": "Abstract (full text paywalled)",
+          "effect_size": "N/A",
+          "effect_prov": "full_text_unavailable",
+          "p_value": "N/A",
+          "p_prov": "full_text_unavailable",
+          "sample_size": "N/A",
+          "n_prov": "full_text_unavailable",
+          "directness_class": 1,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s13024-020-00382-8",
+      "pmid": "32517777",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In immortalized APOE4 vs APOE3 astrocytes, lysosomal Ca2+ handling was dysregulated: the GPN-releasable Ca2+ content of lysosome-enriched acidic stores (area under the curve after osmotic lysis of acidic stores with GPN) was greater in APOE4 cells, and NAADP/acidic-store Ca2+ release accounted for the APOE4 Ca2+ hyperactivity.",
+          "quote": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a higher concentration of lysosomal-related Ca2+ in APOE4 cells, as compared to APOE3.",
+          "summary": "(APOE3 -> APOE4) -> (increased lysosomal acidic-store Ca2+ content and dysregulated lysosomal Ca2+ release in astrocytes)",
+          "relevance": 0.8,
+          "exp_system": "Immortalized astrocytes expressing APOE3 or APOE4; Ca2+ imaging with GPN lysis of acidic stores and NAADP-receptor blockade (Ned-19)",
+          "location": "Fig 4d",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "4",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "APOE4 astrocyte lysosomes were more alkaline than APOE3 lysosomes by 0.14 pH units despite higher expression of the V-ATPase subunit V0D1 (Fig 4f), i.e. acidification is impaired and maintained only with compensatory proton-pump upregulation coupled to Ca2+/H+ exchange.",
+          "quote": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-related pH, with a minimal but significant difference of 0.14 pH units between genotypes, APOE4 lysosomes being more alkaline (Fig. 4g).",
+          "summary": "(APOE3 -> APOE4) -> (lysosomes 0.14 pH units more alkaline despite increased V-ATPase, i.e. impaired acidification)",
+          "relevance": 0.9,
+          "exp_system": "Immortalized APOE3 and APOE4 astrocytes; LysoSensor fluorometric pH measurement of acidic organelles and V-ATPase V0D1 Western blot",
+          "location": "Fig 4g",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "APOE4 astrocytes showed aberrant intracellular cholesterol distribution - more cholesterol in intracellular clumps and less at the plasma membrane than APOE3 cells on filipin staining, pointing to impaired cholesterol efflux - and the lipid composition of lysosomal membranes differed distinctly between genotypes on lipidomics (PLS-DA clustering, Fig 8b).",
+          "quote": "We found aberrant intracellular distribution of cholesterol in APOE4 astrocytes, which presented more cholesterol in intracellular clumps, and less in plasma membrane, than APOE3 cells (Fig. 8a).",
+          "summary": "(APOE3 -> APOE4) -> (cholesterol redistributed to intracellular stores, less at plasma membrane; distinct lysosomal membrane lipid composition)",
+          "relevance": 0.75,
+          "exp_system": "Immortalized APOE3 and APOE4 astrocytes; filipin III cholesterol staining and untargeted lipidomics of isolated lysosomal membranes",
+          "location": "Fig 8a",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "2",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.neuron.2023.10.023",
+      "pmid": "37995685",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In P301S tauopathy mice, ApoE4 (TE4) vs ApoE3 (TE3) drove glial lipid accumulation with neutral-lipid (BODIPY+) inclusions located predominantly within CD68+ microglial phagolysosomes, which the authors interpret as impaired lysosomal degradation of neutral lipids including cholesteryl esters.",
+          "quote": "the BODIPY signals were predominantly located within CD68+ phagolysosomes in microglia (Fig. 2C-E), indicating that the process of lysosomal degradation of neutral lipids, including CE, might be impaired in TE4 mice",
+          "summary": "(APOE3 -> APOE4, tauopathy brain) -> (neutral lipid/cholesteryl ester accumulation within microglial phagolysosomes, suggesting impaired lysosomal lipid degradation)",
+          "relevance": 0.8,
+          "exp_system": "P301S tau transgenic mice with human ApoE3 (TE3) or ApoE4 (TE4) targeted replacement, 9.5 months old; BODIPY/CD68/Iba1 co-immunostaining of hippocampal microglia",
+          "location": "Fig 2B-C",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "12",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Increasing glial lipid efflux with the LXR agonist GW3965 reduced microglial BODIPY (phagolysosomal neutral lipid) signal by ~50% in TE4 mice and attenuated tau pathology/neurodegeneration, supporting a causal lipid-efflux-to-lysosome link; LXR activation also raised endolysosomal BMP lipids, indicating activation of endolysosomal function (Fig 7C-D).",
+          "quote": "we performed BODIPY staining in TE4 mice on control vs. LXR agonist diet and observed a ~50% reduction in BODIPY signal in microglia of TE4-LXR vs. TE4-Ctrl mice (Fig. 7H and I)",
+          "summary": "(LXR agonist / increased glial cholesterol efflux in APOE4 tauopathy mice) -> (~50% less microglial phagolysosomal lipid accumulation)",
+          "relevance": 0.7,
+          "exp_system": "P301S/ApoE4 (TE4) mice fed GW3965-supplemented chow from 6 to 9.5 months; BODIPY staining of hippocampal microglia",
+          "location": "Fig 7H-I",
+          "effect_size": "50%",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Even without tauopathy, ApoE4 (but not ApoE3) forebrain showed drastic increases in the endolysosomal phospholipid BMP (a lysosome-resident lipid whose accumulation marks endolysosomal dysfunction) versus ApoE-knockout, alongside lower cholesteryl esters, indicating isoform-dependent changes in cholesterol metabolism and lysosomal function.",
+          "quote": "E4 but not E3 forebrains exhibited drastic increases in endolysosomal phospholipid BMP, DGs and MGs, and PEs while accumulating significantly lower levels of CEs when compared to EKO mice (Fig. S1E-F).",
+          "summary": "(APOE3 -> APOE4) -> (increased endolysosomal BMP, a marker of endolysosomal dysfunction, in forebrain)",
+          "relevance": 0.6,
+          "exp_system": "Forebrain lipidomics of 9.5-month-old non-tau APOE3-, APOE4- and ApoE-knockout targeted-replacement mice",
+          "location": "Fig S1E-F",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 3,
+          "directness_strength": "4 weak"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.cell.2022.05.017",
+      "pmid": "35750033",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "Confirmed on the lysosomal cholesterol sequestration/egress arm only: in isogenic human iPSC-derived astrocytes, lysosomal free cholesterol (filipin co-localisation with endocytosed TRITC-dextran, a measure of lysosomal cholesterol) was significantly increased 3-fold (p < 0.001) in APOE4 vs APOE3 cells, i.e. cholesterol is sequestered in lysosomes and fails to egress, despite elevated total intracellular cholesterol driving paradoxical de novo synthesis.",
+          "quote": "Filipin and TRITC-Dextran co-localization (yellow puncta), a measure of lysosomal cholesterol, was significantly increased (3-fold, p<0.001) in APOE4 compared to APOE3 astrocytes, indicating that intracellular free cholesterol accumulates in lysosomes (Figure 6H).",
+          "summary": "(APOE3 -> APOE4) -> (3-fold more cholesterol sequestered in astrocyte lysosomes, i.e. failed lysosomal cholesterol egress)",
+          "relevance": 0.85,
+          "exp_system": "Isogenic human iPSC-derived APOE3 and APOE4 astrocytes; filipin staining co-localised with endocytosed TRITC-dextran (lysosomal compartment)",
+          "location": "Fig 6H",
+          "effect_size": "3x",
+          "effect_prov": "printed_in_text",
+          "p_value": "<0.001",
+          "p_prov": "printed_in_text",
+          "sample_size": "4",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Consistent with failed lysosomal cholesterol egress, the lysosomal cholesterol-export machinery was reduced in APOE4 glia: the lysosome gene set was negatively enriched and SMPD1, NPC1 and NPC2 (and LAMP1/2) were lower in APOE4 vs APOE3 astrocytes/microglia, which the authors state indicates cholesterol transport out of lysosomes may be impaired by APOE4.",
+          "quote": "Negatively enriched Lysosome (Figures 2F and S3D) and lower SMPD1, NPC1 and NPC2 in APOE4 vs. APOE3 astrocytes (Figure S6D) indicates cholesterol transport out of lysosomes may be impaired by APOE4.",
+          "summary": "(APOE3 -> APOE4) -> (reduced NPC1/NPC2/SMPD1 lysosomal cholesterol-export machinery)",
+          "relevance": 0.7,
+          "exp_system": "Isogenic human iPSC-derived APOE3 and APOE4 astrocytes and microglia; transcriptomics/proteomics of lysosomal cholesterol-export genes",
+          "location": "Fig S6D",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 3,
+          "directness_strength": "4 weak"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.stemcr.2021.11.007",
+      "pmid": "34919811",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "Confirmed on the lysosomal cholesterol sequestration/egress arm only: in isogenic human iPSC-derived astrocytes, colocalisation of filipin III (non-membrane-bound cholesterol) with dextran-Alexa 555 (lysosomal compartment) was highest in APOE4 cells (ordering E4 > E3 = KO > E2 in the authors' summary), i.e. an isoform-graded lysosomal cholesterol sequestration phenotype; no direct lysosomal function assay difference between APOE4 and APOE3 is claimed here.",
+          "quote": "Further colocalization of Filipin III with Dextran-Alexa 555 was highest in APOE4 iAstrocytes, indicating higher cholesterol levels in lysosomes of APOE4 iAstrocytes (E4 > E2) (Figure 3G).",
+          "summary": "(APOE3 -> APOE4) -> (more cholesterol localised in astrocyte lysosomes, i.e. lysosomal cholesterol sequestration)",
+          "relevance": 0.8,
+          "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, E3, E4, APOE-KO); filipin III staining co-localised with dextran-Alexa 555 after methyl-beta-cyclodextrin treatment",
+          "location": "Fig 3G",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Non-membrane-bound (free) cholesterol was increased in APOE4 iAstrocytes (E4 > E3 = E2 = KO) while cholesterol efflux and biosynthesis were reduced in APOE4 cells, the cellular context for the lysosomal sequestration: cholesterol that cannot be effluxed accumulates intracellularly and is translocated into lysosomes.",
+          "quote": "We found that non-membrane-bound cholesterol was increased in APOE4 iAstrocytes (E4 > E3 = E2 = KO) (Figure 3F).",
+          "summary": "(APOE3 -> APOE4) -> (increased intracellular free cholesterol with reduced cholesterol efflux)",
+          "relevance": 0.7,
+          "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, E3, E4, APOE-KO); filipin III quantification of non-membrane-bound cholesterol and HPTLC cholesterol efflux/biosynthesis assays",
+          "location": "Fig 3F",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
+    }
+  ]
+}

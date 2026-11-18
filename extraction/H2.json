@@ -1,717 +1,225 @@
 {
- "hypothesis": "H2",
- "papers": [
-  {
-   "doi": "10.1126/scitranslmed.3002156",
-   "pmid": "21715678",
-   "source_type": "PubMed published",
-   "findings": [
+  "hypothesis": "H2",
+  "papers": [
     {
-     "desc": "In PDAPP mice expressing human apoE isoforms, clearance of endogenous soluble Aβ from hippocampal interstitial fluid was slowest with apoE4: ISF Aβ half-life was 1.1 hours in PDAPP/E4 mice versus 0.71 hours (E3) and 0.56 hours (E2), measured by in vivo microdialysis after halting Aβ production.",
-     "quote": "the half-life (t1/2) of ISF Aβ in the hippocampus of PDAPP/E4 mice was 1.1 hours, compared to 0.71 and 0.56 hours, measured from PDAPP/E3 and PDAPP/E2 mice, respectively",
-     "summary": "(APOE3 -> APOE4) -> (slower clearance of soluble Aβ from brain interstitial fluid; ISF Aβ half-life 1.1 h vs 0.71 h)",
-     "relevance": 0.92,
-     "exp_system": "In vivo microdialysis in PDAPP/TRE mice expressing human apoE2, apoE3 or apoE4; hippocampal ISF Aβ elimination kinetics after gamma-secretase inhibition",
-     "location": "Fig. 3C",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.1523/jneurosci.1400-19.2019",
+      "pmid": "31641056",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In primary astrocytes from APOE-targeted replacement mice, ApoE4 was associated with greater ARF6 protein expression and significantly lower plasma-membrane ABCA1 than ApoE3, while ABCA1 mRNA and total ABCA1 protein did not differ, indicating ARF6-related trapping of ABCA1 away from the cell surface.",
+          "quote": "We found greater protein levels of ARF6 in ApoE4 primary astrocytes compared with ApoE3 primary astrocytes",
+          "summary": "(APOE3 -> APOE4) -> (increased ARF6 expression and less ABCA1 at the astrocyte plasma membrane)",
+          "relevance": 0.95,
+          "exp_system": "Primary astrocytes from human APOE3- and APOE4-targeted-replacement mice; membrane fractionation and Western blot for ABCA1 and ARF6",
+          "location": "Fig 1E-F, Fig 1H-I",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "<0.001",
+          "p_prov": "visual_only",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "1 very strong"
+        },
+        {
+          "desc": "In HeLa cells expressing GFP-tagged ABCA1, recombinant ApoE4 (0.2 µM, 30 min) increased ABCA1 colocalization with the late-endosome/lysosome marker LAMP2 and decreased colocalization with the recycling-endosome marker Rab11 compared with recombinant ApoE3, showing ABCA1 is diverted from recycling endosomes into late endosomes and away from the plasma membrane.",
+          "quote": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 and lower colocalization with the recycling endosome marker Rab11 were observed in cells treated with rApoE4 compared with rApoE3",
+          "summary": "(APOE3 -> APOE4) -> (ABCA1 diverted from Rab11 recycling endosomes to LAMP2 late endosomes, impairing its recycling to the membrane)",
+          "relevance": 0.9,
+          "exp_system": "HeLa cells transfected with GFP-tagged ABCA1 treated with 0.2 µM recombinant ApoE3 or ApoE4; confocal colocalization with LAMP2 and Rab11",
+          "location": "Fig 2",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "<0.001",
+          "p_prov": "visual_only",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "ApoE4 primary astrocytes showed lower ABCA1-mediated cholesterol efflux than ApoE3 astrocytes at 4 h and 24 h, and siRNA knockdown of ARF6 in ApoE4 astrocytes significantly increased cholesterol efflux at both time points, causally linking ARF6 to the ApoE4 trafficking defect.",
+          "quote": "Knockdown of ARF6 by siRNA resulted in significant increase in cholesterol efflux in ApoE4 primary astrocytes after 4 and 24 h",
+          "summary": "(ARF6 knockdown in APOE4 astrocytes) -> (increased ABCA1-mediated cholesterol efflux)",
+          "relevance": 0.85,
+          "exp_system": "Primary astrocytes from APOE3- and APOE4-targeted-replacement mice labelled with 3H-cholesterol; ARF6 siRNA knockdown in ApoE4 astrocytes; cholesterol efflux assay",
+          "location": "Fig 3C-E",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
     },
     {
-     "desc": "Aged PDAPP/E4 mice accumulated far more hippocampal Aβ than E3 or E2 mice: Aβ burden at 20-21 months was approximately 2-fold higher than in PDAPP/E3 and 4.6-fold higher than in PDAPP/E2 mice.",
-     "quote": "Quantification revealed that hippocampal Aβ burden in 20- to 21-month-old PDAPP/E4 mice was approximately 2-fold and 4.6-fold higher than in PDAPP/E3 and PDAPP/E2 mice, respectively",
-     "summary": "(APOE3 -> APOE4) -> (greater hippocampal Aβ deposition with age)",
-     "relevance": 0.88,
-     "exp_system": "PDAPP/TRE mice expressing human apoE isoforms; anti-Aβ (3D6) immunostaining and quantification of hippocampal Aβ burden at 20-21 months",
-     "location": "Fig. 2D",
-     "effect_size": "2x",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.7554/elife.40048",
+      "pmid": "30375977",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In primary rat cortical neurons exposed to cell-derived ApoE particles and Reelin, Apoer2 rapidly recycled back to the cell surface in the presence of ApoE3 but its reappearance was greatly delayed with ApoE4, while receptors that do not bind ApoE (insulin receptor, transferrin receptor, Lrp1, Ldlr) were not significantly affected.",
+          "quote": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4",
+          "summary": "(APOE3 -> APOE4) -> (delayed Apoer2 recycling back to the neuronal cell surface)",
+          "relevance": 0.9,
+          "exp_system": "Primary rat cortical neurons treated with cell-derived recombinant ApoE3 or ApoE4 particles plus Reelin; cell-surface biotinylation recycling assay and immunoblot",
+          "location": "Fig 2B-C",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "1 very strong"
+        },
+        {
+          "desc": "The NHE inhibitor EMD87580 progressively restored normal surface recycling of Apoer2 in ApoE4-treated primary neurons in a dose-dependent manner, and at 3 µM completely neutralized the ApoE4 effect on Apoer2 recycling, consistent with endosomal acidification releasing the ApoE4 recycling block.",
+          "quote": "Increasing concentrations progressively restored normal surface recycling of Apoer2 in the presence of ApoE4",
+          "summary": "(NHE inhibition by EMD87580) -> (restored Apoer2 surface recycling in APOE4 neurons)",
+          "relevance": 0.85,
+          "exp_system": "Primary rat cortical neurons treated with ApoE4-conditioned medium and Reelin with or without EMD87580; cell-surface biotinylation and immunoblot",
+          "location": "Fig 4B-C",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 2,
+          "directness_strength": "3 moderate"
+        },
+        {
+          "desc": "Genetic inhibition of NHE6 was sufficient to reverse the block: of shRNAs against vesicular NHEs (1 and 5-9), only NHE6-specific shRNAs completely restored Apoer2 expression at the plasma membrane in ApoE4-treated neurons, and the same NHE6 knockdown completely restored surface expression of the co-endocytosed AMPA and NMDA glutamate receptors (Fig 6).",
+          "quote": "only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4",
+          "summary": "(NHE6 knockdown) -> (complete restoration of Apoer2 and glutamate receptor surface recycling in APOE4 neurons)",
+          "relevance": 0.9,
+          "exp_system": "Primary rat cortical neurons with lentiviral shRNA knockdown of NHE6 (three constructs), treated with ApoE4-conditioned medium and Reelin; cell-surface biotinylation and immunoblot",
+          "location": "Fig 5A-D, Fig 6B-F",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "<0.001",
+          "p_prov": "visual_only",
+          "sample_size": "3",
+          "n_prov": "printed_in_text",
+          "directness_class": 2,
+          "directness_strength": "2 strong"
+        }
+      ]
     },
     {
-     "desc": "CONTRADICTING: Aβ synthesis did not differ by apoE isoform: amyloidogenic APP processing and Aβ synthesis rates, measured by in vivo stable isotopic labeling kinetics in young PDAPP/TRE mice, were the same for apoE2, apoE3 and apoE4, indicating the isoform effect acts through clearance rather than production in this model.",
-     "quote": "amyloidogenic processing of amyloid precursor protein and Aβ synthesis, as assessed by in vivo stable isotopic labeling kinetics, do not vary according to apoE isoform in young PDAPP/TRE mice",
-     "summary": "(APOE3 -> APOE4) -> (no change in Aβ synthesis rate) [CONTRADICTS]",
-     "relevance": 0.6,
-     "exp_system": "Young PDAPP/TRE mice expressing human apoE isoforms; in vivo stable isotopic labeling kinetics of Aβ synthesis",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.cell.2016.12.044",
-   "pmid": "28111074",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Glia-secreted apoE stimulated Aβ production by human neurons with a strict isoform potency order, apoE4 strongest: ApoE4 > ApoE3 > ApoE2 for neuronal Aβ production in ES-cell-derived human neurons.",
-     "quote": "Using ES-cell-derived human neurons, we show that ApoE secreted by glia stimulates neuronal Aβ production with an ApoE4 > ApoE3 > ApoE2 potency rank order",
-     "summary": "(APOE3 -> APOE4) -> (more neuronal Aβ production)",
-     "relevance": 0.92,
-     "exp_system": "Human ES-cell-derived neurons exposed to glia-secreted apoE isoforms; Aβ40/Aβ42 measured in medium",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.1073/pnas.0914984107",
+      "pmid": "20547867",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In primary mouse cortical neurons, endocytosed ApoE4 was retained in intracellular compartments at all chase time points and its release back into the medium was markedly delayed compared with ApoE2 and ApoE3, confirming that impaired recycling of ApoE4 itself occurs in primary neurons.",
+          "quote": "Substantially more ApoE4 was retained in intracellular compartments at all time points, confirming that impaired recycling of ApoE4 also occurs in primary neurons",
+          "summary": "(APOE3 -> APOE4) -> (impaired ApoE recycling with intracellular retention in neurons)",
+          "relevance": 0.8,
+          "exp_system": "Primary embryonic mouse cortical neurons incubated with naturally secreted ApoE2, ApoE3 or ApoE4 lipoproteins (3 µg/mL); suramin wash and 30-120 min chase, immunoprecipitation and immunoblot",
+          "location": "Fig 1A",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "ApoE4, but not ApoE2 or ApoE3, significantly decreased neuronal surface expression of Apoer2 in cell-surface biotinylation assays, and upon Reelin stimulation ApoE4 produced a dramatic, highly significant reduction of Apoer2 at the neuronal cell surface, consistent with sequestration of the receptor in intracellular recycling compartments.",
+          "quote": "ApoE4 led to a dramatic and statistically highly significant reduction of Apoer2 at the neuronal cell surface",
+          "summary": "(APOE3 -> APOE4) -> (reduced neuronal surface Apoer2 via intracellular sequestration)",
+          "relevance": 0.9,
+          "exp_system": "Primary cultured neurons treated with ApoE isoforms (3 µg/mL) with or without Reelin (2 µg/mL); cell-surface biotinylation and anti-Apoer2 immunoblot",
+          "location": "Fig 1B-C",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "ambiguous_panel",
+          "sample_size": "4",
+          "n_prov": "printed_in_text",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "ApoE4 reduced neuronal surface expression of NMDA and AMPA receptors as well as Apoer2 by sequestration in intracellular compartments, and almost completely abolished Reelin-enhanced NMDA receptor-dependent Ca2+ influx at 3 µg/mL, linking the receptor recycling defect to loss of glutamate receptor function.",
+          "quote": "ApoE4 reduces neuronal surface expression of Apoer2, a dual function receptor for ApoE and for Reelin, as well as NMDA and AMPA receptors by sequestration in intracellular compartments",
+          "summary": "(APOE3 -> APOE4) -> (reduced surface NMDA and AMPA receptors via intracellular sequestration)",
+          "relevance": 0.85,
+          "exp_system": "Primary cultured neurons treated with ApoE isoforms with Reelin stimulation; cell-surface biotinylation of GluA1, GluA2/3 and GluN2B and fura-2 Ca2+ imaging",
+          "location": "Fig 2H-I",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        }
+      ]
     },
     {
-     "desc": "The mechanism is transcriptional: apoE-receptor binding activates a DLK-MKK7-ERK1/2 cascade that phosphorylates cFos, activates AP-1 and increases APP transcription, raising Aβ levels; the same pathway regulates APP transcription in mouse brain in vivo.",
-     "quote": "Activated ERK1/2 induces cFos phosphorylation, stimulating the transcription factor AP-1, which in turn enhances transcription of amyloid-β precursor protein (APP) and thereby increases amyloid-β levels",
-     "summary": "(APOE4 binding to apoE receptors) -> (DLK/MKK7/ERK1/2-AP-1 activation) -> (more APP transcription) -> (more Aβ production)",
-     "relevance": 0.85,
-     "exp_system": "Human ES-cell-derived neurons and mouse brain in vivo; kinase cascade and APP transcription readouts",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.1016/j.cell.2024.10.027",
+      "pmid": "39532095",
+      "source_type": "PubMed published",
+      "findings": [
+        {
+          "desc": "In H4 neuroglioma cells, wild-type HAP1 cells and human APOE-knockout iPSC-derived astrocytes, lipidated ApoE3 and ApoE4 (but not ApoE2) significantly reduced cell-surface LDLR after 1 day, which the authors interpret as impaired LDLR recycling accompanying LDLR-mediated ApoE uptake; the recycling contrast is against ApoE2, not between ApoE3 and ApoE4.",
+          "quote": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 significantly reduced surface LDLR relative to lipApoE2, revealing impaired LDLR recycling accompanying increased LDLR-mediated lipApoE uptake",
+          "summary": "(APOE2 -> APOE3/APOE4) -> (reduced surface LDLR / impaired LDLR recycling)",
+          "relevance": 0.75,
+          "exp_system": "H4 neuroglioma cells, WT HAP1 cells and human APOE-KO iPSC-derived astrocytes treated with POPC-lipidated ApoE (10 µg/mL, 1 d); cell-surface LDLR immunostaining and confocal quantification",
+          "location": "Fig 2A-D",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "CONTRADICTING: For the hypothesis's specific APOE4-versus-APOE3 comparison, this paper reports no LDLR-recycling difference: the recycling defect was observed with lipidated ApoE3 and ApoE4 alike, and only ApoE2, whose LDLR binding is impaired, avoided it, so ApoE3 behaved like ApoE4 rather than recycling LDLR normally.",
+          "quote": "impaired low-density lipoprotein (LDL) receptor (LDLR) binding of lipidated ApoE2 (lipApoE2) avoids LDLR recycling defects observed with lipApoE3/E4",
+          "summary": "(APOE3 -> APOE4) -> (no difference in LDLR recycling defect; both isoforms differ from APOE2) [CONTRADICTS]",
+          "relevance": 0.8,
+          "exp_system": "Human cellular models (H4, HAP1, APOE-KO iPSC-derived astrocytes and human neurons) treated with lipidated ApoE isoforms; LDLR binding, surface LDLR and recycling readouts (abstract-level statement)",
+          "location": "Abstract",
+          "effect_size": "N/A",
+          "effect_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 1,
+          "directness_strength": "2 strong"
+        },
+        {
+          "desc": "After 1 day of pre-treatment, lipidated ApoE3/E4 redistributed LDLR from the cell surface to endolysosomes and nearly abolished subsequent DiI-LDL uptake in H4 cells, whereas ApoE2 pre-treatment modestly enhanced LDL uptake, a functional consequence of the failed LDLR recycling.",
+          "quote": "Taken together, increased LDLR-mediated uptake of lipApoE3/E4, coupled with inefficient dissociation of LDLR from lipApoE upon internalization, results in redistribution of cell surface LDLR to endolysosomes",
+          "summary": "(APOE2 -> APOE3/APOE4) -> (surface LDLR redistributed to endolysosomes and LDL uptake nearly abolished)",
+          "relevance": 0.7,
+          "exp_system": "H4 neuroglioma cells pre-treated 1 d with POPC-lipidated ApoE (10 µg/mL) then DiI-LDL uptake assay; LDLR and LAMP1 co-immunostaining",
+          "location": "Fig 2J-L",
+          "effect_size": "qualitative",
+          "effect_prov": "printed_in_text",
+          "p_value": "N/A",
+          "p_prov": "not_found_in_source",
+          "sample_size": "N/A",
+          "n_prov": "not_found_in_source",
+          "directness_class": 3,
+          "directness_strength": "3 moderate"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "doi": "10.1172/jci36663",
-   "pmid": "19033669",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 disrupted Aβ clearance across the mouse blood-brain barrier more than apoE3 or apoE2: Aβ-apoE4 complexes were redirected from rapid LRP1 transport to slower VLDLR internalization. Only 12% of Aβ42 complexed with lipid-poor apoE4 was cleared at the BBB, versus 25% with apoE2 and 38% for free Aβ42.",
-     "quote": "only 25% and 12% of Aβ42 was cleared via lipid-poor apoE2 and apoE4, respectively, whereas 9% and 3% of Aβ42 was cleared by lipo-apoE2 and lipo-apoE4, respectively, compared with 38% as seen for free unbound Aβ42",
-     "summary": "(APOE3 -> APOE4) -> (Aβ-apoE complexes rerouted from LRP1 to slower VLDLR transport) -> (less Aβ clearance across the blood-brain barrier)",
-     "relevance": 0.92,
-     "exp_system": "In vivo mouse brain microinfusion of radiolabeled Aβ40/42 free or complexed with human apoE isoforms; BBB efflux measured in wild-type, LRP1- and VLDLR-manipulated mice",
-     "location": "Figure 3C",
-     "effect_size": "12%",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.neuron.2018.05.008",
-   "pmid": "29861287",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Isogenic human APOE4 neurons secreted more Aβ42 than APOE3 neurons: CRISPR-edited iPSC-derived neurons homozygous for APOE4 showed elevated Aβ42 secretion relative to isogenic APOE3 cells.",
-     "quote": "APOE4 neurons exhibited increased synapse number and elevated Aβ42 secretion relative to isogenic APOE3 cells",
-     "summary": "(APOE3 -> APOE4) -> (more neuronal Aβ42 secretion)",
-     "relevance": 0.9,
-     "exp_system": "Human iPSC-derived neurons, isogenic APOE3/3 vs APOE4/4 (CRISPR/Cas9-edited); Aβ42 secretion measured",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "APOE4 astrocytes were impaired at clearing Aβ: isogenic APOE4 astrocytes showed impaired Aβ uptake compared with APOE3 astrocytes, together with cholesterol accumulation.",
-     "quote": "APOE4 astrocytes displayed impaired Aβ uptake and cholesterol accumulation",
-     "summary": "(APOE3 -> APOE4) -> (less astrocytic Aβ uptake/clearance)",
-     "relevance": 0.85,
-     "exp_system": "Human iPSC-derived astrocytes, isogenic APOE3 vs APOE4; Aβ uptake assay",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "APOE4 microglia-like cells phagocytosed less Aβ: APOE4 microglia-like cells had altered morphology that correlated with reduced Aβ phagocytosis relative to APOE3 cells.",
-     "quote": "APOE4 microglia-like cells exhibited altered morphologies, which correlated with reduced Aβ phagocytosis",
-     "summary": "(APOE3 -> APOE4) -> (less microglial Aβ phagocytosis/clearance)",
-     "relevance": 0.82,
-     "exp_system": "Human iPSC-derived microglia-like cells, isogenic APOE3 vs APOE4; Aβ phagocytosis assay",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/s41591-018-0004-z",
-   "pmid": "29632371",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Human iPSC-derived neurons expressing apoE4 produced more Aβ than apoE3-expressing neurons, and converting apoE4 to apoE3 by gene editing rescued the phenotype, showing a specific gain of toxic apoE4 effect on Aβ production in human neurons.",
-     "quote": "ApoE4 increased Aβ production in human, but not in mouse, neurons",
-     "summary": "(APOE3 -> APOE4) -> (more Aβ production by human neurons)",
-     "relevance": 0.9,
-     "exp_system": "Human iPSC-derived neurons (apoE4/4 vs apoE3/3, including gene-edited isogenic lines); Aβ40/Aβ42 in culture medium by MSD/ELISA",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Introducing apoE4 into apoE-null human neurons recapitulated the increased Aβ production: apoE-null neurons transduced with apoE4 produced more Aβ40 and Aβ42 than those expressing apoE3, and an apoE4 structure corrector reduced Aβ production/secretion dose-dependently.",
-     "quote": "We found that apoE4 specifically induces AD-related pathologies, including the increase in apoE fragmentation, tau phosphorylation, and Aβ production, as well as the degeneration/loss of GABAergic neurons",
-     "summary": "(no apoE -> APOE4 expression) -> (more Aβ40 and Aβ42 production)",
-     "relevance": 0.85,
-     "exp_system": "APOE-knockout human iPSC-derived neurons with lentiviral apoE3 or apoE4 expression; Aβ40/Aβ42 in medium (Fig. 5o-p); structure-corrector PH002 treatment arm",
-     "location": "Fig. 5o-p",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "CONTRADICTING: In mouse neurons the isoform effect on Aβ production was absent: mouse iPSC-derived neurons from human apoE3- and apoE4-knock-in mice showed no significant difference in Aβ40 or Aβ42 levels in culture medium, indicating the production effect is human-neuron-specific in this study.",
-     "quote": "there were no significant differences in both Aβ 40 and Aβ 42 levels in the culture medium of neurons derived from apoE3/3-miPSC and apoE4/4-miPSC lines",
-     "summary": "(APOE3 -> APOE4) -> (no change in Aβ production by mouse neurons) [CONTRADICTS]",
-     "relevance": 0.5,
-     "exp_system": "Mouse iPSC-derived neurons from human apoE3-KI and apoE4-KI mouse fibroblasts; Aβ40/Aβ42 in culture medium",
-     "location": "Supplementary Fig. 3",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.neuron.2008.04.010",
-   "pmid": "18549781",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE promotes proteolytic degradation of soluble Aβ by microglia (neprilysin-mediated) and extracellularly by insulin-degrading enzyme, but apoE4 is the least efficient isoform: apoE2 showed the strongest promotion of Aβ degradation and apoE4 was significantly less efficient, so APOE4 supports less proteolytic Aβ clearance.",
-     "quote": "While all isoforms of human ApoE increased clearance of soluble Aβ, ApoE2 exhibited the strongest effect whereas ApoE4 was significantly less efficient in promoting the degradation of soluble Aβ",
-     "summary": "(APOE3 -> APOE4) -> (less apoE-promoted proteolytic degradation of soluble Aβ by microglia)",
-     "relevance": 0.88,
-     "exp_system": "Primary microglia from Apoe-knockout mice treated with soluble Aβ42 plus purified human apoE2/E3/E4 HDL particles from targeted-replacement astrocytes; Aβ degradation measured",
-     "location": "Figure 4E",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1073/pnas.1220484110",
-   "pmid": "23620513",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Despite minimal direct binding, apoE isoforms regulate soluble Aβ metabolism: apoE and sAβ compete for LRP1-dependent cellular uptake in astrocytes, and apoE isoforms regulated sAβ metabolism in astrocytes and in mouse brain interstitial fluid during apoE-infusion microdialysis, providing a clearance mechanism by which isoforms change Aβ levels.",
-     "quote": "we find that apoE isoforms regulate the metabolism of sAβ by astrocytes and in the interstitial fluid of mice that received apoE infusions during brain Aβ microdialysis",
-     "summary": "(APOE isoform) -> (competition for LRP1-dependent astrocyte uptake) -> (isoform-dependent soluble Aβ clearance)",
-     "relevance": 0.85,
-     "exp_system": "Cultured astrocytes and in vivo mouse brain microdialysis with apoE isoform infusions; sAβ uptake/metabolism and LRP1 competition assays",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Direct apoE-sAβ binding in physiological fluids is minimal: apoE and soluble Aβ interactions occurred minimally in solution and in human cerebrospinal fluid for both apoE3 and apoE4, arguing against a direct-binding explanation of isoform effects on Aβ load.",
-     "quote": "apoE and sAβ interactions occur minimally in solution and in the cerebrospinal fluid of human subjects",
-     "summary": "(APOE isoform) -> (minimal direct apoE-sAβ association in solution/CSF; load effects act via receptors/cell surfaces instead)",
-     "relevance": 0.55,
-     "exp_system": "Biochemical and analytical binding assays with apoE3/apoE4 and soluble Aβ in solution and human CSF",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1186/s13024-018-0286-0",
-   "pmid": "30340601",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Blood-brain barrier pericytes clear aggregated Aβ42 by an LRP1-dependent, apoE isoform-specific mechanism, and apoE4 fails to support it: human astrocyte-derived lipidated apoE3, but not apoE4, normalized Aβ42 clearance by mouse pericytes whose endogenous apoE was silenced.",
-     "quote": "Human astrocyte-derived lipidated apoE3, but not apoE4, normalized Aβ42 clearance by mouse pericytes with silenced mouse ApoE",
-     "summary": "(APOE3 -> APOE4) -> (pericyte LRP1-mediated clearance of aggregated Aβ42 not supported) -> (less Aβ clearance at the blood-brain barrier)",
-     "relevance": 0.85,
-     "exp_system": "Mouse brain capillary pericytes on brain slices and multi-spot slides, endogenous Apoe silenced, with human astrocyte-derived lipidated apoE3 or apoE4; Cy3-Aβ42 uptake/clearance with LRP1 inhibition",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1073/pnas.050004797",
-   "pmid": "10694577",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 produced far more fibrillar amyloid deposition than apoE3 in vivo: APP(V717F) transgenic, apoE-knockout mice expressing human apoE3 or apoE4 developed fibrillar Aβ deposits and neuritic plaques by 15 months, with substantially (>10-fold) more fibrillar deposits in apoE4-expressing mice.",
-     "quote": "substantially (>10-fold) more fibrillar deposits were observed in apoE4-expressing APP(V717F) TG mice",
-     "summary": "(APOE3 -> APOE4) -> (>10-fold more fibrillar Aβ deposition and neuritic plaques)",
-     "relevance": 0.9,
-     "exp_system": "APP(V717F) transgenic mice on apoE-knockout background expressing human apoE3 or apoE4; thioflavine-S fibrillar Aβ deposits at 15 months",
-     "location": "Abstract",
-     "effect_size": "10x",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1523/jneurosci.0887-09.2009",
-   "pmid": "19474305",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Brain Aβ levels were strongly apoE isoform-dependent in PDAPP mice expressing human apoE, in the order E4 >> E3 > E2: brain Aβ42 was substantially elevated in young PDAPP/TRE4 mice even before deposition began, and the isoform effect on brain Aβ burden increased with age.",
-     "quote": "resulting in early and dramatic apoE isoform-dependent effects on brain Abeta levels (E4 >> E3 > E2) that increase with age",
-     "summary": "(APOE3 -> APOE4) -> (higher brain Aβ42 levels and Aβ burden, E4 >> E3 > E2)",
-     "relevance": 0.88,
-     "exp_system": "PDAPP mice crossed with human apoE targeted-replacement mice (TRE2/TRE3/TRE4); Aβ peptides in brain homogenates, CSF and plasma across ages; amyloid burden at 18 months",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1074/jbc.m112.407957",
-   "pmid": "23060451",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In EFAD transgenic mice (5xFAD crossed with apoE targeted-replacement mice), soluble Aβ42 and oligomeric Aβ levels were highest with APOE4, and E4FAD mice developed more compact plaques and higher total Aβ than E2FAD/E3FAD mice, despite comparable soluble apoE levels across isoforms.",
-     "quote": "Soluble Aβ42 and oAβ levels were highest in E4FAD mice, although soluble apoE2, apoE3, and apoE4 levels were comparable",
-     "summary": "(APOE3 -> APOE4) -> (highest soluble Aβ42 and oligomeric Aβ; more compact plaque deposition)",
-     "relevance": 0.87,
-     "exp_system": "EFAD mice (5xFAD x apoE2/E3/E4 targeted replacement), 2-6 months; sequential TBS/detergent/formic-acid extraction of brain Aβ, soluble Aβ42 and oligomeric Aβ assays, plaque morphology",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1523/jneurosci.5170-04.2005",
-   "pmid": "15772340",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Human apoE4 directed amyloid into cerebral vessel walls: at 15 months, Tg2576 mice expressing human apoE4 developed substantial cerebral amyloid angiopathy with very few parenchymal plaques, whereas apoE3-expressing mice had almost no CAA or plaques; young apoE4 mice also showed an elevated brain extracellular Aβ40:42 ratio, consistent with altered Aβ clearance/transport.",
-     "quote": "At 15 months of age, the expression of human apoE4 led to substantial CAA with very few parenchymal plaques, whereas the expression of human apoE3 resulted in almost no CAA or parenchymal plaques",
-     "summary": "(APOE3 -> APOE4) -> (substantial cerebral amyloid angiopathy; altered Aβ40:42 compartment ratios)",
-     "relevance": 0.84,
-     "exp_system": "Tg2576 APP transgenic mice bred to human APOE3 or APOE4 knock-in mice; CAA and parenchymal plaque histology at 15 months; Aβ40:42 ratios in brain extracellular pools and CSF",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1073/pnas.0508693102",
-   "pmid": "16344478",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 enhanced Aβ production in neuronal cells more than apoE3: lipid-poor apoE4 increased Aβ production by 60% in APP-expressing B103 neuroblastoma cells versus 30% for apoE3, through stronger stimulation of APP recycling via the LRP pathway and apoE4 domain interaction.",
-     "quote": "Lipid-poor apoE4 increased Abeta production in B103-APP cells to a greater extent than lipid-poor apoE3 (60% vs. 30%) due to more pronounced stimulation of APP recycling by apoE4 than apoE3",
-     "summary": "(APOE3 -> APOE4) -> (more APP recycling) -> (more Aβ production, +60% vs +30%)",
-     "relevance": 0.86,
-     "exp_system": "Rat neuroblastoma B103 cells stably transfected with human APP695, treated with lipid-poor apoE3 or apoE4; Aβ production measured, with LRP blockade (RAP/siRNA) controls",
-     "location": "Abstract",
-     "effect_size": "60%",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.neuron.2017.11.014",
-   "pmid": "29216448",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Reducing apoE before plaques form strongly reduced Aβ pathology in APOE4 (and APOE3) amyloid mice: antisense-oligonucleotide reduction of apoE in APP/PS1-21 mice homozygous for APOE-e4 or APOE-e3, started after birth, significantly decreased Aβ pathology at 4 months, showing apoE (including apoE4) is required for initiation of Aβ deposition.",
-     "quote": "ASO treatment starting after birth led to a significant decrease in Aβ pathology when assessed at 4 months",
-     "summary": "(apoE reduction by ASO in APOE4 mice) -> (less initiation of Aβ pathology)",
-     "relevance": 0.78,
-     "exp_system": "APP/PS1-21 mice homozygous for human APOE-e4 or APOE-e3; antisense oligonucleotide lowering of brain apoE from birth; Aβ pathology at 4 months",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 2,
-     "directness_strength": "3 moderate"
-    },
-    {
-     "desc": "CONTRADICTING: Once deposition had begun, lowering apoE did not reduce overall plaque load: ASO treatment started at the onset of amyloid deposition increased Aβ plaque size and reduced plaque-associated neuritic dystrophy but produced no change in overall plaque load.",
-     "quote": "ASO treatment starting at the onset of amyloid deposition led to an increase in Aβ plaque size and a reduction in plaque-associated neuritic dystrophy with no change in overall plaque load",
-     "summary": "(apoE reduction after Aβ seeding) -> (no change in overall plaque load) [CONTRADICTS]",
-     "relevance": 0.58,
-     "exp_system": "APP/PS1-21 APOE-e4/e3 mice; antisense oligonucleotide lowering of apoE started at onset of amyloid deposition; plaque load and plaque size quantified",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 2,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/s41590-023-01627-6",
-   "pmid": "37749326",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Microglial APOE4 impairs the response to amyloid pathology: deleting APOE4 specifically from microglia restored the neurodegeneration-associated microglial (MGnD) phenotype and decreased pathology in APP/PS1 mice, and deleting the APOE4-induced checkpoint Inpp5d restored microglia-astrocyte cross-talk (LGALS3-mediated plaque encapsulation) and facilitated plaque clearance.",
-     "quote": "Deletion of microglial APOE4 restores the MGnD phenotype associated with neuroprotection in P301S tau transgenic mice and decreases pathology in APP/PS1 mice",
-     "summary": "(microglial APOE4 present -> deleted) -> (restored microglial response, more plaque encapsulation/clearance, less Aβ pathology)",
-     "relevance": 0.8,
-     "exp_system": "Mice with microglia-specific APOE4 deletion on APP/PS1 (and P301S) backgrounds; Aβ pathology and plaque clearance readouts; ITGB8-TGFβ/Inpp5d pathway manipulation",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1523/jneurosci.1542-12.2012",
-   "pmid": "23100439",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE increased Aβ oligomer formation isoform-dependently, with apoE4 strongest: using synthetic Aβ and a split-luciferase oligomer assay, apoE raised Aβ oligomer levels in the order E2 < E3 < E4, an effect dependent on the apoE C-terminal domain and confirmed with endogenous human-brain apoE.",
-     "quote": "we observed that apoE increased the level of Aβ oligomers in an isoform-dependent manner (E2 < E3 < E4)",
-     "summary": "(APOE3 -> APOE4) -> (more Aβ oligomer formation)",
-     "relevance": 0.84,
-     "exp_system": "In vitro Aβ oligomerization assays (synthetic Aβ, split-luciferase complementation) with lipidated apoE2/E3/E4 and endogenous apoE from human brain TBS-soluble fraction",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Human AD brains carrying APOE e4/e4 had 2.7 times more Aβ oligomers than e3/e3 brains matched for total plaque burden, indicating apoE4 raises the oligomeric (synaptotoxic) Aβ pool independently of plaque load.",
-     "quote": "the level of Aβ oligomers in APOE ε4/ε4 AD patient brains is 2.7 times higher than those in APOE ε3/ε3 AD patient brains, matched for total plaque burden",
-     "summary": "(APOE3/3 -> APOE4/4 genotype) -> (2.7x more Aβ oligomers in AD brain at equal plaque burden)",
-     "relevance": 0.78,
-     "exp_system": "Postmortem AD patient brains, APOE e4/e4 vs e3/e3 matched for plaque burden; Aβ oligomer levels in TBS-soluble fraction",
-     "location": "Abstract",
-     "effect_size": "2.7x",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1093/brain/aws127",
-   "pmid": "22637583",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 directs oligomeric Aβ to synapses: in mouse primary neuronal culture, lipidated apoE4 enhanced oligomeric Aβ association with synapses via apoE receptors, and apoE4 protein colocalized with oligomeric Aβ and enhanced its synaptic localization by >5-fold in AD brain, linking APOE4 to greater synaptotoxic Aβ load at synapses.",
-     "quote": "In mouse primary neuronal culture, lipidated apolipoprotein E4 enhances oligomeric amyloid-β association with synapses via a mechanism involving apolipoprotein E receptors",
-     "summary": "(APOE3 -> APOE4) -> (more oligomeric Aβ localized to synapses)",
-     "relevance": 0.72,
-     "exp_system": "Mouse primary neuronal cultures with lipidated apoE4; oligomeric Aβ synaptic association assay; array tomography of human AD brain synapses by APOE genotype",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/tp.2016.280",
-   "pmid": "28140404",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "APOE4 exacerbated pollutant-induced cerebral amyloid: female EFAD mice (5xFAD with human APOE e3 or e4) exposed to nanosized particulate matter for 225 hours over 15 weeks showed increased cerebral β-amyloid (thioflavin S and Aβ immunostaining), and the increase was exacerbated by APOE e4, with increased Aβ oligomers.",
-     "quote": "showed increased cerebral β-amyloid by thioflavin S for fibrillary amyloid and by immunocytochemistry for Aβ deposits, both exacerbated by APOE ɛ4",
-     "summary": "(APOE3 -> APOE4, under particulate-matter exposure) -> (more cerebral Aβ deposition and oligomers)",
-     "relevance": 0.66,
-     "exp_system": "Female EFAD transgenic mice (5xFAD+/-, human APOE e3/e3 or e4/e4) exposed to urban nanosized particulate matter 225 h over 15 weeks; cerebral Aβ by thioflavin S and immunocytochemistry",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1073/pnas.90.17.8098",
-   "pmid": "8367470",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 bound synthetic amyloid beta peptide far faster than apoE3: both isoforms formed SDS-resistant complexes with beta/A4 peptide, but binding to apoE4 occurred within minutes whereas binding to apoE3 required hours, an isoform-specific interaction that could promote Aβ sequestration and deposition.",
-     "quote": "binding to apoE4 was observed in minutes, whereas binding to apoE3 required hours",
-     "summary": "(APOE3 -> APOE4) -> (much faster apoE-Aβ complex formation; Aβ sequestration)",
-     "relevance": 0.7,
-     "exp_system": "In vitro binding assay: purified human apoE3/apoE4 with synthetic amyloid beta (beta/A4) peptide; SDS-resistant complex formation kinetics",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1172/jci117407",
-   "pmid": "8040342",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 associated with Aβ more efficiently than apoE3 and drove fibril formation: coincubation of Aβ(1-40) with apoE produced 7 nm monofibrils, with apoE4/Aβ coincubates yielding a denser monofibril matrix and monofibrils appearing earlier than with apoE3, consistent with apoE4 promoting amyloid fibrillogenesis.",
-     "quote": "ApoE4/A beta coincubates yielded a denser matrix of monofibrils than apoE3/A beta coincubates",
-     "summary": "(APOE3 -> APOE4) -> (faster, denser Aβ monofibril formation)",
-     "relevance": 0.72,
-     "exp_system": "In vitro coincubation of synthetic Aβ(1-28)/Aβ(1-40) with apoE3, apoE4 or albumin at 37C; negative-stain electron microscopy and immunogold labeling",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1042/bj3060599",
-   "pmid": "7534068",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE acted as a pathological chaperone for Aβ fibrillogenesis and apoE4 was the more efficient isoform: apoE increased both the rate and total amount of amyloid fibril formation by synthetic Aβ(1-40) in a thioflavine-T assay, and recombinant apoE4 enhanced amyloid formation more efficiently than apoE3.",
-     "quote": "When recombinant apoE isoforms were used, apoE4 was more efficient than apoE3 at enhancing amyloid formation",
-     "summary": "(APOE3 -> APOE4) -> (faster and greater Aβ fibril formation)",
-     "relevance": 0.72,
-     "exp_system": "In vitro fibrillogenesis of synthetic Aβ(1-40) and analogues with recombinant apoE isoforms; thioflavine-T fluorescence, electron microscopy, Congo Red",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "N/A",
-   "pmid": "7977635",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Apolipoprotein E, and apoE4 in particular, accelerated Aβ fibril formation in vitro: with electron microscopy and a thioflavin T assay, apoE enhanced the spontaneous fibrillogenesis of Aβ peptides, with the apoE4 isoform the most effective, suggesting apoE4 accelerates amyloid formation.",
-     "quote": "we found that apo E and apo E4 in particular enhance this spontaneous fibrillogenesis of A beta peptides under the in vitro conditions used",
-     "summary": "(APOE3 -> APOE4) -> (accelerated Aβ fibrillogenesis)",
-     "relevance": 0.72,
-     "exp_system": "In vitro Aβ peptide fibrillogenesis with apoE isoforms; electron microscopy and thioflavin T fibril assay",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1073/pnas.92.3.763",
-   "pmid": "7846048",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE is a kinetic (not thermodynamic) inhibitor of amyloid formation, and apoE4 is a slightly weaker inhibitor than apoE3: at physiological concentrations apoE delayed amyloid fibril nucleation (apoE3 at 40 nM, a 1:1000 apoE/beta-protein ratio), while apoE4 was equipotent or slightly less potent, so APOE4 homozygotes are proposed to have a reduced ability to suppress in vivo amyloid formation.",
-     "quote": "We propose that the linkage between the APOE4 allele and AD reflects the reduced ability of APOE4 homozygotes to suppress in vivo amyloid formation",
-     "summary": "(APOE3 -> APOE4) -> (slightly less kinetic inhibition of amyloid nucleation) -> (less suppression of amyloid formation)",
-     "relevance": 0.66,
-     "exp_system": "In vitro amyloid formation kinetics of beta-amyloid protein (beta1-40) with apoE3/apoE4 and apoE fragments; nucleation lag and seeded growth assays",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1042/bj3480359",
-   "pmid": "10816430",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Lipidated apoE4 bound Aβ less avidly than lipidated apoE3: native lipid-associated apoE3 bound Aβ1-40 and Aβ1-42 with 2-3-fold higher affinity than apoE4 (delipidation abolished the difference), a binding disadvantage the authors link to less efficient apoE-mediated clearance/routing of Aβ out of the CNS for apoE4.",
-     "quote": "The data demonstrate that native lipid-associated apoE3 binds to Abeta peptides with 2-3-fold higher affinity than lipid-associated apoE4",
-     "summary": "(APOE3 -> APOE4) -> (lower-affinity apoE-Aβ binding when lipidated) -> (less apoE-mediated Aβ clearance/routing)",
-     "relevance": 0.62,
-     "exp_system": "Solid-phase binding assay: native/delipidated/reconstituted-HDL apoE3 and apoE4 from transfected cells binding Aβ1-40/Aβ1-42; dissociation constants estimated",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  }
- ]
+  ]
 }

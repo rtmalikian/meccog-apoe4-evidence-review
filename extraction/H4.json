@@ -1,652 +1,232 @@
 {
- "hypothesis": "H4",
- "papers": [
-  {
-   "doi": "10.1038/s41586-024-07185-7",
-   "pmid": "38480892",
-   "source_type": "PubMed published",
-   "findings": [
+  "hypothesis": "H4",
+  "papers": [
     {
-     "desc": "In isogenic human iPSC-derived microglia, fibrillar Abeta strongly increased lipid droplet accumulation, and the effect was exacerbated by the APOE4 allele and absent in APOE-knockout microglia.",
-     "quote": "However, treatment of iMG with fibrillar Aβ (fAβ) led to a strong increase in LD accumulation which was exacerbated by the presence of the APOE4 AD-risk allele.",
-     "summary": "(APOE3 -> APOE4) -> (greater lipid droplet accumulation in microglia, exacerbated by fibrillar Abeta)",
-     "relevance": 0.9,
-     "exp_system": "Human iPSC-derived microglia from isogenic APOE3/3 and APOE4/4 lines, with APOE-knockout control, treated with fibrillar Abeta; LipidSpot neutral-lipid live-cell imaging",
-     "location": "Fig. 3b,c",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "3",
-     "n_prov": "printed_in_text",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.7554/elife.40048",
+      "findings": [
+        {
+          "desc": "CONTRADICTING: In a solid-phase interaction assay, ApoE3 and ApoE4 bound the recycling receptor Apoer2 with similar affinity (only ApoE2 bound poorly), so at the level of initial receptor binding ApoE4 does not adhere more tightly than ApoE3; the isoform difference in this paper arises after endocytosis, in endosomes. This paper reports no endosomal dissociation/binding-affinity assay of its own.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Cell-derived naturally secreted ApoE isoform particles incubated with Apoer2-Fc (secreted Apoer2 ectodomain) on protein-G beads; co-immunoprecipitation and immunoblot",
+          "location": "Fig 1 legend",
+          "n_prov": "not_found_in_source",
+          "p_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "quote": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 binding to Apoer2 is poor.",
+          "relevance": 0.85,
+          "sample_size": "N/A",
+          "summary": "(APOE3 -> APOE4) -> (no increase in binding affinity for Apoer2 in a solid-phase assay) [CONTRADICTS]"
+        },
+        {
+          "desc": "In primary neurons, Apoer2 recycled back to the cell surface quickly in the presence of ApoE3 but its reappearance was greatly delayed with ApoE4, and co-immunoprecipitation showed prolonged retention of ApoE4 compared with ApoE3 in Apoer2-containing intracellular compartments, i.e. ApoE4 impedes Apoer2 recycling.",
+          "directness_class": 1,
+          "directness_strength": "1 very strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Primary rat cortical neurons treated with cell-derived ApoE3- or ApoE4-conditioned media plus Reelin; cell-surface biotinylation recycling assay and Apoer2 co-immunoprecipitation",
+          "location": "Fig 2B-E",
+          "n_prov": "printed_in_text",
+          "p_prov": "ambiguous_panel",
+          "p_value": "N/A",
+          "quote": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4 (Figure 2B,C).",
+          "relevance": 0.95,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (delayed Apoer2 recycling and prolonged ApoE retention in Apoer2-containing endosomes)"
+        },
+        {
+          "desc": "Pharmacological and genetic inhibition of the early-endosomal proton leak channel NHE6 completely reversed the ApoE4-induced recycling block of Apoer2/Lrp8 and of the co-endocytosed AMPA- and NMDA-type glutamate receptors, showing the ApoE4 recycling block is reversible by lowering endosomal pH away from ApoE4's isoelectric point.",
+          "directness_class": 2,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Primary neurons treated with ApoE4-conditioned media and Reelin, with the NHE inhibitor EMD87580 or NHE6-specific shRNAs; surface and total Apoer2 immunoblot",
+          "location": "Fig 4D-E, Fig 5A-D",
+          "n_prov": "printed_in_text",
+          "p_prov": "ambiguous_panel",
+          "p_value": "N/A",
+          "quote": "We found that pharmacological and genetic inhibition of NHE6, the primary proton leak channel in the early endosome, in rodents completely reverses the ApoE4-induced recycling block of the ApoE receptor Apoer2/Lrp8 and the AMPA- and NMDA-type glutamate receptors that are regulated by, and co-endocytosed in a complex with, Apoer2.",
+          "relevance": 0.9,
+          "sample_size": "3",
+          "summary": "(NHE6 inhibition) -> (complete reversal of the ApoE4-induced Apoer2 recycling block)"
+        }
+      ],
+      "pmid": "30375977",
+      "source_type": "PubMed published"
     },
     {
-     "desc": "In human Alzheimer's disease brain, the ACSL1-positive lipid-droplet microglial state was most abundant in APOE4/4 patients, and neutral lipid (Oil Red O) burden in frontal cortex was highest in the AD APOE4/4 group.",
-     "quote": "Through single-nucleus RNA sequencing of brain tissue in Alzheimer's disease, we have identified a microglial state defined by the expression of the lipid droplet-associated enzyme ACSL1 with ACSL1-positive microglia being most abundant in patients with Alzheimer's disease having the APOE4/4 genotype.",
-     "summary": "(APOE3/3 -> APOE4/4) -> (more ACSL1-positive lipid-droplet microglia and higher neutral lipid burden in AD brain)",
-     "relevance": 0.8,
-     "exp_system": "Postmortem human frontal cortex from control, AD APOE3/3 and AD APOE4/4 donors; single-nucleus RNA sequencing and Oil Red O neutral-lipid staining",
-     "location": "Fig. 2b",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "28",
-     "n_prov": "printed_in_text",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
+      "doi": "10.7554/elife.72034",
+      "findings": [
+        {
+          "desc": "Class 5 (other): this paper states the H4 adhesion mechanism as its framing premise, summarising prior work rather than measuring dissociation itself in a new assay here: because ApoE4's isoelectric point matches early-endosomal pH, ApoE4 dissociates late from ApoE receptors, impairing endolysosomal trafficking.",
+          "directness_class": 5,
+          "directness_strength": "4 weak",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Mechanism statement in the abstract of a mouse NHE6 (Slc9a6) depletion study, summarising the ApoE4 delayed-dissociation model from the same research programme",
+          "location": "Abstract",
+          "n_prov": "not_found_in_source",
+          "p_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "quote": "The isoelectric point of ApoE4 matches the pH of the early endosome (EE), causing its delayed dissociation from ApoE receptors and hence impaired endolysosomal trafficking, disruption of synaptic homeostasis, and reduced amyloid clearance.",
+          "relevance": 0.9,
+          "sample_size": "N/A",
+          "summary": "(APOE4 at early-endosomal pH) -> (delayed dissociation from ApoE receptors and impaired endolysosomal trafficking)"
+        },
+        {
+          "desc": "In primary neurons, ApoE-conditioned media reduced surface expression of Apoer2 and glutamate receptors in the presence of Reelin, with a stronger reduction by ApoE4 than ApoE3, and genetic NHE6 depletion counteracted the ApoE4-induced reduction, experimentally reproducing the ApoE4 recycling impairment and its rescue.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Primary neurons from wild-type and Slc9a6-knockout (NHE6-deficient) littermate mice treated with naturally secreted ApoE3 or ApoE4 and/or Reelin; cell-surface biotinylation assay for Apoer2, GluN2B, GluA1 and GluA2/3",
+          "location": "Fig 4C-F",
+          "n_prov": "printed_in_text",
+          "p_prov": "visual_only",
+          "p_value": "<0.05",
+          "quote": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE3. NHE6 depletion counteracts the ApoE4-induced reduction of receptor surface expression.",
+          "relevance": 0.9,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (stronger loss of surface Apoer2/glutamate receptors; reversed by NHE6 depletion)"
+        }
+      ],
+      "pmid": "34617884",
+      "source_type": "PubMed published"
     },
     {
-     "desc": "Conditioned media from lipid-droplet-containing APOE4 microglia induced Tau phosphorylation and neurotoxicity in neurons, an APOE-dependent downstream dysfunction effect of the lipid-accumulated microglial state.",
-     "quote": "Additionally, conditioned media from lipid droplet-containing microglia lead to Tau phosphorylation and neurotoxicity in an APOE-dependent manner.",
-     "summary": "(lipid-droplet-accumulating APOE4 microglia) -> (secreted factors drive neuronal Tau phosphorylation and neurotoxicity)",
-     "relevance": 0.7,
-     "exp_system": "Human iPSC-derived neurons exposed to conditioned media from lipid-droplet-high versus lipid-droplet-low APOE4/4 iPSC-microglia; pTau (AT8) and cleaved caspase-3 immunofluorescence",
-     "location": "Fig. 4c-f",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "18",
-     "n_prov": "printed_in_text",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1126/scitranslmed.aaz4564",
-   "pmid": "33658354",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "APOE4, but not APOE3, disrupted the lipidome of human iPSC-derived astrocytes, increasing fatty acid unsaturation and the number of intracellular lipid droplets per cell (LipidTox quantification).",
-     "quote": "These changes resulted in increased unsaturation of fatty acids and accumulation of intracellular lipid droplets both in yeast and in APOE4-expressing human iPSC-derived astrocytes.",
-     "summary": "(APOE3 -> APOE4) -> (more intracellular lipid droplets and more unsaturated fatty acids in astrocytes)",
-     "relevance": 0.95,
-     "exp_system": "Isogenic human iPSC-derived astrocytes (APOE3/APOE3 vs APOE4/APOE4); lipidomics and LipidTox lipid-droplet imaging",
-     "location": "Fig. 1E",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "<0.0001",
-     "p_prov": "printed_in_text",
-     "sample_size": "7",
-     "n_prov": "printed_in_text",
-     "directness_class": 1,
-     "directness_strength": "1 very strong"
+      "doi": "10.1016/j.cell.2024.10.027",
+      "findings": [
+        {
+          "desc": "Direct quantitative binding assays (HTRF and surface plasmon resonance) showed lipidated ApoE4 and ApoE3 both bind the LDL receptor with high, comparable affinity (SPR KD 9 nM for ApoE4 vs 16 nM for ApoE3), while lipidated ApoE2 bound ~50-fold more weakly (KD 800 nM); ApoE4 is therefore at most marginally tighter-binding than ApoE3, and the study's main binding contrast is ApoE3/E4 versus ApoE2.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "POPC-lipidated ApoE isoforms binding to LDLR extracellular domain; HTRF and surface plasmon resonance (Biacore) binding assays",
+          "location": "Fig 1C-D",
+          "n_prov": "printed_in_text",
+          "p_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "quote": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 and lipApoE3 (KD = 9 nM and 16 nM, respectively), whereas the lipApoE2-LDLR affinity was ~50-fold lower than lipApoE3 (KD = 800 nM; Figure 1D).",
+          "relevance": 0.8,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (comparable high-affinity LDLR binding, KD 16 nM -> 9 nM; both far tighter than APOE2)"
+        },
+        {
+          "desc": "Lipidated ApoE3 and ApoE4, but not ApoE2, reduced cell-surface LDLR and trapped LDLR in endolysosomal compartments, i.e. stronger-binding isoforms impair LDLR recycling; the study groups ApoE3 with ApoE4 and does NOT separate ApoE4 from ApoE3 on the recycling defect, so it supports a binding-strength-to-recycling coupling without an ApoE4-over-ApoE3 gradient.",
+          "directness_class": 1,
+          "directness_strength": "3 moderate",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "H4 neuroglioma cells, WT HAP1 cells and human APOE-KO iPSC-derived astrocytes treated 1 day with lipidated ApoE isoforms; immunostaining of cell-surface and total LDLR",
+          "location": "Fig 2A-D",
+          "n_prov": "not_found_in_source",
+          "p_prov": "not_found_in_source",
+          "p_value": "N/A",
+          "quote": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 significantly reduced surface LDLR relative to lipApoE2, revealing impaired LDLR recycling accompanying increased LDLR-mediated lipApoE uptake (Figure 2A–D, Figure S2A–B).",
+          "relevance": 0.7,
+          "sample_size": "N/A",
+          "summary": "(APOE2 -> APOE3/APOE4) -> (reduced surface LDLR and impaired LDLR recycling, with no APOE4-vs-APOE3 separation)"
+        }
+      ],
+      "pmid": "39532095",
+      "source_type": "PubMed published"
     },
     {
-     "desc": "Supplementing the culture medium with choline, a phospholipid precursor, restored the APOE4-disrupted cellular lipidome to its basal state in human iPSC-derived astrocytes and in APOE4-expressing yeast.",
-     "quote": "We showed that supplementation of the culture medium with choline (a soluble phospholipid precursor) restored the cellular lipidome to its basal state in APOE4-expressing human iPSC-derived astrocytes and in yeast expressing human APOE4",
-     "summary": "(choline supplementation in APOE4 astrocytes) -> (lipidome restored to basal state)",
-     "relevance": 0.6,
-     "exp_system": "Human iPSC-derived APOE4 astrocytes and yeast expressing human APOE4, with and without choline supplementation; lipidomics",
-     "location": "Fig. 4",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 2,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.stem.2022.07.005",
-   "pmid": "35931030",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "CRISPR-isogenic APOE4 iPSC-derived microglia contained significantly more intracellular lipid droplets (BODIPY-stained neutral lipid stores) than APOE3 microglia.",
-     "quote": "Staining for intracellular neutral lipid stores known as lipid droplets with the fluorescent dye BODIPY reveals significantly greater lipid droplet content in APOE4 iMGLs in comparison to APOE3 iMGLs",
-     "summary": "(APOE3 -> APOE4) -> (greater intracellular lipid droplet content in microglia)",
-     "relevance": 0.9,
-     "exp_system": "CRISPR-edited isogenic human iPSC-derived microglia-like cells (APOE3 vs APOE4); BODIPY neutral-lipid staining",
-     "location": "Fig. 3K",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
+      "doi": "10.1016/j.neuron.2017.09.003",
+      "findings": [
+        {
+          "desc": "ApoE binds the insulin receptor (a recycling receptor, though not a canonical ApoE receptor) in an isoform-dependent manner, with ApoE4 showing higher binding affinity than ApoE3 in solid-phase binding assays, confirmed by co-immunoprecipitation of more insulin receptor with ApoE4 than ApoE3.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "Recombinant apoE and astrocyte-secreted lipidated apoE particles binding to insulin receptor; solid-phase binding assay and solution co-immunoprecipitation",
+          "location": "Fig 5A-C",
+          "n_prov": "printed_in_text",
+          "p_prov": "visual_only",
+          "p_value": "<0.05",
+          "quote": "Taken together, these data demonstrated that apoE binds to IR in an isoform-dependent manner with apoE4 showing higher binding affinity than apoE3.",
+          "relevance": 0.85,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (higher binding affinity for the insulin receptor)"
+        },
+        {
+          "desc": "ApoE4 interfered with insulin binding to its receptor more than ApoE3: apoE4 reduced insulin-insulin receptor binding by nearly 50%, significantly more than the 25% reduction by apoE3, in a competitive solid-phase binding assay.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "50%",
+          "exp_system": "Competitive solid-phase binding assay of insulin (8 nM), insulin receptor (80 nM) and apoE3 or apoE4 (4-16 μg/ml)",
+          "location": "Fig 5F",
+          "n_prov": "printed_in_text",
+          "p_prov": "ambiguous_panel",
+          "p_value": "N/A",
+          "quote": "When apoE was co-incubated with insulin and IR, we found that apoE4 (16 μg/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F).",
+          "relevance": 0.75,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (insulin-insulin receptor binding reduced by 25% -> ~50%)"
+        },
+        {
+          "desc": "ApoE4 trapped the insulin receptor in endosomes and impaired its recycling: nearly 20% of IR-GFP co-localised with transferrin-positive endosomes in apoE4-treated neuronal cells versus less with apoE3, and biotinylation recycling assays showed significantly more intracellular insulin receptor retained at 30 and 60 min with apoE4.",
+          "directness_class": 1,
+          "directness_strength": "2 strong",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "SH-SY5Y neuronal cells expressing human IR-GFP and Apoe-knockout primary cortical neurons treated with recombinant apoE3 or apoE4; transferrin co-localisation imaging and cell-surface biotinylation recycling assay",
+          "location": "Fig 6A-D",
+          "n_prov": "printed_in_text",
+          "p_prov": "visual_only",
+          "p_value": "<0.001",
+          "quote": "In the absence of insulin, we found that nearly 20% of IR-GFP co-localized with transferrin in the endosomal compartment in apoE4-treated cells whereas less co-localization was observed in apoE3-treated cells (Figures 6A and 6D).",
+          "relevance": 0.85,
+          "sample_size": "3",
+          "summary": "(APOE3 -> APOE4) -> (insulin receptor trapped in transferrin-positive endosomes and delayed receptor recycling)"
+        }
+      ],
+      "pmid": "28957663",
+      "source_type": "PubMed published"
     },
     {
-     "desc": "APOE4 microglia showed downregulated lipid catabolic processes and CD36 expression and took up less fluorescent fatty acid (C12 BODIPY) than APOE3 microglia, indicating reduced lipid uptake/turnover capacity.",
-     "quote": "we observed decreased uptake of the green-fluorescent fatty-acid C 12 BODIPY (C12 BODIPY) by APOE4 iMGLs",
-     "summary": "(APOE3 -> APOE4) -> (decreased fatty acid uptake and lipid catabolism in microglia)",
-     "relevance": 0.8,
-     "exp_system": "CRISPR-edited isogenic human iPSC-derived microglia-like cells (APOE3 vs APOE4); C12 BODIPY fatty-acid uptake assay and RNA sequencing",
-     "location": "Fig. 3I",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "The APOE4 lipid-accumulated microglial state was weakly responsive to neuronal activity: APOE4 microglia showed blunted ATP-evoked calcium responses and disrupted synchronized neuronal ensemble activity.",
-     "quote": "Our results reveal that APOE4 induces a lipid-accumulated state that renders microglia weakly responsive to neuronal activity.",
-     "summary": "(APOE3 -> APOE4) -> (lipid-accumulated microglia weakly responsive to neuronal activity)",
-     "relevance": 0.65,
-     "exp_system": "Isogenic iPSC-derived microglia co-cultured with forebrain spheroids; ATP/glutamate uncaging calcium imaging and neuronal ensemble activity recordings",
-     "location": "Fig. 2",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
+      "doi": "10.1242/jcs.258894",
+      "findings": [
+        {
+          "desc": "In CHO cells co-expressing sortilin and its cargo FABP7, apoE4 lowered FABP7 levels compared with apoE3, i.e. apoE4 binding blocks sortilin-mediated sorting of its cargo; the measured readout is sorting/stability of the cargo FABP7, not sortilin's own surface recycling, making this the least direct test of the hypothesis among the five papers.",
+          "directness_class": 3,
+          "directness_strength": "4 weak",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "CHO cells stably co-expressing sortilin and FABP7 (CHO-S/F) treated 24 h with HEK293 conditioned medium containing 5 μg/ml apoE3 or apoE4; Western blot and densitometry",
+          "location": "Fig 7A-B",
+          "n_prov": "printed_in_text",
+          "p_prov": "visual_only",
+          "p_value": "<0.05",
+          "quote": "levels of FABP7 in CHO-S/F cells were significantly lowered by the addition of apoE4 as compared with apoE3 (Fig. 7A,B).",
+          "relevance": 0.6,
+          "sample_size": "10",
+          "summary": "(APOE3 -> APOE4) -> (lower FABP7 levels via blocked sortilin-mediated cargo sorting)"
+        },
+        {
+          "desc": "Proximity ligation showed sortilin-FABP7 complexes redistribute from a dispersed vesicular pattern with apoE3 to a perinuclear pattern with apoE4, with altered co-localisation with Rab5 early endosomes and Rab11 recycling endosomes, indicating apoE4 misroutes sortilin complexes; again the readout is cargo-complex routing rather than sortilin recycling itself.",
+          "directness_class": 3,
+          "directness_strength": "4 weak",
+          "effect_prov": "printed_in_text",
+          "effect_size": "qualitative",
+          "exp_system": "CHO-S/F cells treated with apoE3- or apoE4-conditioned medium; proximity ligation assay for sortilin-FABP7 complexes with Rab5/Rab11 co-localisation",
+          "location": "Fig 7E-I",
+          "n_prov": "printed_in_text",
+          "p_prov": "visual_only",
+          "p_value": "<0.05",
+          "quote": "PLA signals for sortilin–FABP7 complexes change from a dispersed vesicular pattern with apoE3 to a perinuclear pattern with apoE4 (arrowheads).",
+          "relevance": 0.6,
+          "sample_size": "33-38",
+          "summary": "(APOE3 -> APOE4) -> (sortilin-FABP7 complexes misrouted to a perinuclear pattern, away from normal endosomal sorting)"
+        }
+      ],
+      "pmid": "34557909",
+      "source_type": "PubMed published"
     }
-   ]
-  },
-  {
-   "doi": "10.1016/j.cell.2022.05.017",
-   "pmid": "35750033",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In APOE4 astrocytes, free cholesterol accumulated inside lysosomes: filipin/TRITC-dextran colocalization (lysosomal cholesterol) was increased 3-fold versus APOE3 astrocytes, with reduced NPC1/NPC2 and LAMP1/2 lysosomal export machinery.",
-     "quote": "Filipin and TRITC-Dextran co-localization (yellow puncta), a measure of lysosomal cholesterol ( Majumdar et al., 2007 ), was significantly increased (3-fold, p<0.001) in APOE4 compared to APOE3 astrocytes, indicating that intracellular free cholesterol accumulates in lysosomes",
-     "summary": "(APOE3 -> APOE4) -> (3-fold more lysosomal cholesterol sequestration in astrocytes)",
-     "relevance": 0.95,
-     "exp_system": "Human iPSC-derived astrocytes from APOE4 versus APOE3 donors; filipin and TRITC-dextran colocalization imaging",
-     "location": "Fig. 6H",
-     "effect_size": "3x",
-     "effect_prov": "printed_in_text",
-     "p_value": "<0.001",
-     "p_prov": "printed_in_text",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "APOE4 astrocytes had 20% more total cholesterol than APOE3 astrocytes, derived from the free cholesterol pool rather than cholesteryl esters, measured by GC-MS.",
-     "quote": "APOE4 astrocytes showed 20% increased total cholesterol, derived from a free cholesterol pool but not cholesteryl esters (CE) compared to APOE3 as measured by Gas Chromatography-Mass Spectrometry (GC-MS)",
-     "summary": "(APOE3 -> APOE4) -> (20% more total (free) cholesterol in astrocytes)",
-     "relevance": 0.85,
-     "exp_system": "Human iPSC-derived astrocytes from APOE4 versus APOE3 donors; gas chromatography-mass spectrometry cholesterol quantification",
-     "location": "Fig. 6A",
-     "effect_size": "20%",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.neuron.2018.05.008",
-   "pmid": "29861287",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Isogenic APOE4 iPSC-derived astrocytes accumulated more intracellular cholesterol than APOE3 astrocytes, shown by stronger filipin III staining and higher filipin fluorescence by flow cytometry; lipid metabolism was the most affected pathway in APOE4 astrocytes.",
-     "quote": "We observed stronger signals of fluorescent filipin III in APOE4 vs. APOE3 astrocytes",
-     "summary": "(APOE3 -> APOE4) -> (intracellular cholesterol accumulation in astrocytes)",
-     "relevance": 0.9,
-     "exp_system": "Isogenic human iPSC-derived astrocytes (APOE3 vs APOE4, including CRISPR-converted lines); filipin III cholesterol staining and flow cytometry",
-     "location": "Fig. 3E-F",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.stemcr.2021.11.007",
-   "pmid": "34919811",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In isogenic iPSC-derived astrocytes, APOE4 reduced cholesterol efflux and biosynthesis while cholesterol localization in lysosomes was elevated, in a genotype-graded manner (E4 > E3 > E2).",
-     "quote": "Cholesterol efflux and biosynthesis were reduced in APOE4 iAstrocytes, while subcellular localization of cholesterol in lysosomes was elevated.",
-     "summary": "(APOE3 -> APOE4) -> (reduced cholesterol efflux and elevated lysosomal cholesterol in astrocytes)",
-     "relevance": 0.85,
-     "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, APOE3, APOE4 and APOE-knockout); cholesterol efflux assays and subcellular cholesterol localization",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Proteomic analysis showed genotype-dependent reductions of cholesterol and lipid metabolic and biosynthetic pathways in astrocytes, graded APOE4 > APOE3 > APOE2.",
-     "quote": "Mass-spectrometry-based proteomic analysis showed genotype-dependent reductions of cholesterol and lipid metabolic and biosynthetic pathways (reduction: APOE4 >E3 >E2).",
-     "summary": "(APOE2 -> APOE3 -> APOE4) -> (graded reduction of cholesterol/lipid metabolic pathways in astrocytes)",
-     "relevance": 0.6,
-     "exp_system": "Isogenic human iPSC-derived astrocytes (APOE2, APOE3, APOE4, APOE-knockout); mass-spectrometry proteomics",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.celrep.2020.108572",
-   "pmid": "33406436",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 diminished neuron-to-astrocyte fatty acid transport: fatty acids sequestered in neuronal lipid droplets were exported and internalized by astrocytes less efficiently with ApoE4, impairing astrocyte clearance of neuronal lipids.",
-     "quote": "FAs in neuronal LDs are exported and internalized by astrocytes, with ApoE4 diminishing the transport efficiency.",
-     "summary": "(APOE3 -> APOE4) -> (reduced neuron-to-astrocyte fatty acid transport)",
-     "relevance": 0.85,
-     "exp_system": "Primary mouse hippocampal neuron-astrocyte co-cultures from APOE3 versus APOE4 targeted-replacement mice; fatty acid pulse-chase transfer assays",
-     "location": "Fig. 4",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "ApoE4 lowered fatty acid oxidation and caused lipid accumulation in astrocytes (increased lipid droplet volume) and in mouse hippocampus.",
-     "quote": "Further, ApoE4 lowers FA oxidation and leads to lipid accumulation in both astrocyte and the hippocampus.",
-     "summary": "(APOE3 -> APOE4) -> (lower fatty acid oxidation and lipid droplet accumulation in astrocytes)",
-     "relevance": 0.9,
-     "exp_system": "Primary astrocytes from APOE3 versus APOE4 targeted-replacement mice; lipid droplet imaging (Plin2) and fatty acid oxidation assays",
-     "location": "Fig. 6",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.3390/cells8020182",
-   "pmid": "30791549",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Astrocytes expressing APOE4 accumulated significantly more, and smaller, lipid droplets than APOE3 astrocytes, with higher expression of the lipid droplet protein perilipin-2.",
-     "quote": "We found that astrocytes expressing E4 accumulate significantly more and smaller LDs compared to E3 astrocytes.",
-     "summary": "(APOE3 -> APOE4) -> (more, smaller lipid droplets accumulated in astrocytes)",
-     "relevance": 0.9,
-     "exp_system": "Primary mouse astrocytes expressing human APOE3 versus APOE4; lipid droplet imaging and perilipin-2 expression",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "APOE4 astrocytes showed decreased uptake of palmitate and decreased oxidation of exogenously supplied oleate and palmitate, with accumulation of lipid-droplet-derived metabolites from incomplete fatty acid oxidation.",
-     "quote": "We then probed fatty acid (FA) metabolism and found E4 astrocytes to exhibit decreased uptake of palmitate, and decreased oxidation of exogenously supplied oleate and palmitate.",
-     "summary": "(APOE3 -> APOE4) -> (decreased fatty acid uptake and oxidation in astrocytes)",
-     "relevance": 0.8,
-     "exp_system": "Primary mouse astrocytes expressing human APOE3 versus APOE4; radiolabeled fatty acid uptake and oxidation assays, oxygen consumption rate",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1083/jcb.202305003",
-   "pmid": "38334983",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "APOE4-expressing astrocytes formed a small number of large lipid droplets enriched in unsaturated triglyceride, resembling APOE depletion, indicating aberrant droplet morphology and composition.",
-     "quote": "Like APOE depletion, APOE4-expressing astrocytes form a small number of large LDs enriched in unsaturated triglyceride.",
-     "summary": "(APOE3 -> APOE4) -> (fewer, larger lipid droplets enriched in unsaturated triglyceride in astrocytes)",
-     "relevance": 0.85,
-     "exp_system": "Astrocytes expressing APOE3 versus APOE4 after fatty acid pulse; lipid droplet imaging and lipid composition analysis",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Lipid droplets in APOE4 astrocytes showed impaired turnover and increased sensitivity to lipid peroxidation.",
-     "quote": "Additionally, the LDs in APOE4 cells exhibit impaired turnover and increased sensitivity to lipid peroxidation.",
-     "summary": "(APOE3 -> APOE4) -> (impaired lipid droplet turnover and greater peroxidation sensitivity in astrocytes)",
-     "relevance": 0.85,
-     "exp_system": "Astrocytes expressing APOE3 versus APOE4; lipid droplet pulse-chase turnover and lipid peroxidation sensitivity assays",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.nbd.2022.105615",
-   "pmid": "35031484",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Primary microglia from humanized APOE4 mice showed, relative to APOE3 microglia, increased endolysosomal mass and increased lipid and lipid droplet accumulation at baseline.",
-     "quote": "Relative to E3 microglia, E4 microglia exhibit altered morphology, increased endolysosomal mass, increased cytokine/chemokine production, and increased lipid and lipid droplet accumulation at baseline.",
-     "summary": "(APOE3 -> APOE4) -> (increased endolysosomal mass and lipid droplet accumulation in microglia)",
-     "relevance": 0.9,
-     "exp_system": "Primary microglia cultured from humanized APOE3 versus APOE4 targeted-replacement mice; BODIPY lipid staining and endolysosomal markers",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "The APOE4 microglial lipid phenotype was accompanied by integrated-stress-response activation (increased eIF2alpha phosphorylation and decreased translation), indicating cell stress.",
-     "quote": "These changes were accompanied by decreased translation and increased phosphorylation of eIF2ɑ and eIF2ɑ-kinases that participate in the integrated stress response, suggesting that E4 genotype leads to elevated levels of cellular stress in microglia relative to E3 genotype.",
-     "summary": "(APOE3 -> APOE4) -> (integrated stress response activation in microglia)",
-     "relevance": 0.6,
-     "exp_system": "Primary microglia from humanized APOE3 versus APOE4 mice; translation assays and eIF2alpha phosphorylation immunoblotting",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/s41590-023-01640-9",
-   "pmid": "37857825",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Microglial APOE4 expression increased lipid droplet accumulation, observed in APOE4 human brains and in human pluripotent stem cell-derived microglia.",
-     "quote": "Finally, we observed a reduction in Lgals3-positive responsive microglia surrounding amyloid plaque and an increased accumulation of lipid droplets in APOE4 human brains and pluripotent stem cell-derived microglia.",
-     "summary": "(APOE3 -> APOE4) -> (increased lipid droplet accumulation in microglia)",
-     "relevance": 0.85,
-     "exp_system": "Conditional mouse models with microglia/CAM-specific human APOE3 or APOE4 expression, APOE4 human brain tissue, and human pluripotent stem cell-derived microglia; lipid droplet staining",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Microglial apoE4 expression downregulated lysosomal pathways and impaired lipid metabolism, while promoting stress-related responses, in single-cell transcriptomic profiling.",
-     "quote": "In contrast, apoE4 expression down-regulates complement and lysosomal pathways, and promotes stress-related responses.",
-     "summary": "(APOE3 -> APOE4) -> (downregulated lysosomal pathways in microglia)",
-     "relevance": 0.7,
-     "exp_system": "Mouse microglia with cell-autonomous human APOE3 versus APOE4 expression; single-cell RNA sequencing",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 3,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1186/s13024-022-00577-1",
-   "pmid": "36419137",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "Upon cuprizone-induced demyelination, apoE4 targeted-replacement mice had a much higher percentage of lipid-droplet (Plin2-positive) microglia in corpus callosum (26%) than apoE3 (13%) or apoE2 (9%) mice, indicating excessive microglial lipid accumulation and less efficient clearance of lipid-rich myelin debris.",
-     "quote": "Importantly, we found that the percentage of Plin2 + microglia was much higher in apoE4 mice (26%) compared to apoE2 (9%) and apoE3 (13%) mice (Fig. 6 D).",
-     "summary": "(APOE3 -> APOE4) -> (more lipid-droplet-accumulating microglia after demyelination: 26% vs 13% Plin2-positive)",
-     "relevance": 0.85,
-     "exp_system": "ApoE2, apoE3 and apoE4 targeted-replacement mice fed 0.2% cuprizone for 4 weeks; Plin2/Iba1 immunofluorescence in corpus callosum",
-     "location": "Fig. 6D",
-     "effect_size": "26%",
-     "effect_prov": "printed_in_text",
-     "p_value": "<0.01",
-     "p_prov": "printed_in_text",
-     "sample_size": "12-13",
-     "n_prov": "printed_in_text",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.neuron.2023.10.023",
-   "pmid": "37995685",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In P301S tau transgenic mice, ApoE4 (versus ApoE3 or no ApoE) strongly promoted glial lipid accumulation, with perturbed cholesterol metabolism and lysosomal function.",
-     "quote": "We demonstrate that in P301S tau mice, ApoE4 strongly promotes glial lipid accumulation and perturbations in cholesterol metabolism and lysosomal function.",
-     "summary": "(APOE3 -> APOE4) -> (glial lipid accumulation and lysosomal dysfunction in tauopathy brain)",
-     "relevance": 0.85,
-     "exp_system": "P301S tau transgenic mice expressing human ApoE4, ApoE3 or no ApoE; glial lipidomics and immunostaining",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "The LXR agonist GW3965 markedly upregulated Abca1 (about 30-40-fold) and reduced lipid droplet accumulation in primary ApoE4 microglia in vitro, showing the accumulation is reversible by increasing lipid efflux.",
-     "quote": "LXR agonist GW3965 markedly upregulates Abca1 and reduces lipid droplet accumulation in vitro.",
-     "summary": "(LXR agonist GW3965 in APOE4 microglia) -> (increased Abca1 and reduced lipid droplet accumulation)",
-     "relevance": 0.65,
-     "exp_system": "Primary microglia from ApoE4 mice treated with 5 uM GW3965 for 24 h; Abca1 expression and neutral lipid (BODIPY) staining",
-     "location": "Fig. S12",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 2,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1016/j.cell.2024.10.027",
-   "pmid": "39532095",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In human neurons, ApoE carrying polyunsaturated fatty acid cholesteryl esters produced an allelic series (ApoE4 > ApoE3 > ApoE2) of lipofuscinosis, a lysosomal lipid-peroxidation pathology, linking APOE4 lipid cargo delivery to lysosomal lipid accumulation in neurons.",
-     "quote": "In human neurons, addition of ApoE carrying polyunsaturated fatty acids (PUFA)-CE revealed an allelic series (ApoE4>ApoE3>ApoE2) associated with lipofuscinosis, an age-related lysosomal pathology resulting from lipid peroxidation.",
-     "summary": "(APOE2 -> APOE3 -> APOE4) -> (graded increase in neuronal lysosomal lipofuscin accumulation)",
-     "relevance": 0.85,
-     "exp_system": "Human neurons treated with lipidated ApoE2, ApoE3 or ApoE4 carrying PUFA-cholesteryl esters; lipofuscin imaging",
-     "location": "Fig. 5",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    },
-    {
-     "desc": "Lipofuscin was elevated in APOE4 mouse brain and exacerbated by tau pathology, and intrahippocampal injection of PUFA-CE-loaded ApoE4 was sufficient to induce lipofuscinosis in wild-type mice.",
-     "quote": "Lipofuscin increased lysosomal accumulation of tau fibrils and was elevated in APOE4 mouse brain with exacerbation by tau pathology.",
-     "summary": "(APOE3 -> APOE4) -> (elevated brain lipofuscin, worsened by tau pathology)",
-     "relevance": 0.75,
-     "exp_system": "APOE targeted-replacement mouse brain with and without tau pathology; lipofuscin quantification, plus intrahippocampal PUFA-CE-lipApoE4 injection in wild-type mice",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/s41392-022-01006-x",
-   "pmid": "35691989",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In chimeric human cerebral organoids, astrocytic APOE4 alone significantly promoted lipid droplet formation and cholesterol accumulation in neurons, with the maximum effect when neuronal APOE4 was also present, demonstrating non-cell-autonomous APOE4-driven neuronal lipid accumulation.",
-     "quote": "Then, it was found in chCOs that astrocytic APOE4 already significantly promoted lipid droplet formation and cholesterol accumulation in neurons while both astrocytic and neuronal APOE4 contributed to the maximum effect.",
-     "summary": "(astrocytic APOE3 -> APOE4) -> (lipid droplet formation and cholesterol accumulation in neurons)",
-     "relevance": 0.85,
-     "exp_system": "Chimeric human cerebral organoids combining APOE3 or APOE4 neurons and astrocytes in all genotype combinations; neuronal lipid droplet and cholesterol imaging",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "2 strong"
-    }
-   ]
-  },
-  {
-   "doi": "10.1038/s12276-023-00935-z",
-   "pmid": "36720919",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "ApoE4 disrupted intracellular lipid homeostasis in microglia, and lipid accumulation and inflammatory reactions were accelerated in microglia from TRPV1-deficient ApoE4 mice.",
-     "quote": "Lipid accumulation and inflammatory reactions were accelerated in microglia isolated from TRPV1flox/flox; Cx3cr1cre-ApoE4 mice.",
-     "summary": "(APOE3 -> APOE4, worsened by TRPV1 deficiency) -> (accelerated microglial lipid accumulation)",
-     "relevance": 0.8,
-     "exp_system": "Microglia isolated from ApoE4 mice with and without microglial TRPV1 deletion (TRPV1 flox/flox; Cx3cr1-Cre); lipid accumulation and inflammatory readouts",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    },
-    {
-     "desc": "Activating TRPV1 with capsaicin rescued ApoE4-induced lipid metabolic impairments and autophagy defects, reversing microglial immune dysfunction in ApoE4 mice.",
-     "quote": "We showed that metabolic boosting by treatment with the TRPV1 agonist capsaicin rescued lipid metabolic impairments in ApoE4 neurons and defects in autophagy caused by disruption of the AKT-mTOR pathway.",
-     "summary": "(TRPV1 activation by capsaicin in APOE4 cells) -> (rescued lipid metabolic impairment and autophagy defects)",
-     "relevance": 0.6,
-     "exp_system": "ApoE4 neurons and microglia treated with the TRPV1 agonist capsaicin in vitro and ApoE4 mice in vivo; lipid metabolism and autophagy assays",
-     "location": "Results text",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "not_found_in_source",
-     "sample_size": "N/A",
-     "n_prov": "not_found_in_source",
-     "directness_class": 2,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  },
-  {
-   "doi": "10.1523/jneurosci.1400-19.2019",
-   "pmid": "31641056",
-   "source_type": "PubMed published",
-   "findings": [
-    {
-     "desc": "In astrocytes, ApoE4 promoted greater ARF6 expression than ApoE3, trapping ABCA1 in late endosomes and impairing its recycling to the cell membrane, which lowered ABCA1-mediated cholesterol efflux activity - a direct test of the decreased lipid transport limb of the hypothesis, with an endolysosomal mechanism.",
-     "quote": "We found that ApoE4 promoted greater expression of ARF6 compared with ApoE3, trapping ABCA1 in late-endosomes and impairing its recycling to the cell membrane.",
-     "summary": "(APOE3 -> APOE4) -> (ABCA1 trapped in late endosomes and lower ABCA1-mediated cholesterol efflux in astrocytes)",
-     "relevance": 0.8,
-     "exp_system": "Astrocytes treated with ApoE3 versus ApoE4; ABCA1 endosomal trafficking/recycling and ABCA1-mediated cholesterol efflux assays (abstract only - full text not retrieved)",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "full_text_unavailable",
-     "sample_size": "N/A",
-     "n_prov": "full_text_unavailable",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    },
-    {
-     "desc": "Human CSF from APOE epsilon4/epsilon4 carriers showed a lower ability to induce ABCA1-mediated cholesterol efflux activity, and a greater percentage of aggregated ApoE protein, than CSF from epsilon3/epsilon3 carriers.",
-     "quote": "Human CSF from APOE ε4/ε4 carriers showed a lower ability to induce ABCA1-mediated cholesterol efflux activity and greater percentage of aggregated ApoE protein compared with CSF from APOE ε3/ε3 carriers.",
-     "summary": "(APOE epsilon3/epsilon3 -> epsilon4/epsilon4 human CSF) -> (lower ABCA1-mediated cholesterol efflux activity)",
-     "relevance": 0.7,
-     "exp_system": "Human CSF from APOE epsilon4/epsilon4 versus epsilon3/epsilon3 carriers applied to ABCA1-expressing cells; cholesterol efflux activity assay (abstract only - full text not retrieved)",
-     "location": "Abstract",
-     "effect_size": "qualitative",
-     "effect_prov": "printed_in_text",
-     "p_value": "N/A",
-     "p_prov": "full_text_unavailable",
-     "sample_size": "N/A",
-     "n_prov": "full_text_unavailable",
-     "directness_class": 1,
-     "directness_strength": "3 moderate"
-    }
-   ]
-  }
- ]
+  ]
 }

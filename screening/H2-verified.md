@@ -1,61 +1,56 @@
-# H2 — Screener B independent verification and borderline adjudication (MecCog Challenge)
+# H2 Verification — Screener B (independent second pass)
 
-**Hypothesis H2 (verbatim):** "APOE4 increases the amyloid β load on the brain. It does this by enhancing amyloid β production, decreasing amyloid β clearance, and enhancing the inflammatory effects of amyloid β. This results in enhanced amyloid β pathology, which drives disease risk."
+**Hypothesis H2:** "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3."
 
-**Verification rule applied (independently, from abstracts in `work/searches/H2.json` and `work/searches/H2r2.json` only):** the paper must be an experimental study that directly tests APOE4 (vs APOE3/APOE2, or an APOE4 manipulation) with amyloid β production, clearance, aggregation/load, or amyloid-driven inflammation as a measured outcome.
+**Verification criterion applied:** the paper is an experimental study that directly tests APOE4 vs APOE3/APOE2, or APOE4 manipulation, on ARF6-pathway recycling of receptors between the cell surface and the endosome — i.e. a receptor recycling / endosomal recycling assay, ARF6 activity or manipulation in an APOE-isoform context, or recycling of a specific receptor (ABCA1, ApoER2, LRP1, LDLR, insulin receptor, AMPA receptors) where the recycling step itself is measured. Model systems count. Reviews/meta-analyses, GWAS-only, clinical/epidemiological correlation-only, editorials, protocols and keyword-only matches are excluded. Verification was made from the abstracts in `work/searches2/H2.json` and `work/searches2/H2r2.json` only. Note: this criterion is stricter than Screener A's on one point — A also admitted a receptor's surface-vs-endosome distribution (endosomal trapping / surface loss) as a proxy for failed recycling even where no recycling step was assayed. Papers that pass A's broader rule but not the recycling-step-itself rule are held out below as Disputed, not confirmed.
+
+**Starting reference check (prominent):** Rawat V, et al., J Neurosci 2019, PMID 31641056, DOI 10.1523/jneurosci.1400-19.2019, "ApoE4 Alters ABCA1 Membrane Trafficking in Astrocytes" — **VERIFIED: in the pool (present in the deduped union) and CONFIRMED as eligible, ranked #1.** Its abstract states that ApoE4, compared with ApoE3, promoted greater expression of ARF6, trapping ABCA1 in late endosomes and impairing its recycling to the cell membrane. It is the only record in the pool that names ARF6 (verified by full-pool text search), and it is the single most direct test of H2.
 
 ## Counts
 
-- Included papers verified: 26 (Run 1: 9; Run 2: 17)
-- Confirmed: 24
-- Disputed: 2
-- Borderline papers adjudicated: 3 — all EXCLUDE
+- Screened: **253** (deduped union of Run 1, 200 records, and Run 2, 130 records)
+- A-shortlisted: **7**
+- Confirmed: **4**
+- Disputed: **3** (all from A's shortlist; held out, not counted as confirmed)
+- Borderline-excluded: **9** listed below (A excluded all of them; B agrees with each exclusion, for the reasons given)
+- Added by B beyond A's list: **0** — an independent scan of the full deduped pool (all records whose title or abstract mentions recycling, trafficking, endosomes or surface expression, plus all non-review records mentioning APOE4 with a trafficking/endosomal term) found no paper meeting the criterion that A had excluded. A's "recycling with no APOE comparison" and "experimental but off-target" categories were re-read and their exclusions upheld.
 
-## 1. Confirmed list
+## Confirmed
 
-| DOI | Year | First author | Title |
-|---|---|---|---|
-| 10.1126/scitranslmed.3002156 | 2011 | Castellano JM | Human apoE isoforms differentially regulate brain amyloid-β peptide clearance |
-| 10.1016/j.cell.2016.12.044 | 2017 | Huang YA | ApoE2, ApoE3, and ApoE4 Differentially Stimulate APP Transcription and Aβ Secretion |
-| 10.1172/jci36663 | 2008 | Deane R | apoE isoform-specific disruption of amyloid beta peptide clearance from mouse brain |
-| 10.1016/j.neuron.2018.05.008 | 2018 | Lin YT | APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer's Disease Phenotypes in Human iPSC-Derived Brain Cell Types |
-| 10.1073/pnas.050004797 | 2000 | Holtzman DM | Apolipoprotein E isoform-dependent amyloid deposition and neuritic degeneration in a mouse model of Alzheimer's disease |
-| 10.1016/j.neuron.2008.04.010 | 2008 | Jiang Q | ApoE promotes the proteolytic degradation of Abeta |
-| 10.1073/pnas.1220484110 | 2013 | Verghese PB | ApoE influences amyloid-β (Aβ) clearance despite minimal apoE/Aβ association in physiological conditions |
-| 10.1073/pnas.90.17.8098 | 1993 | Strittmatter WJ | Binding of human apolipoprotein E to synthetic amyloid beta peptide: isoform-specific effects and implications for late-onset Alzheimer disease |
-| 10.1523/jneurosci.0887-09.2009 | 2009 | Bales KR | Human APOE isoform-dependent effects on brain beta-amyloid levels in PDAPP transgenic mice |
-| 10.1074/jbc.m112.407957 | 2012 | Youmans KL | APOE4-specific changes in Aβ accumulation in a new transgenic mouse model of Alzheimer disease |
-| 10.1186/s13024-018-0286-0 | 2018 | Ma Q | Blood-brain barrier-associated pericytes internalize and clear aggregated amyloid-β42 by LRP1-dependent apolipoprotein E isoform-specific mechanism |
-| 10.1523/jneurosci.5170-04.2005 | 2005 | Fryer JD | Human apolipoprotein E4 alters the amyloid-beta 40:42 ratio and promotes the formation of cerebral amyloid angiopathy in an amyloid precursor protein transgenic model |
-| 10.1073/pnas.0508693102 | 2005 | Ye S | Apolipoprotein (apo) E4 enhances amyloid beta peptide production in cultured neuronal cells: apoE structure as a potential therapeutic target |
-| 10.1038/s41591-018-0004-z | 2018 | Wang C | Gain of toxic apolipoprotein E4 effects in human iPSC-derived neurons is ameliorated by a small-molecule structure corrector |
-| 10.1038/s41590-023-01627-6 | 2023 | Yin Z | APOE4 impairs the microglial response in Alzheimer's disease by inducing TGFβ-mediated checkpoints |
-| 10.1016/j.neuron.2017.11.014 | 2017 | Huynh TV | Age-Dependent Effects of apoE Reduction Using Antisense Oligonucleotides in a Model of β-amyloidosis |
-| 10.1523/jneurosci.1542-12.2012 | 2012 | Hashimoto T | Apolipoprotein E, especially apolipoprotein E4, increases the oligomerization of amyloid β peptide |
-| 10.1093/brain/aws127 | 2012 | Koffie RM | Apolipoprotein E4 effects in Alzheimer's disease are mediated by synaptotoxic oligomeric amyloid-β |
-| 10.1038/tp.2016.280 | 2017 | Cacciottolo M | Particulate air pollutants, APOE alleles and their contributions to cognitive impairment in older women and to amyloidogenesis in experimental models |
-| 10.1172/jci117407 | 1994 | Sanan DA | Apolipoprotein E associates with beta amyloid peptide of Alzheimer's disease to form novel monofibrils. Isoform apoE4 associates more efficiently than apoE3 |
-| 10.1042/bj3060599 | 1995 | Castano EM | Fibrillogenesis in Alzheimer's disease of amyloid beta peptides and apolipoprotein E |
-| 10.1073/pnas.92.3.763 | 1995 | Evans KC | Apolipoprotein E is a kinetic but not a thermodynamic inhibitor of amyloid formation: implications for the pathogenesis and treatment of Alzheimer disease |
-| 10.1042/bj3480359 | 2000 | Tokuda T | Lipidation of apolipoprotein E influences its isoform-specific interaction with Alzheimer's amyloid beta peptides |
-| No DOI in Europe PMC record | 1994 | Wisniewski T | Acceleration of Alzheimer's fibril formation by apolipoprotein E in vitro |
+Ranked by directness to H2, most direct first.
 
-Notes on confirmations at the margin (abstract-level):
-- Huynh 2017 confirmed because antisense reduction of apoE was performed in APOE-ε4-homozygous (and ε3-homozygous) APP/PS1-21 mice with Aβ pathology as the outcome — an APOE4 manipulation arm is present.
-- Koffie 2012 confirmed on its experimental arm (lipidated apoE4 enhanced oligomeric Aβ association with synapses in neuronal culture), alongside its human-brain observational component.
-- Cacciottolo 2017 confirmed on the EFAD (ε3 vs ε4) experimental arm, in which the APOE ε4 genotype exacerbated nPM-induced cerebral Aβ production.
-- Evans 1995 confirmed as a direct in vitro isoform comparison of Aβ amyloid-formation kinetics, regardless of effect direction.
-- Wisniewski 1994 confirmed on its abstract (apoE4 in particular enhanced Aβ fibrillogenesis in vitro); the Europe PMC record carries no DOI, which must be resolved before submission use.
+1. DOI: 10.1523/jneurosci.1400-19.2019 — 2019 — Rawat V — "ApoE4 Alters ABCA1 Membrane Trafficking in Astrocytes." (Starting reference. The only ARF6 paper in the pool: ApoE4 vs ApoE3 increases ARF6 expression, traps ABCA1 in late endosomes and impairs ABCA1 recycling to the cell membrane in astrocytes, with reduced ABCA1-mediated cholesterol efflux; human APOE ε4/ε4 vs ε3/ε3 CSF comparison included.)
+2. DOI: 10.7554/elife.40048 — 2018 — Xian X — "Reversal of ApoE4-induced recycling block as a novel prevention approach for Alzheimer's disease." (Direct receptor-recycling endpoint: pharmacological and genetic NHE6 inhibition completely reverses the ApoE4-induced recycling block of Apoer2/Lrp8 and of the co-endocytosed AMPA- and NMDA-type glutamate receptors, restoring Reelin-mediated synaptic modulation.)
+3. DOI: 10.1073/pnas.0914984107 — 2010 — Chen Y — "ApoE4 reduces glutamate receptor function and synaptic plasticity by selectively impairing ApoE receptor recycling." (ApoE4 selectively impairs ApoE receptor recycling: reduced neuronal surface expression of Apoer2, NMDA and AMPA receptors by sequestration in intracellular compartments, in human ApoE4 knockin mice; the recycling impairment is the paper's stated mechanism.)
+4. DOI: 10.1016/j.cell.2024.10.027 — 2025 — Guo JL — "Decreased lipidated ApoE-receptor interactions confer protection against pathogenicity of ApoE and its lipid cargoes in lysosomes." (LDLR recycling defects measured in human neurons with lipidated ApoE3/E4, avoided by lipidated ApoE2 and by the Christchurch mutant. Caveat: the recycling contrast is chiefly E3/E4 vs E2 — the abstract reports no E4-vs-E3 difference in LDLR recycling itself. Confirmed because the eligibility rule admits an APOE4-vs-APOE2 test and the recycling step itself was measured; ranked last for this reason.)
 
-## 2. Disputed list
+## Disputed
 
-- **Haney MS (2024), DOI 10.1038/s41586-024-07185-7** — "APOE4/4 is linked to damaging lipid droplets in Alzheimer's disease microglia." The abstract reports the experimental finding as APOE-dependent (fibrillar Aβ inducing an ACSL1-positive lipid-droplet microglial state in iPSC-derived microglia) without an APOE4-vs-APOE3/APOE2 experimental contrast; the APOE4/4 association comes from abundance in human AD brains. The measured outcome is microglial lipid-droplet accumulation, not Aβ production, clearance, load, or amyloid-driven inflammation. Does not meet the criterion on the abstract.
-- **Lee S (2023), DOI 10.1016/j.celrep.2023.112196** — "APOE modulates microglial immunometabolism in response to age, amyloid pathology, and inflammatory challenge." The measured outcomes are microglial transcriptomic/metabolic phenotypes in mice expressing human APOE; amyloid pathology is a study context, not an outcome, and no APOE4 effect on Aβ production, clearance, aggregation/load, or amyloid-driven inflammation is directly tested in the abstract. Does not meet the criterion on the abstract.
+Each of the following was included by A under A's broader surface-vs-endosome-distribution proxy. On B's re-reading of the abstracts, none assays the recycling step itself: each measures endosomal trapping and/or loss of surface expression, from which failed recycling is inferred. They are genuinely arguable both ways and are therefore held out as disputed rather than confirmed or excluded.
 
-## 3. Borderline adjudications (isoform-specificity criterion)
+1. **DOI: 10.1073/pnas.1801612115 — 2018 — Prasad H — "Amyloid clearance defect in ApoE4 astrocytes is reversed by epigenetic correction of endosomal pH."**
+   Reason: in ApoE4 vs ApoE3 astrocytes, aberrant endosomal acidification (via NHE6 down-regulation) traps LRP1 within intracellular compartments, causing loss of LRP1 surface expression and defective Aβ clearance; HDAC inhibitors restore NHE6, LRP1 trafficking and clearance. The endpoints are trapping, surface loss and clearance — no recycling assay is reported in the abstract. A itself noted "a recycling assay per se is not the headline endpoint."
 
-- **Shibata M (2000), DOI 10.1172/jci10498 — EXCLUDE.** The apoE arm is an apoE knockout (presence/absence of mouse apoE) in an LRP1 BBB-clearance study; no APOE4 vs APOE3/APOE2 comparison is made.
-- **Cramer PE (2012), DOI 10.1126/science.1217697 — EXCLUDE.** Bexarotene raised apoE expression and cleared soluble Aβ in an apoE-dependent manner in APP/PS1 mice; the effect is apoE-level-driven with no APOE4-isoform-specific test.
-- **Bales KR (1999), DOI 10.1073/pnas.96.26.15233 — EXCLUDE.** Mouse Apoe gene dose (0/1/2 alleles) determined amyloid deposition in APP(V717F) mice; apoE dependence is established without any human isoform comparison.
+2. **DOI: 10.1016/j.neuron.2017.09.003 — 2017 — Zhao N — "Apolipoprotein E4 Impairs Neuronal Insulin Signaling by Trapping Insulin Receptor in the Endosomes."**
+   Reason: apoE4 interacts with the insulin receptor and impairs its trafficking by trapping it in endosomes in apoE-targeted replacement mice and primary neurons, impairing insulin signalling. Endosomal trapping is measured; recycling of the receptor back to the surface is inferred from the trapping, not assayed.
 
-All verification statements are based solely on the Europe PMC abstracts; no full texts were read in this pass.
+3. **DOI: 10.3233/jad-230514 — 2024 — Safieh M — "The Role of Impaired Receptor Trafficking in Mediating the Pathological Effects of APOE4 in Alzheimer's Disease."**
+   Reason: in primary neurons from APOE3- vs APOE4-targeted replacement mice, cell-surface biotinylation and compartmentalisation show lower surface levels of ApoER2, LRP1, insulin receptor and VEGFR in APOE4 neurons, with early-endosome accumulation for most receptors. Surface-vs-intracellular distribution is measured across four receptors, but recycling kinetics are not assayed.
+
+## Borderline-excluded
+
+A excluded each of these; B re-read the abstracts and agrees, for the reasons given. None is counted as confirmed or disputed.
+
+1. **DOI: 10.1073/pnas.0508693102 — 2005 — Ye H (et al.) — "Apolipoprotein (apo) E4 enhances amyloid beta peptide production in cultured neuronal cells."** Recycling is genuinely measured and apoE4 exceeds apoE3 — but the cargo is APP, not a receptor, and the direction is opposite to H2 (apoE4 *stimulates* APP recycling). Off-target on both cargo and direction.
+2. **DOI: 10.1186/s13024-025-00802-7 — 2025 — Wang (et al.) — "Cellular senescence induced by cholesterol accumulation is mediated by lysosomal ABCA1 in APOE4 and AD."** ABCA1 endolysosomal trafficking / lysosomal trapping is studied in APOE4 models, but the endpoint is cellular senescence, no surface-recycling assay is reported, and the abstract states no APOE4-vs-APOE3 recycling comparison. Weaker than the disputed trapping papers, which each measure surface loss of a named receptor in a direct isoform comparison.
+3. **DOI: 10.1016/j.celrep.2020.108224 — 2020 — Narayan P (et al.) — "PICALM Rescues Endocytic Defects Caused by the Alzheimer's Disease Risk Factor APOE4."** Direct APOE4-vs-isogenic-APOE3 comparison in human iPSC-derived astrocytes, but the measured step is endocytosis (uptake), not recycling back to the surface. Endocytosis-only; correctly excluded.
+4. **DOI: 10.1126/scisignal.aaa6674 — 2015 — Lane-Donovan C (et al.) — "Reelin protects against amyloid β toxicity in vivo."** The ApoE4 impairment of Apoer2/Vldlr recycling is cited from the group's prior work ("We have previously shown…"); this paper's own experiments test Reelin knockout and Aβ toxicity in vivo, with synaptic and memory endpoints. No recycling measurement in this paper.
+5. **DOI: 10.7554/elife.72034 — 2021 — Pohlkamp T (et al.) — "NHE6 depletion corrects ApoE4-mediated synaptic impairments and reduces amyloid plaque load."** NHE6 loss reverses the ApoE4 endolysosomal trafficking defect at the level of synaptic homeostasis and amyloid load, but no receptor-recycling endpoint is reported in the abstract; the recycling block itself is background from prior work.
+6. **DOI: 10.1002/advs.202510270 — 2025 — (uric acid study) — "Uric Acid Functions as an Endogenous Modulator of Microglial Function and Amyloid Clearance in Alzheimer's Disease."** Uric acid restores recycling of the Aβ receptors CD36 and TREM2 in microglia of 5×FAD mice — a genuine receptor-recycling measurement, but with no APOE isoform comparison and no APOE4 manipulation. Correctly excluded.
+7. **DOI: 10.3390/biom14070799 — 2024 — Fuentealba LM (et al.) — "OCRL1 Deficiency Affects the Intracellular Traffic of ApoER2 and Impairs Reelin-Induced Responses."** ApoER2 endosomal recycling is measured, but the manipulation is OCRL1 deficiency (Lowe syndrome); no APOE isoform comparison. Correctly excluded.
+8. **DOI: 10.1194/jlr.m014365 — 2011 — Fan J (et al.) — "An ABCA1-independent pathway for recycling a poorly lipidated 8.1 nm apolipoprotein E particle from glia."** The recycled cargo is the apoE particle itself (via LDLR), with no APOE isoform comparison. Correctly excluded.
+9. **DOI: 10.1371/journal.pone.0029385 — 2012 — Laatsch A (et al.) — "Low density lipoprotein receptor-related protein 1 dependent endosomal trapping and recycling of apolipoprotein E."** LRP1-dependent recycling of apoE itself in human hepatoma cells; no APOE isoform comparison, non-brain cells, and the recycled cargo is apoE rather than a receptor. Correctly excluded.
+
+## DOI corrections
+
+None. All seven DOIs on A's shortlist were checked against their Europe PMC records in the search JSONs: in every case the DOI, PMID and title are mutually consistent (Rawat 2019, PMID 31641056; Xian 2018, PMID 30375977; Chen 2010, PMID 20547867; Guo 2025, PMID 39532095; Prasad 2018, PMID 29946028; Zhao 2017, PMID 28957663; Safieh 2024, PMID 38217595). No DOI appeared malformed or mismatched to its title, and every confirmed and disputed paper has a DOI in its record, so no "N/A" entries were needed. No DOI was guessed or supplied from outside the records.

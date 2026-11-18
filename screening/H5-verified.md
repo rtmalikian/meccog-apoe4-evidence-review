@@ -1,69 +1,62 @@
-# H5 verification — Screener B (independent second screen)
+# H5 Verification — Screener B (independent second pass)
 
-Hypothesis H5 (verbatim): "APOE4 disrupts synaptic function and neuronal function through actions that include dysregulated calcium handling and synaptic gene expression, reducing neural network activity and neuronal resilience, which increases disease risk."
+**Hypothesis H5:** "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function."
 
-Verification standard applied: the paper's abstract shows an experimental study directly testing APOE4 (vs APOE3/APOE2, or an APOE4 manipulation such as isogenic conversion, selective removal, or elimination) with at least one measured endpoint among: synaptic function or structure, neuronal calcium handling, synaptic gene expression, neural network activity, or neuronal resilience (survival). Abstracts checked in `work/searches/H5.json` and `work/searches/H5r2.json`.
+**Verification criterion applied:** the paper is an experimental study that directly tests APOE4 vs APOE3/APOE2, or APOE4 manipulation, AND connects an APOE4-driven lipid-metabolism defect (especially cholesterol accumulation/trafficking) causally to a late endosome/lysosome FUNCTIONAL readout — lysosomal acidification, proteolysis, autophagic flux, endosomal enlargement, lysosomal enzyme activity, or cholesterol egress/sequestration in late endosomes/lysosomes. Papers with a lipid phenotype but no endo-lysosomal functional endpoint, or a lysosomal phenotype with no lipid mechanism, do not meet the criterion on their own. Verification was made from the abstracts in `work/searches2/H5.json` and `work/searches2/H5r2.json` only; the full deduped pool was independently re-scanned for wrongful exclusions.
+
+**Starting reference verdict — CONFIRMED, ranked #1:** Lee H et al., Cell Reports 2023, PMID 37777962, DOI 10.1016/j.celrep.2023.113183, "ApoE4-dependent lysosomal cholesterol accumulation impairs mitochondrial homeostasis and oxidative phosphorylation in human astrocytes" is present in the deduped pool and fully meets eligibility: in isogenic human iPSC-derived ApoE3 vs ApoE4 astrocytes, ApoE4-induced lysosomal cholesterol accumulation impairs lysosome-dependent removal of damaged mitochondria on autophagy-flux analysis, and cholesterol depletion restores autophagic activity. This is the most direct lipid-to-lysosome causal chain in the pool. Screener A's handling of the starting reference is correct.
 
 ## Counts
 
-- Included papers verified: 14
-- Confirmed: 14
-- Disputed: 0
-- Borderline papers adjudicated: 8 (2 INCLUDE, 6 EXCLUDE)
+- Screened: **363** (deduped union of Run 1 + Run 2)
+- A-shortlisted: **11**
+- Confirmed: **8**
+- Disputed: **4** (3 of A's inclusions held out as arguable both ways; 1 paper A excluded that B finds genuinely arguable)
+- Borderline-excluded: **11** key cases documented below (A's exclusion upheld on re-reading in each case)
 
-## 1. Confirmed list (14)
+Net change vs A: no papers added as confirmed-by-B; 3 of A's inclusions (Cao 2021, Wang C 2023, Wang ZH 2021) moved to Disputed; 1 pool paper A excluded (Machlovi 2022) moved to Disputed.
 
-| DOI | Year | First author | Title |
-|---|---|---|---|
-| 10.1016/j.stem.2022.07.005 | 2022 | Victor MB | Lipid accumulation induced by APOE4 impairs microglial surveillance of neuronal-network activity |
-| 10.1016/j.neuron.2018.05.008 | 2018 | Lin YT | APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer's Disease Phenotypes in Human iPSC-Derived Brain Cell Types |
-| 10.1038/s41467-020-19264-0 | 2020 | Zhao J | APOE4 exacerbates synapse loss and neurodegeneration in Alzheimer's disease patient iPSC-derived cerebral organoids |
-| 10.1016/j.neuron.2021.03.024 | 2021 | Wang C | Selective removal of astrocytic APOE4 strongly protects against tau-mediated neurodegeneration and decreases synaptic phagocytosis by microglia |
-| 10.1073/pnas.1609896113 | 2016 | Chung WS | Novel allele-dependent role for APOE in controlling the rate of synapse pruning by astrocytes |
-| 10.1016/j.neuron.2016.04.009 | 2016 | Gillespie AK | Apolipoprotein E4 Causes Age-Dependent Disruption of Slow Gamma Oscillations during Hippocampal Sharp-Wave Ripples |
-| 10.1523/jneurosci.2994-18.2019 | 2019 | Huang YA | Differential Signaling Mediated by ApoE2, ApoE3, and ApoE4 in Human Neurons Parallels Alzheimer's Disease Risk |
-| 10.1093/hmg/ddx155 | 2017 | Zhao J | APOE ε4/ε4 diminishes neurotrophic function of human iPSC-derived astrocytes |
-| 10.1002/glia.22289 | 2012 | Zhu Y | APOE genotype alters glial activation and loss of synaptic markers in mice |
-| 10.1038/s43587-023-00368-3 | 2023 | Koutsodendris N | Neuronal APOE4 removal protects against tau-mediated gliosis, neurodegeneration and myelin deficits |
-| 10.1016/j.stem.2009.10.015 | 2009 | Li G | GABAergic interneuron dysfunction impairs hippocampal neurogenesis in adult apolipoprotein E4 knockin mice |
-| 10.1038/s41593-022-01127-0 | 2022 | Liu CC | Peripheral apoE4 enhances Alzheimer's pathology and impairs cognition by compromising cerebrovascular function |
-| 10.1523/jneurosci.5198-13.2014 | 2014 | Boehm-Cagan A | Reversal of apoE4-driven brain pathology and behavioral deficits by bexarotene |
-| 10.1523/jneurosci.5471-06.2007 | 2007 | Hayashi H | Apolipoprotein E-containing lipoproteins protect neurons from apoptosis via a signaling pathway involving low-density lipoprotein receptor-related protein-1 |
+## Confirmed
 
-Verification notes (basis in abstract, per paper):
-- Victor 2022: CRISPR-isogenic APOE4 vs APOE3 microglia; APOE4 microglia disrupt coordinated activity of neuronal ensembles — network activity measured.
-- Lin 2018: isogenic APOE4 vs APOE3 iPSC neurons; synaptic-function genes most affected in transcriptional profiling and synapse number increased — synaptic gene expression and structure measured.
-- Zhao 2020: ε4/ε4 vs ε3/ε3 cerebral organoids with decreased synaptic integrity; isogenic APOE4→APOE3 conversion attenuates the phenotypes — synaptic structure measured, APOE4 isolated by conversion.
-- Wang 2021: selective removal of astrocytic APOE4 (vs APOE3 controls) in P301S tau mice decreased tau-induced synaptic loss and microglial synaptic phagocytosis — APOE4 manipulation, synaptic structure measured.
-- Chung 2016: APOE isoform comparison (knock-in mice); astrocytic synapse pruning rate and hippocampal C1q accumulation on synapses differ by isoform, APOE4 vs APOE3 — synaptic structure measured.
-- Gillespie 2016: apoE4-KI vs apoE3-KI mice; sharp-wave ripple abundance and slow gamma activity measured, and apoE4 elimination in interneurons rescues the gamma deficit — network activity measured.
-- Huang 2019: human neurons exposed to ApoE2/ApoE3/ApoE4; synapse formation measured with ApoE4 > ApoE3 > ApoE2 potency — synaptic structure measured (direction is increased formation; the criterion is the direct isoform test, not direction).
-- Zhao 2017: ε4/ε4 vs ε3/ε3 iPSC astrocytes in co-culture; neuronal survival and synaptogenesis measured — synaptic structure and resilience measured.
-- Zhu 2012: APOE targeted-replacement mice (E2/E3/E4, KO) under LPS challenge; loss of synaptic proteins PSD-95, drebin, synaptophysin greatest in APOE4 — synaptic structure markers measured.
-- Koutsodendris 2023: selective genetic removal of neuronal APOE4 in a tauopathy model significantly reduces neuronal hyperexcitability — neuronal function/network excitability measured under APOE4 manipulation.
-- Li 2009: apoE4-KI vs apoE3-KI mice; presynaptic GABAergic input-mediated maturation of newborn neurons diminished and GABAergic interneuron survival decreased — synaptic input measured.
-- Liu 2022: liver-expressed human APOE4 vs APOE3 (no detectable brain apoE); synaptic plasticity measured and compromised by APOE4 — synaptic function measured (effect vascularly mediated; indirectness is a grading point, not an eligibility failure).
-- Boehm-Cagan 2014: apoE4- vs apoE3-targeted replacement mice; the apoE4-induced reduction in presynaptic marker VGluT1 is the baseline isoform effect that bexarotene reverses — synaptic structure marker measured.
-- Hayashi 2007: glia-derived apoE3- vs apoE4-containing lipoproteins; protection of CNS neurons from apoptosis greater for apoE3 than apoE4 — neuronal resilience (survival) measured in a direct isoform comparison.
+1. DOI: 10.1016/j.celrep.2023.113183 — 2023 — Lee H — "ApoE4-dependent lysosomal cholesterol accumulation impairs mitochondrial homeostasis and oxidative phosphorylation in human astrocytes." (Starting reference. Isogenic ApoE3 vs ApoE4 human astrocytes; lysosomal cholesterol accumulation impairs autophagy/mitophagy flux; cholesterol depletion rescues.)
+2. DOI: 10.1016/j.cell.2024.10.027 — 2025 — Guo JL — "Decreased lipidated ApoE-receptor interactions confer protection against pathogenicity of ApoE and its lipid cargoes in lysosomes." (Isoform-graded, ApoE4 > ApoE3 > ApoE2, delivery of PUFA-cholesteryl-ester cargo to the endolysosomal system producing lipofuscinosis — a lysosomal pathology — and increased lysosomal accumulation of tau fibrils in human neurons; reduced LDLR binding by ApoE2/Christchurch is protective.)
+3. DOI: 10.1186/s13024-025-00802-7 — 2025 — Wang S — "Cellular senescence induced by cholesterol accumulation is mediated by lysosomal ABCA1 in APOE4 and AD." (Oxysterol/cholesterol accumulation in APOE4-TR mice and human iPSC astrocytes drives caveolin-1-mediated ABCA1 trapping in lysosomes, lysosomal dysfunction and mTORC1-driven senescence; cyclodextrin cholesterol lowering reverses the trapping and the dysfunction.)
+4. DOI: 10.1523/jneurosci.1400-19.2019 — 2019 — Rawat V — "ApoE4 Alters ABCA1 Membrane Trafficking in Astrocytes." (ApoE4 vs ApoE3 raises ARF6 and traps the cholesterol transporter ABCA1 in late endosomes, impairing its recycling and ABCA1-mediated cholesterol efflux — a late-endosome trafficking block directly coupled to a cholesterol-egress defect.)
+5. DOI: 10.1186/s13024-020-00382-8 — 2020 — Larramona-Arcas R — "Sex-dependent calcium hyperactivity due to lysosomal-related dysfunction in astrocytes from APOE4 versus APOE3 gene targeted replacement mice." (APOE4 vs APOE3 astrocytes: Ca2+ hyperactivity caused by dysregulated Ca2+ handling in lysosome-enriched acidic stores, with distinct lysosomal membrane lipid composition and altered intracellular cholesterol distribution, and refractoriness to lipid control of Ca2+ fluxes; reversed by APOE3, not APOE4. Functional lysosomal readout, though the readout is Ca2+ handling rather than proteolysis/acidification.)
+6. DOI: 10.1016/j.neuron.2023.10.023 — 2024 — Litvinchuk A — "Amelioration of Tau and ApoE4-linked glial lipid accumulation and neurodegeneration with an LXR agonist." (In P301S tauopathy mice ApoE4 vs ApoE3/no ApoE strongly promotes glial lipid accumulation with perturbations in cholesterol metabolism and lysosomal function; increasing glial lipid efflux via LXR agonist or Abca1 overexpression attenuates pathology. Confirmed on the abstract's explicit joint statement of cholesterol perturbation plus lysosomal dysfunction with a lipid-efflux rescue; the abstract does not name the specific lysosomal assay, which is noted as a weakness.)
+7. DOI: 10.1016/j.cell.2022.05.017 — 2022 — Tcw J — "Cholesterol and matrisome pathways dysregulated in astrocytes and microglia." (Isogenic human iPSC astrocytes/microglia: APOE4 elevates intracellular cholesterol with enhanced de novo synthesis, attributed to lysosomal cholesterol sequestration — i.e. failed cholesterol egress from lysosomes, which the eligibility rule counts as a functional readout. No separate acidification/proteolysis assay is described in the abstract; confirmed on the sequestration/egress arm only.)
+8. DOI: 10.1016/j.stemcr.2021.11.007 — 2022 — de Leeuw SM — "APOE2, E3, and E4 differentially modulate cellular homeostasis, cholesterol metabolism, and inflammatory response in isogenic iPSC-derived astrocytes." (Isogenic APOE4/E3/E2/KO astrocytes: cholesterol efflux and biosynthesis reduced in APOE4 while subcellular localisation of cholesterol in lysosomes is elevated — an isoform-graded lysosomal cholesterol sequestration phenotype. Confirmed on the same sequestration/egress basis as #7, and ranked last among confirmed for the same reason: localisation, not a direct lysosomal function assay.)
 
-## 2. Disputed list
+## Disputed
 
-None. All 14 included papers meet the criterion on their abstracts.
+1. **DOI: 10.1038/s41380-020-0824-3 — 2021 — Cao J — "MicroRNA-195 rescues ApoE4-induced cognitive deficits and lysosomal defects in Alzheimer's disease pathogenesis."**
+   Reason: A included it; B holds it out as arguable both ways. For inclusion: ApoE4-associated dyshomeostasis of the lipid PIP2 (via synaptojanin 1) is linked to lysosomal defects that miR-195 elevation rescues in iPSC-derived brain cells from ApoE4 AD subjects. Against: the lipid is PIP2, not the cholesterol accumulation/trafficking defect at the centre of H5; the abstract never specifies what the lysosomal functional readout is; and the human comparison is ApoE4 carriers vs non-carriers, not a clean APOE4-vs-APOE3 contrast. The lipid-to-lysosome causal chain cannot be verified from the abstract alone.
 
-## 3. Borderline verdicts (8)
+2. **DOI: 10.1038/s12276-023-00935-z — 2023 — Wang C — "TRPV1 regulates ApoE4-disrupted intracellular lipid homeostasis and decreases synaptic phagocytosis by microglia."**
+   Reason: A included it; B holds it out as arguable both ways. The abstract shows ApoE4-disrupted lipid homeostasis and ApoE4-impaired autophagy (via AKT-mTOR disruption) in parallel, both rescued by TRPV1 activation with capsaicin — but it does not show that the lipid defect causes the autophagy defect; the shared rescue is via a signalling pathway, not via correction of a lipid intermediate. Co-occurrence plus co-rescue is weaker than the causal lipid→lysosome link the criterion requires, but a reasonable screener could read the joint rescue as sufficient.
 
-- **Qi G (2021), DOI 10.1016/j.celrep.2020.108572 — EXCLUDE.** Measured endpoints are fatty-acid metabolism, lipid droplets and mitochondrial phenotypes; "compromised synaptic support" is stated as interpretation, with no synaptic or neuronal functional endpoint measured.
-- **Meyer K (2019), DOI 10.1016/j.celrep.2019.01.023 — INCLUDE.** APOE4 gene-edited vs control iPSC neural cells directly show dysregulation of synaptic-transmission gene networks — a synaptic gene-expression endpoint under H5 (caveat: entangled with the accelerated-differentiation phenotype).
-- **Sen A (2015), DOI 10.1523/jneurosci.0260-15.2015 — EXCLUDE.** Endpoint is expression of a single neurotrophin gene (BDNF) downstream of HDAC translocation; no synaptic structure, function, or synaptic gene-expression measure.
-- **Zhao N (2020), DOI 10.1126/scitranslmed.aay1809 — INCLUDE.** Direct APOE4 vs APOE3/APOE2 targeted-replacement comparison with neuronal and synaptic loss measured; caveat — the model is α-synucleinopathy (Lewy body) rather than AD, so directness to the AD framing of H5 is lower.
-- **Duan L (2014), DOI 10.1186/1750-1326-9-3 — EXCLUDE.** Glutamate-evoked calcium and cell-death phenotypes compare AD-patient ApoE3/E4 lines against control lines, so the effect is not isolated to APOE4 (no isoform comparison or APOE4 manipulation).
-- **Sun Y (1998), DOI 10.1523/jneurosci.18-09-03261.1998 — EXCLUDE.** Endpoint is neurite outgrowth from hippocampal neurons, a growth readout, not a synaptic, calcium, gene-expression, network-activity, or survival endpoint.
-- **Chen HK (2012), DOI 10.1074/jbc.m111.276162 — EXCLUDE.** Endpoints rescued by apoE4 structure correctors are mitochondrial motility, cytochrome c oxidase levels and neurite outgrowth; no synaptic or other H5 endpoint measured.
-- **Tong LM (2014), DOI 10.1523/jneurosci.0693-14.2014 — EXCLUDE.** APOE4 is the model background, not the tested variable: the manipulation is interneuron progenitor transplantation, with no APOE4 isoform comparison or APOE4 manipulation tied to a synaptic/network endpoint.
+3. **DOI: 10.1016/j.pneurobio.2021.102032 — 2021 — Wang ZH — "ApoE4 activates C/EBPβ/δ-secretase with 27-hydroxycholesterol, driving the pathogenesis of Alzheimer's disease."**
+   Reason: A included it (ranked last, acknowledging weakness); B holds it out as arguable both ways. The lysosomal endpoint is leakage of δ-secretase (legumain) from lysosomes with its activation/secretion — a lysosomal membrane-integrity event, not a direct acidification, proteolysis or autophagic-flux assay of lysosome function — and the cholesterol arm is co-activation by exogenous 27-hydroxycholesterol rather than APOE4-driven cholesterol accumulation, with lovastatin sensitivity as the only lipid-causality evidence. A already flagged this as the weakest inclusion; B judges it does not clearly clear the strict rule.
 
-## Summary
+4. **DOI: 10.1016/j.nbd.2022.105615 — 2022 — Machlovi SI — "APOE4 confers transcriptomic and functional alterations to primary mouse microglia."**
+   Reason: A excluded it; B finds the exclusion genuinely arguable and holds it out rather than confirming. Primary microglia from humanised APOE ε4/ε4 vs ε3/ε3 mice show, at baseline, both increased endolysosomal mass and increased lipid/lipid-droplet accumulation in the same cells — the two halves of H5 co-occurring in a direct isoform comparison. Against inclusion: endolysosomal mass is a morphological/quantity measure, not a functional readout (no acidification, proteolysis or flux assay in the abstract), and no causal link from the lipid accumulation to the endolysosomal change is tested. Neither a clear include nor a clear exclude on the abstract.
 
-- Confirmed: 14 of 14 included papers.
-- Disputed: 0.
-- Borderline adjudicated: 8 — 2 INCLUDE (Meyer 2019; Zhao N 2020), 6 EXCLUDE (Qi 2021; Sen 2015; Duan 2014; Sun 1998; Chen 2012; Tong 2014).
-- If both adjudicated INCLUDEs are accepted, the H5 list becomes 16 papers.
+## Borderline-excluded
+
+A's exclusion upheld on independent re-reading in each case:
+
+1. DOI: 10.3389/fnins.2017.00702 — 2017 — Nuriel T — "The Endosomal-Lysosomal Pathway Is Dysregulated by APOE4 Expression in Vivo." Lysosomal arm without lipid arm: age-dependent increase in number/size of early endosomes in APOE4-TR mice, but no lipid/cholesterol mechanism anywhere in the abstract.
+2. DOI: 10.7554/elife.40048 — 2018 — Xian X — "Reversal of ApoE4-induced recycling block as a novel prevention approach for Alzheimer's disease." Early-endosome recycling block attributed to ApoE4 unfolding on endosomal acidification and reversed by NHE6 inhibition — an endosomal phenotype with a protein-conformation, not lipid-metabolism, mechanism, and early rather than late endosomes.
+3. DOI: 10.1016/j.neuron.2017.09.003 — 2017 — Zhao N — "Apolipoprotein E4 Impairs Neuronal Insulin Signaling by Trapping Insulin Receptor in the Endosomes." Endosomal trapping/compromised endosomal function with ApoE4, but the stated mechanism is ApoE4 aggregation and receptor interaction; no lipid-metabolism defect is tested.
+4. DOI: 10.1093/brain/awy289 — 2019 — Peng KY — "Apolipoprotein E4 genotype compromises brain exosome production." Late-endocytic multivesicular-body/exosome phenotype in APOE4 vs APOE3, with TSG101/RAB35 downregulation; no lipid/cholesterol mechanism.
+5. DOI: 10.1038/s41598-021-97117-6 — 2021 — Sohn (ApoE4–FoxO3a study) — "ApoE4 attenuates autophagy via FoxO3a repression in the brain." Autophagy attenuation in human ApoE4 carriers vs non-carriers via FoxO3a transcriptional repression — observational human comparison plus a transcription-factor mechanism; no lipid mechanism and no APOE3 contrast.
+6. DOI: 10.1016/j.neuron.2018.05.008 — 2018 — Lin YT — "APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer's Disease Phenotypes in Human iPSC-Derived Brain Cell Types." Lipid arm without lysosomal arm: APOE4 astrocytes show cholesterol accumulation and impaired Aβ uptake, but no endo-lysosomal functional endpoint is reported.
+7. DOI: 10.1038/s41586-022-05439-w — 2022 — Blanchard JW — "APOE4 impairs myelination via cholesterol dysregulation in oligodendrocytes." Cholesterol mislocalisation and reduced myelination; the functional endpoint is myelination, not endo-lysosomal function.
+8. DOI: 10.1038/s41590-023-01640-9 — 2023 — Liu CC — "Cell-autonomous effects of APOE4 in restricting microglial response in brain homeostasis and Alzheimer's disease." Microglial apoE4 impairs lipid metabolism and downregulates lysosomal pathways on single-cell transcriptomics — pathway-level transcript changes only, no lysosomal functional assay.
+9. DOI: 10.1074/jbc.m111.295451 — 2012 — Lee CY — "Apolipoprotein E promotes β-amyloid trafficking and degradation by modulating microglial cholesterol levels." Mechanistically on-target (apoE-driven cholesterol lowering speeds Aβ delivery to lysosomes and degradation via Rab7 recycling) but there is no APOE isoform comparison — apoE is studied generically — so it does not test APOE4 vs APOE3.
+10. DOI: 10.1016/j.lfs.2012.04.039 — 2012 — Hui L — "Endolysosome involvement in LDL cholesterol-induced Alzheimer's disease-like pathology in primary cultured neurons." Exemplary endolysosomal functional readouts (enlargement, elevated pH, cathepsin/acid-phosphatase activity) under LDL cholesterol, but no APOE at all — the exposure is ApoB-containing LDL, so no APOE4 manipulation or comparison.
+11. DOI: 10.1038/s41380-022-01568-w — 2024 — Belaidi AA — "Apolipoprotein E potently inhibits ferroptosis by blocking ferritinophagy." Autophagy-related endpoint (ferritinophagy blockade), but the abstract states explicitly that protection against ferroptosis did not differ between apoE isoforms in vitro — no APOE4-vs-APOE3 effect to test H5 with.
+
+## DOI corrections
+
+None. For every confirmed and disputed paper, the DOI, PMID and title in the Europe PMC records in `work/searches2/H5.json` / `H5r2.json` are mutually consistent and the DOIs are well-formed (all match the `10.xxxx/…` pattern and resolve to the stated title/author/year in the record). No confirmed or disputed paper lacks a DOI, so no "N/A" entries arise, and no DOI has been guessed or corrected.
